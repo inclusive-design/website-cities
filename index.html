@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inclusive Cities</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="js/lib/infusion/src/framework/preferences/css/Enactors.css" />
+	<link rel="stylesheet" type="text/css" href="js/lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+	<link rel="stylesheet" type="text/css" href="js/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+	<script src="js/lib/infusion/infusion-custom.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- BEGIN markup for Preference Editor -->
+	   <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+		   <!--
+			   This div is for the sliding panel bar that shows and hides the Preference Editor controls in the mobile view.
+			   A separate panel bar for mobile displays is needed to preserver the correct tab order.
+		   -->
+		   <div class="fl-panelBar fl-panelBar-smallScreen">
+			   <span class="fl-prefsEditor-buttons">
+				   <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+				   <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+			   </span>
+		   </div>
+
+		   <!-- This is the div that will contain the Preference Editor component -->
+		   <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+		   <!--
+			   This div is for the sliding panel bar that shows and hides the Preference Editor controls in the desktop view.
+			   A separate panel bar for desktop displays is needed to preserver the correct tab order.
+		   -->
+		   <div class="fl-panelBar fl-panelBar-wideScreen">
+			   <span class="fl-prefsEditor-buttons">
+				   <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+				   <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+			   </span>
+		   </div>
+	   </div>
+	   <!-- END markup for Preference Editor -->
+
+	<div id="header">
+
+		<div class="headerContainer">		
+			<h1>Co-designing Inclusive Cities</h1>
+			<div class="subtitle">Sweet jujubes chocolate bar cotton candy chocolate bar. Cake brownie bear claw ice cream marshmallow icing candy canes oat cake brownie. Candy apple pie pudding pastry.</div>
+		</div>
+	</div>
+
+		<div class="flc-toc-tocContainer toc"> </div>
+
+	<div id="content">
+		<div class="introduction">Sweet jujubes chocolate bar cotton candy chocolate bar. Cake brownie bear claw ice cream marshmallow icing candy canes oat cake brownie. Candy apple pie pudding pastry.</div>
+
+		<div class="contentContainer">
+			<div class="contentBlock"><h2>Inclusive Design</h2>
+				<p>Sweet jujubes chocolate bar cotton candy chocolate bar. Cake brownie bear claw ice cream marshmallow icing candy canes oat cake brownie. Candy apple pie pudding pastry.</p></div>
+			<div class="contentBlock"><h2>Co-design</h2>
+				<p>Sweet jujubes chocolate bar cotton candy chocolate bar. Cake brownie bear claw ice cream marshmallow icing candy canes oat cake brownie. Candy apple pie pudding pastry.</p></div>
+		</div>
+
+		<div class="mailingList"><h2>Get Involved</h2>
+			<p>Sweet jujubes chocolate bar cotton candy chocolate bar.</p>
+			<input type="email" name="email" id="email" class="email" placeholder="Email Address" required aria-required="true"> <input id="submit" type="submit" value="Sign up" class="button submit"></div>
+
+	</div>
+
+	<div id="footer">
+		<img class="logo" src="images/idrc-logo.svg" />
+		<p>This website is maintained and created by the Inclusive Design Research Centre.</p>
+	</div>
+	<script>
+		$(document).ready(function () {
+		    var uio = fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+		        terms: {
+		            "templatePrefix": "js/lib/infusion/src/framework/preferences/html",
+		            "messagePrefix": "js/lib/infusion/src/framework/preferences/messages"
+		        },
+		        "tocTemplate": "js/lib/infusion/src/components/tableOfContents/html/TableOfContents.html",
+		        "ignoreForToC": {
+		            "overviewPanel": ".flc-overviewPanel"
+		        }
+		    });
+		});
+	</script>
+
+</body>
+</html>

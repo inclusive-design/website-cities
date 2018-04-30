@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chivo:300|Comfortaa:300');
+
+body, html {
+	height: 100%;
+	min-height: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #212121;
+
+	background-image: url("../images/background-map.svg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom right;
+}
+
+#header {
+	width: 100%;
+	/* where background used to be */
+	height: 720px;
+	min-height: 720px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.headerContainer {
+	padding: 4em 4em;
+}
+
+.headerContainer h1 {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 2.5em;
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+.headerContainer .subtitle {
+	font-family: 'Chivo', sans-serif;
+	color: #fff;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	letter-spacing: 0.04em;
+	font-weight: 100;
+	width: 80%;
+}
+
+#content {
+	background-color: #fff;
+	width: 100%;
+}
+
+#content .introduction {
+	font-family: 'Comfortaa', sans-serif;
+	color: #1a1a1a;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	color: #212121;
+	letter-spacing: 0.05em;
+	text-align: center;
+
+	padding: 3em 4em;
+	margin: 0 auto;
+	display: flex;
+}
+
+.contentContainer {
+	width: 90%;
+	margin: 0 auto;
+	display: flex; /*)FIX THIS FLEXING*/
+}
+
+.contentBlock {
+	padding: 2em;
+	flex-wrap: wrap;
+}
+
+.contentBlock h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #212121;
+	font-size: 1.5em;
+}
+
+.contentBlock p {
+	font-family: 'Chivo', sans-serif;
+	color: #212121;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	letter-spacing: 0.04em;
+	font-weight: 100;
+}
+
+#content .mailingList {
+	padding: 3em 4em;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mailingList h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #212121;
+	font-size: 2.4em;
+	padding: 0 0;
+	margin: 0;
+}
+
+.mailingList p {
+	font-family: 'Chivo', sans-serif;
+	color: #212121;
+	font-size: 1.4em;
+	margin: 0;
+	padding: 0.8em 0;
+}
+
+.mailingList input[type=email] {
+	width: 50%;
+	box-sizing: border-box;
+	border-bottom: solid 1px #d8d8d8;
+	padding: 0.5em 0.1em;
+}
+
+.mailingList input[type=submit] {
+	border: solid 1px #d8d8d8;
+	padding: 0.5em 0.8em;
+	border-radius: 100px;
+}
+
+input {
+	font-family: 'Chivo', sans-serif;
+	font-size: 1em;
+	border: none;
+	background: none;
+	margin: 0;
+	outline: none;
+}
+
+#footer {
+	background-color: transparent;
+	margin: 0 auto;
+	padding: 1em 0;
+	text-align: center;
+}
+
+#footer p {
+	color: #fff;
+	font-family: 'Chivo', sans-serif;
+	font-size: 1em;
+}
+
+.logo {
+	width: 300px;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .header {
+        background-attachment: scroll;
+    }
+}
+
+/* UIO Customization */
+
+.fl-prefsEditor-separatedPanel .fl-panelBar {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-right: 1em;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+/* Transition setting for all elements to avoid the "flash" effect when switching contrast themes */
+
+* {
+    transition-property: color, background-color;
+    transition-duration: 1s;
+}
+
+
+

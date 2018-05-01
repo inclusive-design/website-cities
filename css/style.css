@@ -23,8 +23,7 @@ body, html {
 	flex-direction: column-reverse;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	height: 720px;
-	min-height: 500px;
+	height: 39.999vw;
 }
 
 .headerContainer {
@@ -40,8 +39,7 @@ body, html {
 .headerContainer .subtitle {
 	font-family: 'Chivo', sans-serif;
 	color: #fff;
-	font-weight: 100;
-	width: 80%;
+	width: 70%;
 	text-indent: -0.45em;
 }
 
@@ -156,15 +154,19 @@ input {
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
+
     body, html {
         background-attachment: scroll;
     }
+
 }
 
-
-
 /* 1.5em(24px) @ 30em(480px) increasing to 2.5em(40px) @ 120em(1920px) */
-@media (min-width: 30em) {
+@media (min-width: 40em) {
+
+	#header {
+		height: 40vw; /*calc(30vw * 1.75)*/
+	}
 
 	.headerContainer h1 {
 		font-size: calc(1.5rem + ((1vw - 0.3em) * 1.1111));
@@ -191,11 +193,7 @@ input {
 
 }
 
-
-
-
 /* UIO Customization */
-
 .fl-prefsEditor-separatedPanel .fl-panelBar {
     background-color: transparent;
     color: #fff;
@@ -228,7 +226,6 @@ input {
 }
 
 /* Transition setting for all elements to avoid the "flash" effect when switching contrast themes */
-
 * {
     transition-property: color, background-color;
     transition-duration: 1s;

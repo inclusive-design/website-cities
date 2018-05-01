@@ -8,7 +8,6 @@ body, html {
 	margin: 0;
 	padding: 0;
 	background-color: #212121;
-
 	background-image: url("../images/background-map.svg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -18,15 +17,13 @@ body, html {
 
 #header {
 	width: 100%;
-	/* where background used to be */
 	height: 720px;
-	min-height: 720px;
+	min-height: 500px;
 	background-color: transparent;
 	display: flex;
 	flex-direction: column-reverse;
-	align-items: flex-end;
+	align-items: flex-start;
 	flex-wrap: wrap;
-	flex-grow: 1;
 }
 
 .headerContainer {
@@ -48,6 +45,7 @@ body, html {
 	letter-spacing: 0.04em;
 	font-weight: 100;
 	width: 80%;
+	text-indent: -0.45em;
 }
 
 #content {
@@ -66,18 +64,20 @@ body, html {
 
 	padding: 3em 4em;
 	margin: 0 auto;
-	display: flex;
 }
 
 .contentContainer {
 	width: 90%;
 	margin: 0 auto;
-	display: flex; /*)FIX THIS FLEXING*/
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .contentBlock {
 	padding: 2em;
-	flex-wrap: wrap;
+	flex: 1 300px;
+	min-width: 0;
+
 }
 
 .contentBlock h2 {
@@ -159,10 +159,35 @@ input {
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .header {
+    body, html {
         background-attachment: scroll;
     }
 }
+
+
+/* Navigation for medium screens and larger. */
+@media screen and (max-width: 48em) {
+
+	#header {
+		height: 10em;
+	}
+
+	.headerContainer h1 {
+		font-size: 1.5em;
+	}
+
+	.headerContainer .subtitle {
+		font-size: 1em;
+	}
+}
+
+/*@media screen and (max-width: 62em) {
+	.headerContainer h1 {
+		font-size: 1.8em;
+	}
+}*/
+
+
 
 /* UIO Customization */
 

@@ -169,7 +169,8 @@ input {
 .fl-prefsEditor-separatedPanel .fl-panelBar {
     background-color: transparent;
     color: #fff;
-    border-bottom: 1px solid #1a1a1a;
+    border-bottom: none;
+    box-shadow: none;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {

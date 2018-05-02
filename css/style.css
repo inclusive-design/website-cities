@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Chivo:300|Comfortaa:300|Fira+Sans+Condensed:700|Fira+Sans:300,500');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Fira+Sans+Condensed:700|Fira+Sans:300,500');
 
 
 /* Global */
@@ -13,9 +13,10 @@ body, html {
 	background-image: url("../images/background.svg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: right bottom;
 	background-size: cover;
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
 }
 
 a {
@@ -28,17 +29,11 @@ a {
 	width: 100%;
 	margin: 0 auto;
 	background-color: transparent;
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: flex-start;
-	flex-wrap: wrap;
-	height: 22vw;
-	min-height: 22vw;
-	padding-top: 5em;
+	display: block;
 }
 
 .headerContainer {
-	padding: 4em 4em;
+	padding: 4em 5.8em;
 }
 
 .headerContainer h1 {
@@ -48,9 +43,11 @@ a {
 }
 
 .headerContainer .subtitle {
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
 	color: #fff;
 	width: 90%;
+	font-size: 1em;
 	text-indent: -0.45em;
 	line-height: 1.2em;
 	letter-spacing: 0.02em;
@@ -65,6 +62,7 @@ a {
 
 #content .introduction {
 	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
 	color: #212121;
 	text-align: center;
 	padding: 2em 3em;
@@ -90,14 +88,14 @@ a {
 .contentBlock h2 {
 	font-family: 'Comfortaa', sans-serif;
 	color: #212121;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 .contentBlock p {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 300;
 	color: #212121;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	line-height: 1.6em;
 	letter-spacing: 0.05em;
 }
@@ -105,8 +103,8 @@ a {
 .contentBlock ol {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 300;
-	font-size: 1.3rem;
-	line-height: 1.6em;
+	font-size: 1.1em;
+	line-height: 1.8em;
 	letter-spacing: 0.05rem;
 	counter-reset: li;
 }
@@ -147,35 +145,24 @@ a {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 300;
 	color: #212121;
-	margin: 0;
-	padding: 0.8em 0;
+	margin: 0.8em 0;
 	font-size: 1.2em;
 	line-height: 1.6em;
 	letter-spacing: 0.04em;
 }
 
-.mailingList input[type=email] {
-	width: 50%;
-	box-sizing: border-box;
-	border-bottom: solid 1px #7c7c7c;
-	padding: 0.5em 0.1em;
-	background-color: #fff;
-}
-
-.mailingList input[type=submit] {
+.mailingList .submit {
 	border: solid 1px #7c7c7c;
 	padding: 0.5em 0.8em;
 	background-color: #fff;
+	text-decoration: none;
+	padding: 0.7em 1.2em;
+	font-size: 1.2rem;
 }
 
-input {
-	font-family: 'Chivo', sans-serif;
-	font-size: 1.1em;
-	border: none;
-	background: none;
-	margin: 0;
-	outline: none;
-	color: #212121;
+.mailingList .submit:active {
+	vertical-align: top;
+	padding: 8px 13px 6px;
 }
 
 
@@ -189,7 +176,8 @@ input {
 
 #footer p {
 	color: #fff;
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
 	font-size: 1em;
 	letter-spacing: 0.1em;
 }
@@ -227,14 +215,18 @@ input {
 }
 
 /* For tablet screens and below */
-@media (min-width: 40em) {
+@media (min-width: 60em) {
 
 	#header {
-		height: 20vw; /*calc(30vw * 1.75)*/
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		height: 25vw;
 	}
 
 	.headerContainer h1 {
-		font-size: 1.8em;
+		font-size: 2.8em;
 	}
 
 	.headerContainer .subtitle {
@@ -276,7 +268,12 @@ input {
 @media (min-width: 120em) {
 
 	.headerContainer h1 {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		flex-wrap: wrap;
 		font-size: 2.8em;
+		height: 25vw;
 	}
 
   	.headerContainer .subtitle {

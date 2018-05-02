@@ -24,6 +24,7 @@ body, html {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	height: 39.999vw;
+	padding-top: 5em;
 }
 
 .headerContainer {
@@ -39,8 +40,10 @@ body, html {
 .headerContainer .subtitle {
 	font-family: 'Chivo', sans-serif;
 	color: #fff;
-	width: 70%;
+	width: 90%;
 	text-indent: -0.45em;
+	line-height: 1.2em;
+	letter-spacing: 0.02em;
 }
 
 #content {
@@ -174,6 +177,8 @@ input {
 
 	.headerContainer .subtitle {
 		font-size: calc(1.2rem + ((1vw - 0.3em) * 0.3333));
+		line-height: 1.2em;
+		letter-spacing: 0.02em;
 	}
 
 }

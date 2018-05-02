@@ -30,6 +30,7 @@ a {
 	margin: 0 auto;
 	background-color: transparent;
 	display: block;
+	min-height: 25vw;
 }
 
 .headerContainer {
@@ -223,6 +224,7 @@ a {
 		align-items: flex-start;
 		flex-wrap: wrap;
 		height: 25vw;
+		background-color: transparent;
 	}
 
 	.headerContainer h1 {

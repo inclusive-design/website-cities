@@ -70,29 +70,27 @@ body, html {
 }
 
 .contentBlock {
-	padding: 2em;
-	flex: 1 300px;
+	padding: 1.5em;
+	flex: 1 500px;
 	min-width: 0;
-
 }
 
 .contentBlock h2 {
 	font-family: 'Comfortaa', sans-serif;
 	color: #212121;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 .contentBlock p {
 	font-family: 'Chivo', sans-serif;
 	color: #212121;
-	font-size: 1.4em;
-	line-height: 1.5em;
-	letter-spacing: 0.04em;
-	font-weight: 100;
+	font-size: 1.3em;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
 }
 
 #content .mailingList {
-	padding: 3em 4em;
+	padding: 4em 4em;
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
@@ -101,17 +99,19 @@ body, html {
 .mailingList h2 {
 	font-family: 'Comfortaa', sans-serif;
 	color: #212121;
-	font-size: 2.4em;
 	padding: 0 0;
 	margin: 0;
+	font-size: 1.5em;
 }
 
 .mailingList p {
 	font-family: 'Chivo', sans-serif;
 	color: #212121;
-	font-size: 1.4em;
 	margin: 0;
 	padding: 0.8em 0;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	letter-spacing: 0.04em;
 }
 
 .mailingList input[type=email] {
@@ -129,7 +129,7 @@ body, html {
 
 input {
 	font-family: 'Chivo', sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 	border: none;
 	background: none;
 	margin: 0;
@@ -139,21 +139,22 @@ input {
 #footer {
 	background-color: transparent;
 	margin: 0 auto;
-	padding: 1em 0;
+	padding: 2em 2em;
 	text-align: center;
 }
 
 #footer p {
 	color: #fff;
 	font-family: 'Chivo', sans-serif;
-	font-size: 1em;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
 }
 
 .logo {
-	width: 300px;
+	width: 250px;
 }
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+/* Turn off parallax on smaller screens */
 @media only screen and (max-device-width: 1366px) {
 
     body, html {
@@ -162,7 +163,7 @@ input {
 
 }
 
-/* 1.5em(24px) @ 30em(480px) increasing to 2.5em(40px) @ 120em(1920px) */
+/* For tablet screens and below */
 @media (min-width: 40em) {
 
 	#header {
@@ -185,9 +186,24 @@ input {
 		letter-spacing: 0.05em;
 	}
 
+	.contentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.mailingList h2 {
+		font-size: 2.2em;
+	}
+
+	.mailingList p {
+		font-size: 1.3em;
+	}
+
+	input {
+		font-size: 1.2em;
+	}
 }
 
-/* Prevent font scaling beyond this breakpoint */
+/* For larger screens */
 @media (min-width: 120em) {
 
 	.headerContainer h1 {
@@ -206,6 +222,27 @@ input {
 		letter-spacing: 0.05em;
 	}
 
+	.contentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.contentBlock p {
+		font-size: 1.4em;
+		line-height: 1.6em;
+		letter-spacing: 0.05em;
+	}
+
+	.mailingList h2 {
+		font-size: 2.4em;
+	}
+
+	.mailingList p {
+		font-size: 1.4em;
+	}
+
+	input {
+		font-size: 1.2em;
+	}
 }
 
 /* UIO Customization */

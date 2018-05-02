@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Chivo:300|Comfortaa:300');
+@import url('https://fonts.googleapis.com/css?family=Chivo:300|Comfortaa:300|Fira+Sans+Condensed:700|Fira+Sans:300,500');
 
 
 /* Global */
@@ -10,12 +10,11 @@ body, html {
 	margin: 0;
 	padding: 0;
 	background-color: #212121;
-	background-image: url("../images/background-map.svg");
+	background-image: url("../images/background.svg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	background-position: bottom right;
 	font-family: 'Chivo', sans-serif;
 }
 
@@ -27,13 +26,14 @@ a {
 /* Header */
 #header {
 	width: 100%;
+	margin: 0 auto;
 	background-color: transparent;
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	height: 39.999vw;
-	min-height: 29.999vw;
+	height: 22vw;
+	min-height: 22vw;
 	padding-top: 5em;
 }
 
@@ -64,12 +64,12 @@ a {
 }
 
 #content .introduction {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	color: #212121;
 	text-align: center;
 	padding: 2em 3em;
 	margin: 0 auto;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	line-height: 1.5em;
 	letter-spacing: 0.05em;
 }
@@ -94,7 +94,8 @@ a {
 }
 
 .contentBlock p {
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
 	color: #212121;
 	font-size: 1.3em;
 	line-height: 1.6em;
@@ -102,7 +103,8 @@ a {
 }
 
 .contentBlock ol {
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
 	font-size: 1.3rem;
 	line-height: 1.6em;
 	letter-spacing: 0.05rem;
@@ -142,7 +144,8 @@ a {
 }
 
 .mailingList p {
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
 	color: #212121;
 	margin: 0;
 	padding: 0.8em 0;
@@ -227,11 +230,11 @@ input {
 @media (min-width: 40em) {
 
 	#header {
-		height: 40vw; /*calc(30vw * 1.75)*/
+		height: 20vw; /*calc(30vw * 1.75)*/
 	}
 
 	.headerContainer h1 {
-		font-size: calc(1.5rem + ((1vw - 0.3em) * 1.1111));
+		font-size: 1.8em;
 	}
 
 	.headerContainer .subtitle {
@@ -241,7 +244,7 @@ input {
 	}
 
 	#content .introduction {
-		font-size: calc(2rem + ((1vw - 0.3em) * 0.5556));
+		font-size: 2em;
 		line-height: 1.5em;
 		letter-spacing: 0.05em;
 	}
@@ -273,17 +276,17 @@ input {
 @media (min-width: 120em) {
 
 	.headerContainer h1 {
-		font-size: 2.5em;
+		font-size: 2.8em;
 	}
 
-  .headerContainer .subtitle {
+  	.headerContainer .subtitle {
 		font-size: 1.5em;
 		line-height: 1.5em;
 		letter-spacing: 0.04em;
-  }
+  	}
 
 	#content .introduction {
-		font-size: 2.5em;
+		font-size: 2em;
 		line-height: 1.5em;
 		letter-spacing: 0.05em;
 	}

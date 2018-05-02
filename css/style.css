@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Chivo:300|Comfortaa:300');
 
+
+/* Global */
 body, html {
 	height: 100%;
 	min-height: 100%;
@@ -21,6 +23,8 @@ a {
 	color: #7c7c7c;
 }
 
+
+/* Header */
 #header {
 	width: 100%;
 	background-color: transparent;
@@ -29,6 +33,7 @@ a {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	height: 39.999vw;
+	min-height: 29.999vw;
 	padding-top: 5em;
 }
 
@@ -51,6 +56,8 @@ a {
 	letter-spacing: 0.02em;
 }
 
+
+/* Content */
 #content {
 	background-color: #fff;
 	width: 100%;
@@ -168,6 +175,8 @@ input {
 	color: #212121;
 }
 
+
+/* Footer */
 #footer {
 	background-color: transparent;
 	margin: 0 auto;
@@ -178,11 +187,15 @@ input {
 #footer p {
 	color: #fff;
 	font-family: 'Chivo', sans-serif;
-	font-size: 0.9em;
+	font-size: 1em;
 	letter-spacing: 0.1em;
 }
 
-.logo {
+#footer a {
+	color: #d5d5d5;
+}
+
+.logoContainer {
 	width: 250px;
 	height: 65px;
 	background-image: url("../images/idrc-logo.svg");
@@ -192,19 +205,14 @@ input {
     position: relative;
     margin-top: 0;
     resize: both;
+    margin: 0 auto;
 }
 
-.logo .logo-idrc {
+.logoContainer .logo-idrc {
 	font-size: 0;
     width: 100%;
 }
 
-
-.flc-toc-tocContainer {
-	width: 85%;
-	margin: 0 auto;
-	font-size: 1.5em;
-}
 
 /* Turn off parallax on smaller screens */
 @media only screen and (max-device-width: 1366px) {
@@ -246,10 +254,6 @@ input {
 		font-size: 1.3rem;
 		line-height: 1.6em;
 		letter-spacing: 0.05rem;
-	}
-
-	.contentblock li {
-
 	}
 
 	.mailingList h2 {
@@ -313,7 +317,14 @@ input {
 	}
 }
 
+
 /* UIO Customization */
+.flc-toc-tocContainer {
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
 .fl-prefsEditor-separatedPanel .fl-panelBar {
     background-color: transparent;
     color: #fff;
@@ -345,11 +356,45 @@ input {
     box-shadow: none;
 }
 
-/* Transition setting for all elements to avoid the "flash" effect when switching contrast themes */
+.fl-theme-by body,
+.fl-theme-yb body,
+.fl-theme-wb body,
+.fl-theme-bw body,
+.fl-theme-lgdg body,
+.fl-theme-by html,
+.fl-theme-yb html,
+.fl-theme-wb html,
+.fl-theme-bw html,
+.fl-theme-lgdg html {
+	background-image: none;
+}
+
+.fl-theme-by #header,
+.fl-theme-yb #header,
+.fl-theme-wb #header,
+.fl-theme-bw #header,
+.fl-theme-lgdg #header {
+	height: 20vh;
+}
+
+.fl-theme-bw .logoContainer {
+  background-image: url("../images/idrc-logo-black.svg");
+}
+
+.fl-theme-by .logoContainer {
+  background-image: url("../images/idrc-logo-black.svg");
+}
+
+.fl-theme-yb .logoContainer {
+  background-image: url("../images/idrc-logo-yellow.svg");
+}
+
+.fl-theme-lgdg .logoContainer {
+  background-image: url("../images/idrc-logo-grey.svg");
+}
+
+/* Transition setting for all elements to avoid the "flash" effect when switching contrast themes via alanharnum.ca */
 * {
     transition-property: color, background-color;
     transition-duration: 1s;
 }
-
-
-

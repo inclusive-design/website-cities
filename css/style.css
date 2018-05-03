@@ -54,6 +54,10 @@ a {
 	letter-spacing: 0.02em;
 }
 
+.quote {
+	font-size: 0.8em;
+}
+
 
 /* Content */
 #content {
@@ -78,6 +82,7 @@ a {
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 2em;
 }
 
 .contentBlock {
@@ -247,8 +252,12 @@ a {
 		font-size: 1.5em;
 	}
 
+	.contentBlock p {
+		font-size: 1.2em;
+	}
+
 	.contentBlock ol {
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 		line-height: 1.6em;
 		letter-spacing: 0.05rem;
 	}

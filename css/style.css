@@ -1,0 +1,411 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Fira+Sans+Condensed:700|Fira+Sans:300,500');
+
+
+/* Global */
+body, html {
+	height: 100%;
+	min-height: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #212121;
+	background-image: url("../images/background.svg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: cover;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	color: #7c7c7c;
+}
+
+
+/* Header */
+#header {
+	width: 100%;
+	margin: 0 auto;
+	background-color: transparent;
+	display: block;
+	min-height: 25vw;
+}
+
+.headerContainer {
+	padding: 4em 5.8em;
+}
+
+.headerContainer h1 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.headerContainer .subtitle {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	width: 90%;
+	font-size: 1em;
+	text-indent: -0.45em;
+	line-height: 1.2em;
+	letter-spacing: 0.02em;
+}
+
+.quote {
+	font-size: 0.8em;
+}
+
+
+/* Content */
+#content {
+	background-color: #fff;
+	width: 100%;
+}
+
+#content .introduction {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	color: #212121;
+	text-align: center;
+	padding: 2em 5.8em;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+}
+
+.contentContainer {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 2em;
+}
+
+.contentBlock {
+	padding: 1.5em;
+	flex: 1 500px;
+	min-width: 0;
+}
+
+.contentBlock h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #212121;
+	font-size: 1.2em;
+}
+
+.contentBlock p {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #212121;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
+}
+
+.contentBlock ol {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	letter-spacing: 0.05rem;
+	counter-reset: li;
+}
+
+.contentBlock ol > li {
+	list-style: none;
+}
+
+.contentBlock ol > li:before {
+	display: inline-block;
+	font-weight: bold;
+	content: counter(li);
+	counter-increment: li;
+	text-align: left;
+	text-indent: -1.5em;
+}
+
+#mailingListContainer {
+	background-color: #e7e7e7;
+}
+
+#mailingListContainer .mailingList {
+	padding: 4em 4em;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mailingList h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #212121;
+	padding: 0 0;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.mailingList p {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #212121;
+	margin: 0.8em 0;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	letter-spacing: 0.04em;
+}
+
+.mailingList .submit {
+	border: solid 1px #7c7c7c;
+	padding: 0.5em 0.8em;
+	background-color: #fff;
+	text-decoration: none;
+	padding: 0.7em 1.2em;
+	font-size: 1.2rem;
+}
+
+.mailingList .submit:active {
+	vertical-align: top;
+	padding: 8px 13px 6px;
+}
+
+
+/* Footer */
+#footer {
+	background-color: transparent;
+	margin: 0 auto;
+	padding: 2em 2em;
+	text-align: center;
+}
+
+#footer p {
+	color: #fff;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+}
+
+#footer a {
+	color: #d5d5d5;
+}
+
+.logoContainer {
+	width: 250px;
+	height: 65px;
+	background-image: url("../images/idrc-logo.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    position: relative;
+    margin-top: 0;
+    resize: both;
+    margin: 0 auto;
+}
+
+.logoContainer .logo-idrc {
+	font-size: 0;
+    width: 100%;
+}
+
+
+/* Turn off parallax on smaller screens */
+@media only screen and (max-device-width: 1366px) {
+
+    body, html {
+        background-attachment: scroll;
+    }
+
+}
+
+/* For tablet screens and below */
+@media (min-width: 60em) {
+
+	#header {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		height: 25vw;
+		background-color: transparent;
+	}
+
+	.headerContainer h1 {
+		font-size: 2.8em;
+	}
+
+	.headerContainer .subtitle {
+		font-size: calc(1.2rem + ((1vw - 0.3em) * 0.3333));
+		line-height: 1.2em;
+		letter-spacing: 0.02em;
+	}
+
+	#content .introduction {
+		font-size: 2em;
+		line-height: 1.5em;
+		letter-spacing: 0.05em;
+	}
+
+	.contentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.contentBlock p {
+		font-size: 1.3em;
+	}
+
+	.contentBlock ol {
+		font-size: 1.3rem;
+		line-height: 1.6em;
+		letter-spacing: 0.05rem;
+	}
+
+	.mailingList h2 {
+		font-size: 2.2em;
+	}
+
+	.mailingList p {
+		font-size: 1.3em;
+	}
+
+	input {
+		font-size: 1.2em;
+	}
+}
+
+/* For larger screens */
+@media (min-width: 120em) {
+
+	.headerContainer h1 {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		font-size: 2.8em;
+		height: 25vw;
+	}
+
+  	.headerContainer .subtitle {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		letter-spacing: 0.04em;
+  	}
+
+	#content .introduction {
+		font-size: 2em;
+		line-height: 1.5em;
+		letter-spacing: 0.05em;
+	}
+
+	.contentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.contentBlock p {
+		font-size: 1.4em;
+		line-height: 1.6em;
+		letter-spacing: 0.05em;
+	}
+
+	.contentBlock ol {
+		font-size: 1.4rem;
+		line-height: 1.6em;
+		letter-spacing: 0.05rem;
+	}
+
+	.mailingList h2 {
+		font-size: 2.4em;
+	}
+
+	.mailingList p {
+		font-size: 1.4em;
+	}
+
+	input {
+		font-size: 1.2em;
+	}
+}
+
+
+/* UIO Customization */
+.flc-toc-tocContainer {
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-right: 1em;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.fl-theme-by body,
+.fl-theme-yb body,
+.fl-theme-wb body,
+.fl-theme-bw body,
+.fl-theme-lgdg body,
+.fl-theme-by html,
+.fl-theme-yb html,
+.fl-theme-wb html,
+.fl-theme-bw html,
+.fl-theme-lgdg html {
+	background-image: none;
+}
+
+.fl-theme-by #header,
+.fl-theme-yb #header,
+.fl-theme-wb #header,
+.fl-theme-bw #header,
+.fl-theme-lgdg #header {
+	height: auto;
+}
+
+.fl-theme-bw .logoContainer {
+  background-image: url("../images/idrc-logo-black.svg");
+}
+
+.fl-theme-by .logoContainer {
+  background-image: url("../images/idrc-logo-black.svg");
+}
+
+.fl-theme-yb .logoContainer {
+  background-image: url("../images/idrc-logo-yellow.svg");
+}
+
+.fl-theme-lgdg .logoContainer {
+  background-image: url("../images/idrc-logo-grey.svg");
+}
+
+/* Transition setting for all elements to avoid the "flash" effect when switching contrast themes via alanharnum.ca */
+* {
+    transition-property: color, background-color;
+    transition-duration: 1s;
+}

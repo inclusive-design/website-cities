@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Fira+Sans+Condensed:700|Fira+Sans:300,500');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Fira+Sans:300,500');
 
 
 /* Global */
@@ -127,6 +127,101 @@ a {
 	text-align: left;
 	text-indent: -1.5em;
 }
+
+
+#ideasContainer {
+	background: transparent;
+	padding: 4em 5.8em;
+	margin: 0 auto;
+}
+
+.ideas h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #e7e7e7;
+	padding: 0 0;
+	margin: 0;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.ideas p {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #e7e7e7;
+	margin: 0.8em 0;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	letter-spacing: 0.04em;
+}
+
+
+/* Timeline
+	Brady Wright https://codepen.io/brady_wright/pen/NNOvrW
+	Niels Voogt https://codepen.io/NielsVoogt/pen/MbMMxv/
+*/
+
+.timeline {
+	list-style: none;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.timelineItem {
+	padding: 2em 2em;
+	position: relative;
+}
+
+.timelineDate {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+.timelineContent h3 > a {
+	font-size: 1.1em;
+	color: #e7e7e7;
+}
+
+.timelineContent p {
+	font-size: 1em;
+	margin: 0;
+}
+
+.timelineContent p > a {
+	color: #e7e7e7;
+}
+
+.timelineMarker::before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	top: 2.3em;
+	left: 0;
+	display: block;
+	position: absolute;
+	background-color: #e7e7e7;
+	border-radius: 100%;
+}
+
+.timelineMarker::after {
+	content: "";
+	width: 0.2em;
+	top: 3.8em;
+	left: 0.18em;
+	bottom: 0;
+	display: block;
+	position: absolute;
+	background-color: #e7e7e7;
+}
+
+.timelineItem:last-child {
+	padding-bottom: 0;
+}
+
 
 #mailingListContainer {
 	background-color: #e7e7e7;
@@ -262,6 +357,26 @@ a {
 		letter-spacing: 0.05rem;
 	}
 
+	.ideas h2 {
+		font-size: 2.2em;
+	}
+
+	.ideas p {
+		font-size: 1.3em;
+	}
+
+	.timelineDate {
+		font-size: 1.2rem;
+	}
+
+	.timelineContent h3 > a {
+		font-size: 1.4em;
+	}
+
+	.timelineContent p {
+		font-size: 1.2em;
+	}
+
 	.mailingList h2 {
 		font-size: 2.2em;
 	}
@@ -315,6 +430,26 @@ a {
 		letter-spacing: 0.05rem;
 	}
 
+	.ideas h2 {
+		font-size: 2.4em;
+	}
+
+	.ideas p {
+		font-size: 1.4em;
+	}
+
+	.timelineDate {
+		font-size: 1.2rem;
+	}
+
+	.timelineContent h3 > a {
+		font-size: 1.4em;
+	}
+
+	.timelineContent p {
+		font-size: 1.3em;
+	}
+
 	.mailingList h2 {
 		font-size: 2.4em;
 	}
@@ -327,6 +462,11 @@ a {
 		font-size: 1.2em;
 	}
 }
+
+
+/* Ideas */
+
+
 
 
 /* UIO Customization */
@@ -385,7 +525,7 @@ a {
 .fl-theme-wb #header,
 .fl-theme-bw #header,
 .fl-theme-lgdg #header {
-	height: 20vh;
+	height: auto;
 }
 
 .fl-theme-bw .logoContainer {

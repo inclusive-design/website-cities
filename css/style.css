@@ -297,7 +297,6 @@ a {
 }
 
 .ideasContentBlock blockquote {
-	font-size: 1.1em;
 	line-height: 1.6em;
 	letter-spacing: 0.05em;
 	font-style: italic;
@@ -412,10 +411,6 @@ a {
 	.ideasContentBlock p {
 		font-size: 1.2em;
 	}
-
-	.ideasContentBlock blockquote {
-		font-size: 1.2em;
-	}
 }
 
 /* For larger screens */
@@ -500,10 +495,6 @@ a {
 	}
 
 	.ideasContentBlock p {
-		font-size: 1.2em;
-	}
-
-	.ideasContentBlock blockquote {
 		font-size: 1.2em;
 	}
 }

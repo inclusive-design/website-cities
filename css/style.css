@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Fira+Sans+Condensed:700|Fira+Sans:300,500');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Fira+Sans:300,500');
 
 
 /* Global */
@@ -58,8 +58,6 @@ a {
 	font-size: 0.8em;
 }
 
-
-/* Content */
 #content {
 	background-color: #fff;
 	width: 100%;
@@ -126,6 +124,31 @@ a {
 	counter-increment: li;
 	text-align: left;
 	text-indent: -1.5em;
+}
+
+#ideasContainer {
+	background: transparent;
+	padding: 4em 5.8em;
+	margin: 0 auto;
+}
+
+.ideas h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #e7e7e7;
+	padding: 0 0;
+	margin: 0;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.ideas p {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #e7e7e7;
+	margin: 0.8em 0;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	letter-spacing: 0.04em;
 }
 
 #mailingListContainer {
@@ -211,6 +234,76 @@ a {
 }
 
 
+/* Ideas in Progress */
+#ideasHeader {
+	width: 100%;
+	margin: 0 auto;
+	background-color: transparent;
+	display: block;
+}
+
+.ideasHeaderContainer {
+	padding: 1.5em 3em;
+}
+
+.ideasHeaderContainer h1 > a {
+	font-family: 'Comfortaa', sans-serif;
+	color: #fff;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.ideasHeaderContainer h1 > a:hover {
+	text-decoration: underline;
+	cursor: hand;
+}
+
+#ideasContent {
+	background-color: #fff;
+	width: 100%;
+}
+
+.ideasContentContainer {
+	width: 80%;
+	padding: 2em 3em;
+}
+
+.ideasContentBlock {
+	padding: 0;
+	margin: 0;
+}
+
+.ideasContentBlock h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #212121;
+	font-size: 1.2em;
+}
+
+.ideasContentBlock h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+.ideasContentBlock p {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #212121;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
+}
+
+.ideasContentBlock blockquote {
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
+	font-style: italic;
+}
+
+
+
 /* Turn off parallax on smaller screens */
 @media only screen and (max-device-width: 1366px) {
 
@@ -262,6 +355,26 @@ a {
 		letter-spacing: 0.05rem;
 	}
 
+	.ideas h2 {
+		font-size: 2.2em;
+	}
+
+	.ideas p {
+		font-size: 1.3em;
+	}
+
+	.timelineDate {
+		font-size: 1.2rem;
+	}
+
+	.timelineContent h3 > a {
+		font-size: 1.4em;
+	}
+
+	.timelineContent p {
+		font-size: 1.2em;
+	}
+
 	.mailingList h2 {
 		font-size: 2.2em;
 	}
@@ -271,6 +384,31 @@ a {
 	}
 
 	input {
+		font-size: 1.2em;
+	}
+
+	.ideasHeaderContainer {
+		padding: 1.5em 5.8em;
+	}
+
+	.ideasHeaderContainer h1 > a {
+		font-size: 1.5em;
+	}
+
+	.ideasContentContainer {
+		width: 70%;
+		padding: 2em 5.8em;
+	}
+
+	.ideasContentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.ideasContentBlock h3 {
+		font-size: 0.9rem;
+	}
+
+	.ideasContentBlock p {
 		font-size: 1.2em;
 	}
 }
@@ -315,6 +453,14 @@ a {
 		letter-spacing: 0.05rem;
 	}
 
+	.ideas h2 {
+		font-size: 2.4em;
+	}
+
+	.ideas p {
+		font-size: 1.4em;
+	}
+
 	.mailingList h2 {
 		font-size: 2.4em;
 	}
@@ -324,6 +470,31 @@ a {
 	}
 
 	input {
+		font-size: 1.2em;
+	}
+
+	.ideasHeaderContainer {
+		padding: 1.5em 5.8em;
+	}
+
+	.ideasHeaderContainer h1 > a {
+		font-size: 1.5em;
+	}
+
+	.ideasContentContainer {
+		width: 60%;
+		padding: 2em 5.8em;
+	}
+
+	.ideasContentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.ideasContentBlock h3 {
+		font-size: 0.9rem;
+	}
+
+	.ideasContentBlock p {
 		font-size: 1.2em;
 	}
 }

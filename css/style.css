@@ -58,8 +58,6 @@ a {
 	font-size: 0.8em;
 }
 
-
-/* Content */
 #content {
 	background-color: #fff;
 	width: 100%;
@@ -128,7 +126,6 @@ a {
 	text-indent: -1.5em;
 }
 
-
 #ideasContainer {
 	background: transparent;
 	padding: 4em 5.8em;
@@ -153,7 +150,6 @@ a {
 	line-height: 1.6em;
 	letter-spacing: 0.04em;
 }
-
 
 /* Timeline
 	Brady Wright https://codepen.io/brady_wright/pen/NNOvrW
@@ -306,6 +302,77 @@ a {
 }
 
 
+/* Ideas in Progress */
+#ideasHeader {
+	width: 100%;
+	margin: 0 auto;
+	background-color: transparent;
+	display: block;
+}
+
+.ideasHeaderContainer {
+	padding: 1.5em 3em;
+}
+
+.ideasHeaderContainer h1 > a {
+	font-family: 'Comfortaa', sans-serif;
+	color: #fff;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.ideasHeaderContainer h1 > a:hover {
+	text-decoration: underline;
+	cursor: hand;
+}
+
+#ideasContent {
+	background-color: #fff;
+	width: 100%;
+}
+
+.ideasContentContainer {
+	width: 80%;
+	padding: 2em 3em;
+}
+
+.ideasContentBlock {
+	padding: 0;
+	margin: 0;
+}
+
+.ideasContentBlock h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: #212121;
+	font-size: 1.2em;
+}
+
+.ideasContentBlock h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+.ideasContentBlock p {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #212121;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
+}
+
+.ideasContentBlock blockquote {
+	font-size: 1.1em;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
+	font-style: italic;
+}
+
+
+
 /* Turn off parallax on smaller screens */
 @media only screen and (max-device-width: 1366px) {
 
@@ -388,6 +455,35 @@ a {
 	input {
 		font-size: 1.2em;
 	}
+
+	.ideasHeaderContainer {
+		padding: 1.5em 5.8em;
+	}
+
+	.ideasHeaderContainer h1 > a {
+		font-size: 1.5em;
+	}
+
+	.ideasContentContainer {
+		width: 70%;
+		padding: 2em 5.8em;
+	}
+
+	.ideasContentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.ideasContentBlock h3 {
+		font-size: 0.9rem;
+	}
+
+	.ideasContentBlock p {
+		font-size: 1.2em;
+	}
+
+	.ideasContentBlock blockquote {
+		font-size: 1.2em;
+	}	
 }
 
 /* For larger screens */
@@ -461,6 +557,35 @@ a {
 	input {
 		font-size: 1.2em;
 	}
+
+	.ideasHeaderContainer {
+		padding: 1.5em 5.8em;
+	}
+
+	.ideasHeaderContainer h1 > a {
+		font-size: 1.5em;
+	}
+
+	.ideasContentContainer {
+		width: 60%;
+		padding: 2em 5.8em;
+	}
+
+	.ideasContentBlock h2 {
+		font-size: 1.5em;
+	}
+
+	.ideasContentBlock h3 {
+		font-size: 0.9rem;
+	}
+
+	.ideasContentBlock p {
+		font-size: 1.2em;
+	}
+
+	.ideasContentBlock blockquote {
+		font-size: 1.2em;
+	}	
 }
 
 

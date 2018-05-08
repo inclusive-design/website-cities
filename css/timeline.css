@@ -1,0 +1,94 @@
+/* Timeline
+    Brady Wright https://codepen.io/brady_wright/pen/NNOvrW
+    Copyright (c) 2018 by Brady Wright (https://codepen.io/brady_wright/pen/NNOvrW)
+*/
+
+.timeline {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.timelineItem {
+    padding: 2em 2em;
+    position: relative;
+}
+
+.timelineDate {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+.timelineContent h3 > a {
+    font-size: 1.1em;
+    color: #e7e7e7;
+}
+
+.timelineContent p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.timelineContent p > a {
+    color: #e7e7e7;
+}
+
+.timelineMarker::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 2.3em;
+    left: 0;
+    display: block;
+    position: absolute;
+    background-color: #e7e7e7;
+    border-radius: 100%;
+}
+
+.timelineMarker::after {
+    content: "";
+    width: 0.2em;
+    top: 3.8em;
+    left: 0.18em;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    background-color: #e7e7e7;
+}
+
+.timelineItem:last-child {
+    padding-bottom: 0;
+}
+
+@media (min-width: 60em) {
+    .timelineDate {
+        font-size: 1.2rem;
+    }
+
+    .timelineContent h3 > a {
+        font-size: 1.4em;
+    }
+
+    .timelineContent p {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 120em) {
+    .timelineDate {
+        font-size: 1.2rem;
+    }
+
+    .timelineContent h3 > a {
+        font-size: 1.4em;
+    }
+
+    .timelineContent p {
+        font-size: 1.3em;
+    }
+}

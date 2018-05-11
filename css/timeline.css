@@ -68,7 +68,7 @@
     background-color: #e7e7e7;
 }
 
-.timelineItem:last-child {
+.timelineItem {
     padding-bottom: 0;
 }
 

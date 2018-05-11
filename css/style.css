@@ -291,8 +291,10 @@ a {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 500;
 	color: #212121;
-	font-size: 1.2em;
+	font-size: 1.25em;
 	line-height: 1.6em;
+	margin-bottom: 0;
+	margin-top: 1.6em;
 }
 
 .ideasContentBlock p, li {
@@ -361,7 +363,6 @@ img {
 	.contentBlock ol {
 		font-size: 1.3rem;
 		line-height: 1.6em;
-		letter-spacing: 0.05rem;
 	}
 
 	.ideas h2 {
@@ -413,11 +414,15 @@ img {
 		font-size: 1.5em;
 	}
 
+	.ideasContentBlock h3 {
+		font-size: 1.5em;
+	}
+
 	.ideasDate {
 		font-size: 0.9rem;
 	}
 
-	.ideasContentBlock p {
+	.ideasContentBlock p, li {
 		font-size: 1.2em;
 	}
 }
@@ -453,13 +458,11 @@ img {
 	.contentBlock p {
 		font-size: 1.4em;
 		line-height: 1.6em;
-		letter-spacing: 0.05em;
 	}
 
 	.contentBlock ol {
 		font-size: 1.4rem;
 		line-height: 1.6em;
-		letter-spacing: 0.05rem;
 	}
 
 	.ideas h2 {
@@ -499,11 +502,15 @@ img {
 		font-size: 1.5em;
 	}
 
+	.ideasContentBlock h3 {
+		font-size: 1.5em;
+	}
+
 	.ideasDate {
 		font-size: 0.9rem;
 	}
 
-	.ideasContentBlock p {
+	.ideasContentBlock p, li {
 		font-size: 1.2em;
 	}
 }

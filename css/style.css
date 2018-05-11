@@ -422,8 +422,12 @@ img {
 		font-size: 0.9rem;
 	}
 
-	.ideasContentBlock p, li {
+	.ideasContentBlock p {
 		font-size: 1.2em;
+	}
+
+	.ideasContentBlock li {
+		font-size: 1.2rem;
 	}
 }
 
@@ -510,8 +514,12 @@ img {
 		font-size: 0.9rem;
 	}
 
-	.ideasContentBlock p, li {
+	.ideasContentBlock p {
 		font-size: 1.2em;
+	}
+
+	.ideasContentBlock li {
+		font-size: 1.2rem;
 	}
 }
 

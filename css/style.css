@@ -273,6 +273,14 @@ a {
 	margin: 0;
 }
 
+.ideasDate {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
 .ideasContentBlock h2 {
 	font-family: 'Comfortaa', sans-serif;
 	color: #212121;
@@ -281,28 +289,29 @@ a {
 
 .ideasContentBlock h3 {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 0.8rem;
 	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 0.3em;
+	color: #212121;
+	font-size: 1.2em;
+	line-height: 1.6em;
 }
 
-.ideasContentBlock p {
+.ideasContentBlock p, li {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 300;
 	color: #212121;
 	font-size: 1.1em;
 	line-height: 1.6em;
-	letter-spacing: 0.05em;
 }
 
 .ideasContentBlock blockquote {
 	line-height: 1.6em;
-	letter-spacing: 0.05em;
 	font-style: italic;
 }
 
-
+img {
+	max-width: 100%;
+    height: auto;
+}
 
 /* Turn off parallax on smaller screens */
 @media only screen and (max-device-width: 1366px) {
@@ -404,7 +413,7 @@ a {
 		font-size: 1.5em;
 	}
 
-	.ideasContentBlock h3 {
+	.ideasDate {
 		font-size: 0.9rem;
 	}
 
@@ -490,7 +499,7 @@ a {
 		font-size: 1.5em;
 	}
 
-	.ideasContentBlock h3 {
+	.ideasDate {
 		font-size: 0.9rem;
 	}
 

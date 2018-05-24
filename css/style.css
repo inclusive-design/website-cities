@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Fira+Sans:300,500');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans|Merriweather');
 
 
 /* Global */
@@ -9,28 +9,34 @@ body, html {
 	border: 0;
 	margin: 0;
 	padding: 0;
-	background-color: #212121;
-	background-image: url("../images/background.svg");
+	background-image: url("../images/background_texture.png"); /* background pattern from Toptal Subtle Patterns */
 	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-size: cover;
-	font-family: 'Fira Sans', sans-serif;
-	font-weight: 300;
+	background-repeat: repeat;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
 }
 
 a {
 	color: #7c7c7c;
 }
 
+/* Body Container */
+#body {
+	margin: 0 auto;
+	max-width: 1280px;
+}
 
 /* Header */
 #header {
 	width: 100%;
-	margin: 0 auto;
-	background-color: transparent;
+	background-image: url("../images/background_texture.png"), url("../images/header.jpg");
+	background-repeat: repeat, no-repeat;
+	background-size: 400px, cover;
+	background-blend-mode: multiply;
 	display: block;
-	min-height: 25vw;
+	min-height: 529px;
 }
 
 .headerContainer {
@@ -38,14 +44,14 @@ a {
 }
 
 .headerContainer h1 {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	color: #fff;
 	font-size: 1.5em;
 }
 
 .headerContainer .subtitle {
-	font-family: 'Fira Sans', sans-serif;
-	font-weight: 300;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 400;
 	color: #fff;
 	width: 90%;
 	font-size: 1em;
@@ -59,12 +65,11 @@ a {
 }
 
 #content {
-	background-color: #fff;
 	width: 100%;
 }
 
 #content .introduction {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 500;
 	color: #212121;
 	text-align: center;
@@ -90,22 +95,26 @@ a {
 }
 
 .contentBlock h2 {
-	font-family: 'Comfortaa', sans-serif;
-	color: #212121;
-	font-size: 1.2em;
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #3F3631;
+	font-size: 1em;
+	border-bottom: 9px solid rgba(177, 176, 175, 0.5);
+	line-height: 14px;
 }
 
 .contentBlock p {
-	font-family: 'Fira Sans', sans-serif;
-	font-weight: 300;
-	color: #212121;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	color: #3F3631;
 	font-size: 1.1em;
 	line-height: 1.6em;
 	letter-spacing: 0.05em;
 }
 
 .contentBlock ol {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 300;
 	font-size: 1.1em;
 	line-height: 1.8em;
@@ -127,13 +136,15 @@ a {
 }
 
 #ideasContainer {
-	background: transparent;
+	background-image: url("../images/background_waves.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
 	padding: 4em 5.8em;
 	margin: 0 auto;
 }
 
 .ideas h2 {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #e7e7e7;
 	padding: 0 0;
 	margin: 0;
@@ -142,7 +153,7 @@ a {
 }
 
 .ideas p {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 300;
 	color: #e7e7e7;
 	margin: 0.8em 0;
@@ -152,7 +163,7 @@ a {
 }
 
 #mailingListContainer {
-	background-color: #e7e7e7;
+
 }
 
 #mailingListContainer .mailingList {
@@ -163,7 +174,7 @@ a {
 }
 
 .mailingList h2 {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #212121;
 	padding: 0 0;
 	margin: 0;
@@ -171,7 +182,7 @@ a {
 }
 
 .mailingList p {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 300;
 	color: #212121;
 	margin: 0.8em 0;
@@ -197,7 +208,9 @@ a {
 
 /* Footer */
 #footer {
-	background-color: transparent;
+	background-image: url("../images/background_waves.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
 	margin: 0 auto;
 	padding: 2em 2em;
 	text-align: center;
@@ -205,7 +218,7 @@ a {
 
 #footer p {
 	color: #fff;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 	letter-spacing: 0.1em;
@@ -238,7 +251,6 @@ a {
 #ideasHeader {
 	width: 100%;
 	margin: 0 auto;
-	background-color: transparent;
 	display: block;
 }
 
@@ -247,7 +259,7 @@ a {
 }
 
 .ideasHeaderContainer h1 > a {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #fff;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -274,7 +286,7 @@ a {
 }
 
 .ideasDate {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-size: 0.8rem;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -282,13 +294,13 @@ a {
 }
 
 .ideasContentBlock h2 {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #212121;
 	font-size: 1.2em;
 }
 
 .ideasContentBlock h3 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 500;
 	color: #212121;
 	font-size: 1.25em;
@@ -298,7 +310,7 @@ a {
 }
 
 .ideasContentBlock p, li {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 300;
 	color: #212121;
 	font-size: 1.1em;
@@ -533,14 +545,17 @@ img {
 
 .fl-prefsEditor-separatedPanel .fl-panelBar {
     background-color: transparent;
-    color: #fff;
+    color: #403E3C;
     border-bottom: none;
     box-shadow: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
     background-color: transparent;
-    color: #fff;
+    color: #403E3C;
     box-shadow: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -548,18 +563,27 @@ img {
     border-right: 0;
     border-left: 0;
     margin-right: 1em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
     background-color: transparent;
-    color: #fff;
+    color: #403E3C;
     box-shadow: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
     background-color: transparent;
-    color: #fff;
+    color: #403E3C;
     box-shadow: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .fl-theme-by body,

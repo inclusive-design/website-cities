@@ -34,11 +34,10 @@ a {
 
 /* Header */
 #header {
-	width: 100%;
 	background-image: url("../images/header.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-blend-mode: multiply;
+	background-color: #fff;
 	min-height: 413px;
 	display: flex;
     flex-direction: column-reverse;
@@ -56,7 +55,7 @@ a {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 2.5em;
-	background: #414141;
+	background: #19242a;
 	padding: 0 1em 0 0.4em;
 	display: inline;
 }
@@ -108,8 +107,7 @@ a {
 
 #content {
 	width: 100%;
-	background: rgb(255, 255, 255, 0.25);
-	background-blend-mode: multiply;
+	background-color: #fff;
 }
 
 .subtitle {
@@ -125,7 +123,6 @@ a {
 }
 
 .contentContainer {
-	width: 100%;
 	margin: 0;
     padding: 0 1.5em 2em 0;
 	display: flex;
@@ -135,15 +132,14 @@ a {
 .contentBlock {
 	padding: 0;
 	flex: 1 400px;
-	min-width: 400px;
 }
 
 .contentBlock:first-child {
-	padding-right: 2.4em;
+	padding-right: 2em;
 }
 
 .contentBlock:last-child {
-	padding-left: 2.4em;
+	padding-left: 2em;
 }
 
 .contentBlock h2 {
@@ -169,7 +165,7 @@ a {
 
 .contentBlock ol {
 	font-size: 1.1em;
-	line-height: 1.8em;
+	line-height: 1.7em;
 	counter-reset: li;
 }
 
@@ -188,14 +184,14 @@ a {
 
 #ideasContainer {
 	background-image: url("../images/background.jpg");
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	padding: 4em 5.8em;
 	margin: 0 auto;
 }
 
 .ideas h2 {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	color: #e7e7e7;
 	padding: 0 0;
 	margin: 0;
@@ -204,7 +200,7 @@ a {
 }
 
 .ideas p {
-	font-family: 'Source Serif Pro', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
 	color: #e7e7e7;
 	margin: 0.8em 0;
@@ -215,8 +211,7 @@ a {
 
 #mailingListContainer {
     width: 100%;
-    background: rgb(255, 255, 255, 0.25);
-    background-blend-mode: multiply;
+    background: #fff;
 }
 
 #mailingListContainer .mailingList {
@@ -227,7 +222,7 @@ a {
 }
 
 .mailingList h2 {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	color: #212121;
 	padding: 0 0;
 	margin: 0;
@@ -262,7 +257,7 @@ a {
 /* Footer */
 #footer {
 	background-image: url("../images/background.jpg");
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	padding: 2em 2em;
@@ -274,7 +269,6 @@ a {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
 	font-size: 1em;
-	letter-spacing: 0.1em;
 }
 
 #footer a {
@@ -324,8 +318,6 @@ a {
 }
 
 #ideasContent {
-	background-color: #fff;
-	width: 100%;
 }
 
 .ideasContentContainer {
@@ -415,7 +407,7 @@ img {
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #fff;
     color: #403E3C;
     box-shadow: none;
     border-bottom-left-radius: 0;

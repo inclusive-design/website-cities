@@ -32,7 +32,7 @@ a {
 /* Body Container */
 #body {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 
 /* Header */
@@ -43,7 +43,7 @@ a {
 	background-size: 400px, cover;
 	background-blend-mode: multiply;
 	display: block;
-	min-height: 418px;
+	min-height: 364px;
 	display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -59,17 +59,26 @@ a {
 	font-weight: 800;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 3.4em;
+	font-size: 3.2em;
 	background: #414141;
-	padding: 0 1.8em 0 0.2em;
+	padding: 0 1em 0 0.2em;
 	display: inline;
+}
+
+.introduction {
+    width: 100%;
+}
+
+.waves {
+    text-align: center;
+    padding: 0.8em;
 }
 
 .quote {
     font-family: 'Source Serif Pro', serif;
     font-weight: 500;
     color: #414141;
-    font-size: 1.6em;
+    font-size: 1.4em;
     width: 65%;
     margin: 0 auto;
     padding-top: 1.5em;
@@ -96,10 +105,8 @@ a {
 .quoteSmall {
 	font-size: 0.8em;
     font-family: 'Work Sans', sans-serif;
-	line-height: 1.8em;
     text-align: right;
-    padding-top: 0.2em;
-    padding-bottom: 0;
+    padding: 0;
     margin: 0;
 }
 
@@ -114,7 +121,7 @@ a {
 	font-weight: 500;
 	color: #414141;
 	text-align: center;
-	padding: 1em;
+	padding: 0 0 1em 0;
 	margin: 0 auto;
 	font-size: 2em;
 	line-height: 1.5em;
@@ -132,7 +139,7 @@ a {
 
 .contentBlock {
 	padding: 0 2.2em;
-	flex: 1 500px;
+	flex: 1 400px;
 	min-width: 400px;
 }
 
@@ -204,7 +211,9 @@ a {
 }
 
 #mailingListContainer {
-
+    width: 100%;
+    background: rgb(255, 255, 255, 0.25);
+    background-blend-mode: multiply;
 }
 
 #mailingListContainer .mailingList {
@@ -219,11 +228,11 @@ a {
 	color: #212121;
 	padding: 0 0;
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .mailingList p {
-	font-family: 'Source Serif Pro', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
 	color: #212121;
 	margin: 0.8em 0;
@@ -259,8 +268,8 @@ a {
 
 #footer p {
 	color: #fff;
-	font-family: 'Source Serif Pro', sans-serif;
-	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
 	font-size: 1em;
 	letter-spacing: 0.1em;
 }

@@ -44,9 +44,6 @@ a {
     flex-direction: column-reverse;
     align-items: flex-start;
     flex-wrap: wrap;
--webkit-box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
--moz-box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
-box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 }
 
 .headerContainer {
@@ -55,12 +52,12 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 
 .headerContainer h1 {
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+	font-weight: 900;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 2.5em;
 	background: #414141;
-	padding: 0 1em 0 0.2em;
+	padding: 0 1em 0 0.4em;
 	display: inline;
 }
 
@@ -123,7 +120,7 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 	padding: 1em 0 1em 0;
 	margin: 0 auto;
 	font-size: 1.9em;
-	line-height: 1.2em;
+	line-height: 1.5em;
     width: 70%;
 }
 
@@ -136,19 +133,27 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 }
 
 .contentBlock {
-	padding: 0 2.2em;
+	padding: 0;
 	flex: 1 400px;
 	min-width: 400px;
 }
 
+.contentBlock:first-child {
+	padding-right: 2.4em;
+}
+
+.contentBlock:last-child {
+	padding-left: 2.4em;
+}
+
 .contentBlock h2 {
-	font-family: 'Work Sans', sans-serif;
-	text-transform: uppercase;
+	font-family: 'Fira Sans', sans-serif;
+	text-transform: capitalize;
 	font-weight: 900;
 	color: #3F3631;
-	font-size: 1.1em;
-	border-bottom: 8px solid rgba(177, 176, 175, 0.5);
-	line-height: 7px;
+	font-size: 1.25em;
+	border-bottom: 1px solid rgba(65, 65, 65);
+	line-height: 20px;
 	display: inline-block;
 }
 
@@ -163,7 +168,7 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 }
 
 .contentBlock ol {
-	font: inherit;
+	font-size: 1.1em;
 	line-height: 1.8em;
 	counter-reset: li;
 }
@@ -182,9 +187,9 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 }
 
 #ideasContainer {
-	background-image: url("../images/background_waves.png");
+	background-image: url("../images/background.jpg");
 	background-attachment: fixed;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	padding: 4em 5.8em;
 	margin: 0 auto;
 }
@@ -256,9 +261,9 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 
 /* Footer */
 #footer {
-	background-image: url("../images/background_waves.png");
+	background-image: url("../images/background.jpg");
 	background-attachment: fixed;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	margin: 0 auto;
 	padding: 2em 2em;
 	text-align: center;

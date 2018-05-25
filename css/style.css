@@ -84,18 +84,8 @@ a {
     padding: 0;
     line-height: 1.4em;
     letter-spacing: 0.02em;
-/*    background-color: rgba(255, 255, 255, 0.9);*/
     display: inline;
 }
-
-/*.quote blockquote:before {
-	content: "\201C";
-	color: #CFC9C6;
-	font-size: 5.8em;
-	position: absolute;
-	top: 0.3em;
-    left: -0.4em;
-}*/
 
 .quoteSmall {
 	font-size: 1em;
@@ -236,7 +226,6 @@ a {
 	margin: 0.8em 0;
 	font-size: 1.2em;
 	line-height: 1.6em;
-	letter-spacing: 0.04em;
 }
 
 .mailingList .submit {
@@ -268,7 +257,7 @@ a {
 	color: #fff;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 #footer a {
@@ -367,10 +356,6 @@ a {
 	font-style: italic;
 }
 
-img {
-	max-width: 100%;
-    height: auto;
-}
 
 /* Turn off parallax on smaller screens */
 @media only screen and (max-device-width: 1366px) {
@@ -381,6 +366,121 @@ img {
 
 }
 
+
+/* For tablet screens and below */
+@media (min-width: 801px) and (max-width: 1000px) {
+
+	.contentBlock:first-child {
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+
+	.contentBlock:last-child {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+
+	.headerContainer h1 {
+		font-size: 2em;
+		padding: 0 1em 0 0.4em;
+	}
+
+	.subtitle {
+		font-size: 1.7em;
+	}
+
+	.contentBlock:first-child {
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+
+	.contentBlock:last-child {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	#ideasContainer {
+		padding: 1.2em 1.5em;
+	}
+
+	.ideas h2 {
+		font-size: 1.7em;
+	}
+
+	.ideas p {
+		font-size: 1.2em;
+	}
+
+	.mailingList h2 {
+		font-size: 1.7em;
+	}
+
+	.mailingList p {
+		font-size: 1.2em;
+	}
+
+	.mailingList .submit {
+		font-size: 1em;
+	}
+
+	#footer p {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+
+	.headerContainer h1 {
+		font-size: 2em;
+		padding: 0 1em 0 0.4em;
+	}
+
+	.subtitle {
+		font-size: 1.7em;
+	}
+
+	.contentBlock:first-child {
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+
+	.contentBlock:last-child {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	#ideasContainer {
+		padding: 1.2em 1.5em;
+	}
+
+	.ideas h2 {
+		font-size: 1.7em;
+	}
+
+	.ideas p {
+		font-size: 1.2em;
+	}
+
+	.mailingList h2 {
+		font-size: 1.7em;
+	}
+
+	.mailingList p {
+		font-size: 1.2em;
+	}
+
+	.mailingList .submit {
+		font-size: 1em;
+	}
+
+	#footer p {
+		font-size: 1em;
+	}
+
+}
 
 /* UIO Customization */
 .flc-toc-tocContainer {

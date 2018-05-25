@@ -285,20 +285,31 @@ a {
 
 /* Ideas in Progress */
 #ideasHeader {
-	width: 100%;
+	max-width: 1000px;
 	margin: 0 auto;
 	display: block;
+	background-image: url("../images/background.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	margin: 0 auto;
 }
 
 .ideasHeaderContainer {
-	padding: 1.5em 3em;
+	padding-top: 1.5em;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
 }
 
 .ideasHeaderContainer h1 > a {
 	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
 	color: #fff;
-	font-size: 1.5rem;
+	background: #19242a;
+	display: inline;
+	font-size: 1.8rem;
 	text-decoration: none;
+	padding: 0 1em 0 0.4em;
 }
 
 .ideasHeaderContainer h1 > a:hover {
@@ -306,12 +317,9 @@ a {
 	cursor: hand;
 }
 
-#ideasContent {
-}
-
 .ideasContentContainer {
 	width: 80%;
-	padding: 2em 3em;
+	padding: 1em;
 }
 
 .ideasContentBlock {
@@ -320,40 +328,53 @@ a {
 }
 
 .ideasDate {
-	font-family: 'Source Serif Pro', sans-serif;
-	font-size: 0.8rem;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1rem;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
 }
 
 .ideasContentBlock h2 {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	color: #212121;
-	font-size: 1.2em;
+	font-size: 1.7em;
+	font-weight: 800;
 }
 
 .ideasContentBlock h3 {
-	font-family: 'Source Serif Pro', sans-serif;
-	font-weight: 500;
+	font-family: 'Fira Sans', sans-serif;
+	border-bottom: 1px solid rgba(65, 65, 65);
+	display: inline;
+	font-weight: 400;
 	color: #212121;
-	font-size: 1.25em;
+	font-size: 1.4em;
 	line-height: 1.6em;
 	margin-bottom: 0;
 	margin-top: 1.3em;
 }
 
-.ideasContentBlock p > li {
-	font-family: 'Source Serif Pro', sans-serif;
-	font-weight: 300;
-	color: #212121;
-	font-size: 1.1em;
+.ideasContentBlock p {
+	font-size: 1.2em;
 	line-height: 1.6em;
 }
 
+.ideasContentBlock li {
+	font-family: 'Work Sans', sans-serif;
+	color: #212121;
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+
 .ideasContentBlock blockquote {
-	line-height: 1.6em;
+	font-size: 1em;
+	line-height: 1.5em;
 	font-style: italic;
+}
+
+img {
+	max-width: 1000px;
+	display: block;
 }
 
 

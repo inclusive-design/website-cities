@@ -22,10 +22,17 @@ a {
 	color: #7c7c7c;
 }
 
+::selection {
+  background: rgb(177, 176, 175);
+}
+::-moz-selection {
+  background: rgb(177, 176, 175);
+}
+
 /* Body Container */
 #body {
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 1200px;
 }
 
 /* Header */
@@ -36,7 +43,7 @@ a {
 	background-size: 400px, cover;
 	background-blend-mode: multiply;
 	display: block;
-	min-height: 485px;
+	min-height: 418px;
 	display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -58,42 +65,42 @@ a {
 	display: inline;
 }
 
-.introduction {
-	padding: 4em;
-}
-.introduction blockquote {
-	border: none;
+.quote {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    color: #414141;
+    font-size: 1.6em;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    padding-bottom: 0;
 }
 
-.introduction blockquote:before {
+.quote blockquote {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3em;
+    letter-spacing: 0.02em;
+}
+
+.quote blockquote:before {
 	content: "\201C";
 	color: #CFC9C6;
 	font-size: 5.8em;
-	position: relative;
-	top: 80px;
-}
-
-.quote {
-	font-family: 'Source Serif Pro', serif;
-	font-weight: 500;
-	color: #414141;
-	font-size: 2em;
-	line-height: 1.3em;
-	letter-spacing: 0.02em;
-	width: 65%;
-	padding: 0.5em 0.9em;
-	margin: 0 auto;
-	text-indent: -80px;
+	position: absolute;
+	top: 0.3em;
+    left: -0.4em;
 }
 
 .quoteSmall {
-	font-size: 0.9em;
+	font-size: 0.8em;
+    font-family: 'Work Sans', sans-serif;
 	line-height: 1.8em;
-}
-
-.quoteMarks {
-	font-size: 5em;
-	padding-left: ;
+    text-align: right;
+    padding-top: 0.2em;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 #content {
@@ -102,36 +109,31 @@ a {
 	background-blend-mode: multiply;
 }
 
-.introduction .subtitle {
+.subtitle {
 	font-family: 'Source Serif Pro', sans-serif;
 	font-weight: 500;
-	color: #212121;
+	color: #414141;
 	text-align: center;
-	padding: 2em 5.8em;
+	padding: 1em;
 	margin: 0 auto;
 	font-size: 2em;
 	line-height: 1.5em;
 	letter-spacing: 0.05em;
-}
-
-.subtitle {
-	display: block;
-	font-size: 1.8em;
-	line-height: 1.2em;
+    width: 65%;
 }
 
 .contentContainer {
-	width: 90%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0;
+    padding: 0 1.5em 2em 0;
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 2em;
 }
 
 .contentBlock {
-	padding: 1.5em;
+	padding: 0 2.2em;
 	flex: 1 500px;
-	min-width: 0;
+	min-width: 400px;
 }
 
 .contentBlock h2 {
@@ -139,26 +141,25 @@ a {
 	text-transform: uppercase;
 	font-weight: 900;
 	color: #3F3631;
-	font-size: 1em;
-	border-bottom: 9px solid rgba(177, 176, 175, 0.5);
-	line-height: 14px;
-	display: inline;
+	font-size: 1.2em;
+	border-bottom: 8px solid rgba(177, 176, 175, 0.5);
+	line-height: 7px;
+	display: inline-block;
 }
 
 .contentBlock p {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-	color: #3F3631;
+	color: #414141;
 	font-size: 1.1em;
 	line-height: 1.6em;
+    margin: 0;
+    padding-bottom: 1em;
 }
 
 .contentBlock ol {
-	font-family: 'Source Serif Pro', sans-serif;
-	font-weight: 300;
-	font-size: 1.1em;
+	font: inherit;
 	line-height: 1.8em;
-	letter-spacing: 0.05rem;
 	counter-reset: li;
 }
 
@@ -188,7 +189,7 @@ a {
 	color: #e7e7e7;
 	padding: 0 0;
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
 }
 
@@ -349,7 +350,7 @@ a {
 	margin-top: 1.3em;
 }
 
-.ideasContentBlock p, li {
+.ideasContentBlock p > li {
 	font-family: 'Source Serif Pro', sans-serif;
 	font-weight: 300;
 	color: #212121;

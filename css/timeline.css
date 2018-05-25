@@ -23,17 +23,18 @@
 }
 
 .timelineDate {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 0.9rem;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-size: 0.5rem;
     font-weight: 500;
     color: #e7e7e7;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
 }
 
 .timelineContent h3 > a {
     font-size: 1.1em;
     color: #e7e7e7;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .timelineContent p {

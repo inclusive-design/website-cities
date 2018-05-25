@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans|Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans|Fira+Sans');
 
 
 /* Global */
@@ -9,9 +9,6 @@ body, html {
 	border: 0;
 	margin: 0;
 	padding: 0;
-	background-image: url("../images/background_texture.png"); /* background pattern from Toptal Subtle Patterns */
-	background-attachment: fixed;
-	background-repeat: repeat;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
 	display: flex;
@@ -38,11 +35,10 @@ a {
 /* Header */
 #header {
 	width: 100%;
-	background-image: url("../images/background_texture.png"), url("../images/header.jpg");
-	background-repeat: repeat, no-repeat;
-	background-size: 400px, cover;
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-blend-mode: multiply;
-	display: block;
 	min-height: 413px;
 	display: flex;
     flex-direction: column-reverse;
@@ -82,11 +78,8 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
     font-weight: 500;
     color: #fff;
     font-size: 1.1em;
-    width: 100%;
     margin: 0;
-    padding-top: 0.9em;
-    padding-bottom: 1em;
-    padding-left: 2.5em;
+    padding: 1em 1em
 }
 
 .quote blockquote {
@@ -123,16 +116,15 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 }
 
 .subtitle {
-	font-family: 'Source Serif Pro', sans-serif;
-	font-weight: 500;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600;
 	color: #414141;
 	text-align: center;
 	padding: 1em 0 1em 0;
 	margin: 0 auto;
-	font-size: 2em;
-	line-height: 1.5em;
-	letter-spacing: 0.05em;
-    width: 65%;
+	font-size: 1.9em;
+	line-height: 1.2em;
+    width: 70%;
 }
 
 .contentContainer {
@@ -154,7 +146,7 @@ box-shadow: inset 1px -48px 201px -48px rgba(10,29,38,0.76);
 	text-transform: uppercase;
 	font-weight: 900;
 	color: #3F3631;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	border-bottom: 8px solid rgba(177, 176, 175, 0.5);
 	line-height: 7px;
 	display: inline-block;

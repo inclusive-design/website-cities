@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300|Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300|Merriweather:300');
 
 
 /* Global */
@@ -34,19 +34,26 @@ a {
 
 /* Header */
 #header {
-	background-image: url("../images/header.jpg");
+	background-image: url("../images/header.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #fff;
-	min-height: 413px;
+	width: 1380px;
+	min-height: 650px;
+	margin: 0 auto;
 	display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .headerContainer {
 	padding: 0;
+	width: 90%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
 }
 
 .headerContainer h1 {
@@ -101,7 +108,7 @@ a {
 }
 
 .subtitle {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 600;
 	color: #414141;
 	text-align: center;
@@ -133,7 +140,7 @@ a {
 }
 
 .contentBlock h2 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	text-transform: capitalize;
 	font-weight: 900;
 	color: #3F3631;
@@ -144,7 +151,7 @@ a {
 }
 
 .contentBlock p {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 400;
 	color: #414141;
 	font-size: 1.1em;
@@ -173,15 +180,17 @@ a {
 }
 
 #ideasContainer {
-	background-image: url("../images/background.jpg");
+	/*background-image: url("../images/bike.png");*/
 	background-attachment: scroll;
 	background-repeat: no-repeat;
+	background-position: top left;
 	padding: 4em 5.8em;
 	margin: 0 auto;
+	background-color: #6cb5da;
 }
 
 .ideas h2 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	color: #e7e7e7;
 	padding: 0 0;
 	margin: 0;
@@ -212,7 +221,7 @@ a {
 }
 
 .mailingList h2 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	color: #212121;
 	padding: 0 0;
 	margin: 0;
@@ -336,14 +345,14 @@ a {
 }
 
 .ideasContentBlock h2 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	color: #212121;
 	font-size: 1.7em;
 	font-weight: 800;
 }
 
 .ideasContentBlock h3 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	border-bottom: 1px solid rgba(65, 65, 65);
 	display: inline;
 	font-weight: 400;

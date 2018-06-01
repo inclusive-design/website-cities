@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300|Merriweather:300');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,500|Merriweather:300,500');
 
 
 /* Global */
@@ -9,160 +9,107 @@ body, html {
 	border: 0;
 	margin: 0;
 	padding: 0;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 500;
-	display: flex;
-	flex-direction: column;
+	background-color: #fff;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 a {
 	color: #7c7c7c;
 }
 
-::selection {
-  background: rgb(177, 176, 175);
-}
-::-moz-selection {
-  background: rgb(177, 176, 175);
-}
-
-/* Body Container */
-#body {
-	margin: 0 auto;
-	max-width: 1000px;
-}
 
 /* Header */
 #header {
-	background-image: url("../images/header.png");
+
+	background-image: url("../images/header-city.png");
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #fff;
-	width: 1380px;
-	min-height: 650px;
+	background-position: right top;
+	background-size: contain;
+	width: 100%;
 	margin: 0 auto;
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
+	display: block;
+	min-height: 489px;
 }
 
 .headerContainer {
-	padding: 0;
-	width: 90%;
-	margin: 0 auto;
-	position: absolute;
-	bottom: 0;
+	padding: 3.5em;
 }
 
 .headerContainer h1 {
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 900;
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 2.5em;
-	background: #19242a;
-	padding: 0 1em 0 0.4em;
-	display: inline;
+	color: #333;
+	font-size: 1.5em;
 }
 
-.introduction {
-    width: 100%;
-}
-
-.waves {
-    text-align: center;
-    padding: 0.8em;
+.headerContainer .subtitle {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	color: #333;
+	width: 90%;
+	font-size: 1em;
+	text-indent: -0.45em;
+	line-height: 1.2em;
+	letter-spacing: 0.02em;
 }
 
 .quote {
-    font-family: 'Work Sans', serif;
-    font-weight: 500;
-    color: #fff;
-    font-size: 1.1em;
-    margin: 0;
-    padding: 1em 1em
-}
-
-.quote blockquote {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    line-height: 1.4em;
-    letter-spacing: 0.02em;
-    display: inline;
-}
-
-.quoteSmall {
-	font-size: 1em;
-    font-family: 'Work Sans', sans-serif;
-    text-align: right;
-    padding: 0;
-    margin: 0;
+	font-size: 0.8em;
 }
 
 #content {
-	width: 100%;
 	background-color: #fff;
+	width: 100%;
 }
 
-.subtitle {
+#content .introduction {
 	font-family: 'Merriweather', sans-serif;
-	font-weight: 600;
-	color: #414141;
+	font-weight: 500;
+	color: #212121;
 	text-align: center;
-	padding: 1em 0 1em 0;
+	padding: 2em 5.8em;
 	margin: 0 auto;
-	font-size: 1.9em;
+	font-size: 1.3em;
 	line-height: 1.5em;
-    width: 70%;
+	letter-spacing: 0.05em;
 }
 
 .contentContainer {
-	margin: 0;
-    padding: 0 1.5em 2em 0;
+	width: 90%;
+	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 2em;
 }
 
 .contentBlock {
-	padding: 0;
-	flex: 1 400px;
-}
-
-.contentBlock:first-child {
-	padding-right: 2em;
-}
-
-.contentBlock:last-child {
-	padding-left: 2em;
+	padding: 1.5em;
+	flex: 1 500px;
+	min-width: 0;
 }
 
 .contentBlock h2 {
 	font-family: 'Work Sans', sans-serif;
-	text-transform: capitalize;
-	font-weight: 900;
-	color: #3F3631;
-	font-size: 1.25em;
-	border-bottom: 1px solid rgba(65, 65, 65);
-	line-height: 20px;
-	display: inline-block;
+	color: #212121;
+	font-size: 1.2em;
 }
 
 .contentBlock p {
 	font-family: 'Merriweather', sans-serif;
-	font-weight: 400;
-	color: #414141;
+	font-weight: 300;
+	color: #212121;
 	font-size: 1.1em;
 	line-height: 1.6em;
-    margin: 0;
-    padding-bottom: 1em;
+	letter-spacing: 0.05em;
 }
 
 .contentBlock ol {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 300;
 	font-size: 1.1em;
-	line-height: 1.7em;
+	line-height: 1.8em;
+	letter-spacing: 0.05rem;
 	counter-reset: li;
 }
 
@@ -180,26 +127,22 @@ a {
 }
 
 #ideasContainer {
-	/*background-image: url("../images/bike.png");*/
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: top left;
+	background: transparent;
 	padding: 4em 5.8em;
 	margin: 0 auto;
-	background-color: #6cb5da;
 }
 
 .ideas h2 {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #e7e7e7;
 	padding: 0 0;
 	margin: 0;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center;
 }
 
 .ideas p {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 300;
 	color: #e7e7e7;
 	margin: 0.8em 0;
@@ -209,8 +152,7 @@ a {
 }
 
 #mailingListContainer {
-    width: 100%;
-    background: #fff;
+	background-color: #e7e7e7;
 }
 
 #mailingListContainer .mailingList {
@@ -221,20 +163,21 @@ a {
 }
 
 .mailingList h2 {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #212121;
 	padding: 0 0;
 	margin: 0;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .mailingList p {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 	font-weight: 300;
 	color: #212121;
 	margin: 0.8em 0;
 	font-size: 1.2em;
 	line-height: 1.6em;
+	letter-spacing: 0.04em;
 }
 
 .mailingList .submit {
@@ -254,9 +197,7 @@ a {
 
 /* Footer */
 #footer {
-	background-image: url("../images/background.jpg");
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-color: transparent;
 	margin: 0 auto;
 	padding: 2em 2em;
 	text-align: center;
@@ -264,9 +205,10 @@ a {
 
 #footer p {
 	color: #fff;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 500;
-	font-size: 1.1em;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	letter-spacing: 0.1em;
 }
 
 #footer a {
@@ -294,31 +236,21 @@ a {
 
 /* Ideas in Progress */
 #ideasHeader {
-	max-width: 1000px;
+	width: 100%;
 	margin: 0 auto;
+	background-color: transparent;
 	display: block;
-	background-image: url("../images/background.jpg");
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	margin: 0 auto;
 }
 
 .ideasHeaderContainer {
-	padding-top: 1.5em;
-	padding-left: 0;
-	padding-right: 0;
-	padding-bottom: 0;
+	padding: 1.5em 3em;
 }
 
 .ideasHeaderContainer h1 > a {
 	font-family: 'Work Sans', sans-serif;
-	text-transform: uppercase;
 	color: #fff;
-	background: #19242a;
-	display: inline;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	text-decoration: none;
-	padding: 0 1em 0 0.4em;
 }
 
 .ideasHeaderContainer h1 > a:hover {
@@ -326,9 +258,14 @@ a {
 	cursor: hand;
 }
 
+#ideasContent {
+	background-color: #fff;
+	width: 100%;
+}
+
 .ideasContentContainer {
 	width: 80%;
-	padding: 1em;
+	padding: 2em 3em;
 }
 
 .ideasContentBlock {
@@ -336,55 +273,35 @@ a {
 	margin: 0;
 }
 
-.ideasDate {
+.ideasContentBlock h2 {
 	font-family: 'Work Sans', sans-serif;
-	font-size: 1rem;
+	color: #212121;
+	font-size: 1.2em;
+}
+
+.ideasContentBlock h3 {
+	font-family: 'Merriweather', sans-serif;
+	font-size: 0.8rem;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
 }
 
-.ideasContentBlock h2 {
-	font-family: 'Merriweather', sans-serif;
-	color: #212121;
-	font-size: 1.7em;
-	font-weight: 800;
-}
-
-.ideasContentBlock h3 {
-	font-family: 'Merriweather', sans-serif;
-	border-bottom: 1px solid rgba(65, 65, 65);
-	display: inline;
-	font-weight: 400;
-	color: #212121;
-	font-size: 1.4em;
-	line-height: 1.6em;
-	margin-bottom: 0;
-	margin-top: 1.3em;
-}
-
 .ideasContentBlock p {
-	font-size: 1.2em;
-	line-height: 1.6em;
-}
-
-.ideasContentBlock li {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 300;
 	color: #212121;
-	font-size: 1.2em;
-	line-height: 1.7em;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
 }
 
 .ideasContentBlock blockquote {
-	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
 	font-style: italic;
 }
 
-img {
-	max-width: 1000px;
-	display: block;
-}
 
 
 /* Turn off parallax on smaller screens */
@@ -397,126 +314,11 @@ img {
 }
 
 
-/* For tablet screens and below */
-@media (min-width: 801px) and (max-width: 1000px) {
-
-	.contentBlock:first-child {
-		padding-right: 2em;
-		padding-left: 2em;
-	}
-
-	.contentBlock:last-child {
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-}
-
-@media only screen and (min-width: 641px) and (max-width: 800px) {
-
-	.headerContainer h1 {
-		font-size: 2em;
-		padding: 0 1em 0 0.4em;
-	}
-
-	.subtitle {
-		font-size: 1.7em;
-	}
-
-	.contentBlock:first-child {
-		padding-right: 2em;
-		padding-left: 2em;
-	}
-
-	.contentBlock:last-child {
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-
-	#ideasContainer {
-		padding: 1.2em 1.5em;
-	}
-
-	.ideas h2 {
-		font-size: 1.7em;
-	}
-
-	.ideas p {
-		font-size: 1.2em;
-	}
-
-	.mailingList h2 {
-		font-size: 1.7em;
-	}
-
-	.mailingList p {
-		font-size: 1.2em;
-	}
-
-	.mailingList .submit {
-		font-size: 1em;
-	}
-
-	#footer p {
-		font-size: 1em;
-	}
-}
-
-@media only screen and (max-width: 640px) {
-
-	.headerContainer h1 {
-		font-size: 2em;
-		padding: 0 1em 0 0.4em;
-	}
-
-	.subtitle {
-		font-size: 1.7em;
-	}
-
-	.contentBlock:first-child {
-		padding-right: 2em;
-		padding-left: 2em;
-	}
-
-	.contentBlock:last-child {
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-
-	#ideasContainer {
-		padding: 1.2em 1.5em;
-	}
-
-	.ideas h2 {
-		font-size: 1.7em;
-	}
-
-	.ideas p {
-		font-size: 1.2em;
-	}
-
-	.mailingList h2 {
-		font-size: 1.7em;
-	}
-
-	.mailingList p {
-		font-size: 1.2em;
-	}
-
-	.mailingList .submit {
-		font-size: 1em;
-	}
-
-	#footer p {
-		font-size: 1em;
-	}
-
-}
-
 /* UIO Customization */
 .flc-toc-tocContainer {
-	width: 85%;
-	margin: 0 auto;
-	font-size: 1.5em;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar {
@@ -531,9 +333,9 @@ img {
 }
 
 .fl-prefsEditor-buttons-container {
-	max-width: 1000px;
-	margin: 0 auto;
-	position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
@@ -553,7 +355,7 @@ img {
 }
 
 .fl-prefsEditor-buttons {
-	position: absolute;
+    position: absolute;
 }
 
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {

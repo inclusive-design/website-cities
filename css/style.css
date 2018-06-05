@@ -11,7 +11,6 @@ body, html {
 	padding: 0;
 	background-color: #fff;
 	font-family: 'Merriweather', sans-serif;
-	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -19,19 +18,21 @@ a {
 	color: #000;
     background-image: linear-gradient(180deg,transparent 60%, rgba(230, 230, 230, .5) 0);
     background-blend-mode: multiply;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     text-decoration: none;
+}
+
+a:hover {
+	background-image: linear-gradient(180deg,transparent 90%, rgb(0, 0, 0) 0);
 }
 
 
 /* Header */
 #header {
-
 	background-image: url("../images/header-city.png");
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: contain;
-	width: 100%;
 	margin: 0 auto;
 	display: block;
 	min-height: 489px;
@@ -60,7 +61,7 @@ a {
 	font-size: 1.5em;
 	text-indent: -0.45em;
     background-color: #fff;
-    display: inline;
+    display: inline-block;
 }
 
 .quote {
@@ -325,67 +326,157 @@ a {
 
 }
 
+/* Extra small devices */
+@media only screen and (max-width: 40em) {
+
+	#header {
+		background-image: none;
+		padding: 1.4em 0.5em;
+	}
+
+	.headerContainer h1 {
+		font-size: 2em;
+	}
+
+	.subtitle {
+		font-size: 1em;
+	}
+
+	.quote {
+		font-size: 0.9em;
+	}
+
+	.introduction {
+		font-size: 1.5em;
+	}
+
+}
+
+/* Small devices */
+@media only screen and (min-width: 40em) {
+	#header {
+		background-image: none;
+		padding: 1.4em 0.5em;
+	}
+
+	.headerContainer h1 {
+		font-size: 2em;
+	}
+
+	.subtitle {
+		font-size: 1.2em;
+	}
+
+	.quote {
+		font-size: 0.9em;
+	}
+
+	.introduction {
+		font-size: 1.5em;
+	}
+
+}
+
+/* Medium devices */
+@media only screen and (min-width: 48em) {
+	#header {
+		background-image: url("../images/header-city.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-size: contain;
+		padding: 1.4em 0.5em;
+	}
+
+	.headerContainer {
+		width: 60%;
+	}
+
+	.headerContainer h1 {
+		font-size: 2.1em;
+	}
+
+	.subtitle {
+		font-size: 1.3em;
+	}
+
+	.quote {
+		font-size: 0.9em;
+	}
+
+	.introduction {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	#header {
+		background-image: url("../images/header-city.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-size: contain;
+		padding: 1.4em 0.5em;
+	}
+
+	.headerContainer {
+		width: 65%;
+	}
+
+	.headerContainer h1 {
+		font-size: 2.5em;
+	}
+
+	.subtitle {
+		font-size: 1.5em;
+	}
+
+	.quote {
+		font-size: 0.9em;
+	}
+
+	.introduction {
+		font-size: 1.7em;
+	}
+}
+
+
+
 
 /* UIO Customization */
 .flc-toc-tocContainer {
-    width: 85%;
-    margin: 0 auto;
-    font-size: 1.5em;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1.5em;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar {
     background-color: transparent;
-    color: #403E3C;
+    color: #000;
     border-bottom: none;
     box-shadow: none;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    position: absolute;
-}
-
-.fl-prefsEditor-buttons-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    position: relative;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
-    background-color: #fff;
-    color: #403E3C;
+    background-color: transparent;
+    color: #000;
     box-shadow: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom: 0;
     border-right: 0;
     border-left: 0;
-    margin-right: 0;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    right: 0;
-}
-
-.fl-prefsEditor-buttons {
-    position: absolute;
+    margin-right: 10em;
 }
 
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
     background-color: transparent;
-    color: #403E3C;
+    color: #000;
     box-shadow: none;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
 }
 
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
     background-color: transparent;
-    color: #403E3C;
+    color: #000;
     box-shadow: none;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
 }
 
 .fl-theme-by body,

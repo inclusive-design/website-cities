@@ -109,7 +109,7 @@ a:hover {
 }
 
 .contentBlock p {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	color: #212121;
 	font-size: 1.1em;
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .contentBlock ol {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	font-size: 1.1em;
 	line-height: 1.8em;
@@ -170,7 +170,7 @@ a:hover {
 }
 
 .ideas p {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	margin: 0.8em 0;
 	font-size: 1.2em;
@@ -283,23 +283,28 @@ a:hover {
 }
 
 .ideasHeaderContainer {
-	padding: 1.5em 3em;
+	padding: 2em 3em;
+	display: flex;
+	justify-content: space-between;
 }
 
-.ideasHeaderContainer h1 > a {
+.ideasHeaders h1 > a {
 	font-family: 'Work Sans', sans-serif;
-	color: #fff;
+	color: #000;
 	font-size: 1.5rem;
 	text-decoration: none;
 }
 
+.ideasHeaders h2 {
+	font-weight: 400;
+}
+
 .ideasHeaderContainer h1 > a:hover {
-	text-decoration: underline;
 	cursor: hand;
 }
 
 #ideasContent {
-	background-color: #fff;
+	background-color: #F2F2F2;
 	width: 100%;
 }
 
@@ -316,18 +321,18 @@ a:hover {
 .ideasContentBlock h2 {
 	font-family: 'Work Sans', sans-serif;
 	color: #212121;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	font-weight: 400;
 }
 
 .ideasContentBlock h3 {
-	font-family: 'Merriweather', sans-serif;
-	font-size: 0.8rem;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.2em;
 	font-weight: 500;
-	text-transform: uppercase;
 }
 
 .ideasContentBlock p {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	color: #212121;
 	font-size: 1.1em;
@@ -337,6 +342,18 @@ a:hover {
 .ideasContentBlock blockquote {
 	line-height: 1.6em;
 	font-style: italic;
+	font-family: 'Merriweather', serif;
+}
+
+.ideasContentBlock ol, ul {
+	line-height: 1.5em;
+	font-size: 1.1em;
+	font-family: 'Merriweather', serif;
+}
+
+.home {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 }
 
 

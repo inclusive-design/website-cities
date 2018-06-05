@@ -334,6 +334,10 @@ a:hover {
 		padding: 1.4em 0.5em;
 	}
 
+	.headerContainer {
+		width: 80%;
+	}
+
 	.headerContainer h1 {
 		font-size: 2em;
 	}
@@ -357,6 +361,10 @@ a:hover {
 	#header {
 		background-image: none;
 		padding: 1.4em 0.5em;
+	}
+
+	.headerContainer {
+		width: 80%;
 	}
 
 	.headerContainer h1 {
@@ -489,7 +497,7 @@ a:hover {
 .fl-theme-wb html,
 .fl-theme-bw html,
 .fl-theme-lgdg html {
-	background-image: none;
+	background: none;
 }
 
 .fl-theme-by #header,
@@ -497,7 +505,7 @@ a:hover {
 .fl-theme-wb #header,
 .fl-theme-bw #header,
 .fl-theme-lgdg #header {
-	height: auto;
+	background: none;
 }
 
 .fl-theme-bw .logoContainer {

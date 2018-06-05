@@ -83,19 +83,16 @@ a:hover {
     margin-bottom: 2.2em;
 }
 
-.contentContainer {
-	width: 90%;
-	margin: 0 auto;
-	padding-bottom: 2em;
-}
-
 .row {
+	width: 100%;
+	margin: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
+	padding: 2rem 0;
 }
 
 .contentBlock {
-	padding: 1.5em;
+	padding: 0 3.5em;
 	min-width: 0;
 	flex: 1 500px;
 }
@@ -107,7 +104,8 @@ a:hover {
 .contentBlock h2 {
 	font-family: 'Work Sans', sans-serif;
 	color: #212121;
-	font-size: 1.2em;
+	font-weight: 400;
+	font-size: 1.5em;
 }
 
 .contentBlock p {
@@ -140,7 +138,11 @@ a:hover {
 }
 
 .img {
-	display: visible;
+	margin: 0 auto;
+}
+
+.imageContainer {
+	text-align: center;
 }
 
 #ideasContainer {
@@ -228,6 +230,7 @@ a:hover {
 	border: solid 1px #7c7c7c;
 	padding: 0.5em 0.8em;
 	background-color: #fff;
+	background-image: none;
 	text-decoration: none;
 	padding: 0.7em 1.2em;
 	font-size: 1.2rem;
@@ -572,6 +575,10 @@ a:hover {
 .fl-theme-bw #header,
 .fl-theme-lgdg #header {
 	background: none;
+}
+
+.fl-theme-wb .logoContainer {
+  background-image: url("../images/idrc-logo.svg");
 }
 
 .fl-theme-bw .logoContainer {

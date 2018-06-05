@@ -139,6 +139,10 @@ a:hover {
 	text-indent: -1.5em;
 }
 
+.img {
+	display: visible;
+}
+
 #ideasContainer {
 	background-color: #a7d3e9;
 	padding: 4em 5.8em;
@@ -343,6 +347,12 @@ a:hover {
 
 }
 
+@media only screen and (max-width: 76.999em) {
+	.img {
+		display: none;
+	}
+}
+
 /* Extra small devices */
 @media only screen and (max-width: 40em) {
 
@@ -426,7 +436,6 @@ a:hover {
 		width: 90%;
 		padding: 2em 2em;
 	}
-
 }
 
 /* Medium devices */
@@ -462,7 +471,9 @@ a:hover {
 	#ideasContainer {
 		padding: 4em 5.8em;
 	}
-
+	.img {
+		display: visible;
+	}
 }
 
 @media screen and (min-width: 64em) {
@@ -495,6 +506,9 @@ a:hover {
 	}
 	#ideasContainer {
 		padding: 4em 5.8em;
+	}
+	.img {
+		display: visible;
 	}
 }
 

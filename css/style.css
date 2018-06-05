@@ -204,7 +204,7 @@ a:hover {
 
 .mailingList {
 	padding: 4em 4em;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -491,6 +491,15 @@ a:hover {
 	#ideasContainer {
 		padding: 4em 5.8em;
 	}
+
+	.ideas {
+		width: 70%;
+	}
+
+	.mailingList {
+		width: 70%;
+	}
+
 	.img {
 		display: visible;
 	}

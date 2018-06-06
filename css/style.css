@@ -110,7 +110,7 @@ a:hover {
 	padding-left: 1.75em;
 }
 
-.row:first-child {
+.row:last-child {
 	background: #F2F2F2;
 }
 

@@ -572,6 +572,15 @@ a:hover {
 	.contentBlock:last-child {
 		padding-left: 1.75em;
 	}
+
+	.ideasContentContainer {
+		width: 70%;
+		padding: 2em 5em;
+	}
+
+	.ideasHeaderContainer {
+		padding: 2em 5em;
+	}
 }
 
 @media screen and (min-width: 64em) {
@@ -619,6 +628,15 @@ a:hover {
 
 	.contentBlock:last-child {
 		padding-left: 1.75em;
+	}
+
+	.ideasContentContainer {
+		width: 70%;
+		padding: 2em 5em;
+	}
+
+	.ideasHeaderContainer {
+		padding: 2em 5em;
 	}
 }
 

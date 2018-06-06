@@ -562,7 +562,7 @@ a:hover {
 	}
 
 	.img {
-		display: visible;
+		visibility: visible;
 	}
 
 	.contentBlock:first-child {
@@ -615,7 +615,7 @@ a:hover {
 		padding: 4em 6.6em;
 	}
 	.img {
-		display: visible;
+		visibility: visible;
 	}
 
 	.contentBlock {

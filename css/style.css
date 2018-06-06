@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500|Merriweather:300,500');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700');
 
 
 /* Global */
@@ -34,20 +34,20 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: contain;
-	margin: 0 auto;
-	display: block;
+	margin: 0;
+	min-height: 489px;
 }
 
 .headerContainer {
-	padding: 1.4em 3.5em;
-    width: 65%;
+	padding: 11em 6.2em 0 6.2em;
+    width: 58%;
 }
 
 .headerContainer h1 {
 	font-family: 'Work Sans', sans-serif;
 	color: #333;
 	font-size: 2.5em;
-    font-weight: 400;
+    font-weight: 700;
     background-color: #fff;
     display: inline-block;
     margin-bottom: 0.6em;
@@ -73,28 +73,41 @@ a:hover {
 	width: 100%;
 }
 
+#introContainer {
+	background-color: #a7d3e9;
+	padding: 4em 5.8em;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .introduction {
+	width: 70%;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	color: #212121;
-	font-size: 1.7em;
-    background-color: #fff;
+	font-size: 2em;
     display: inline-block;
-    margin-bottom: 2.2em;
 }
 
 .row {
-	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
-	padding: 2rem 0;
+	padding: 2em 6.5em;
 }
 
 .contentBlock {
-	padding: 0 3.5em;
+	padding: 0;
 	min-width: 0;
 	flex: 1 500px;
+}
+
+.contentBlock:first-child {
+	padding-right: 1.75em;
+}
+
+.contentBlock:last-child {
+	padding-left: 1.75em;
 }
 
 .row:last-child {
@@ -104,23 +117,23 @@ a:hover {
 .contentBlock h2 {
 	font-family: 'Work Sans', sans-serif;
 	color: #212121;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 1.5em;
 }
 
 .contentBlock p {
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 	color: #212121;
-	font-size: 1.1em;
-	line-height: 1.6em;
+	font-size: 1.2em;
+	line-height: 1.7em;
 }
 
 .contentBlock ol {
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
-	font-size: 1.1em;
-	line-height: 1.8em;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 1.9em;
 	counter-reset: li;
 }
 
@@ -146,19 +159,14 @@ a:hover {
 }
 
 #ideasContainer {
-	background-color: #a7d3e9;
-	padding: 4em 5.8em;
+	background-color: #fff;
+	padding: 4em 6.6em;
 }
 
-.ideas {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.ideas h2 {
+#ideasContainer h2 {
 	font-family: 'Work Sans', sans-serif;
 	color: #000;
-    font-weight: 400;
+    font-weight: 500;
 	padding: 0 0;
 	margin: 0;
 	font-size: 2em;
@@ -170,8 +178,8 @@ a:hover {
 }
 
 .ideas p {
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 	margin: 0.8em 0;
 	font-size: 1.2em;
 	line-height: 1.6em;
@@ -215,6 +223,7 @@ a:hover {
 	padding: 0 0;
 	margin: 0;
 	font-size: 1.5em;
+	font-weight: 500;
 }
 
 .mailingList p {
@@ -283,7 +292,7 @@ a:hover {
 }
 
 .ideasHeaderContainer {
-	padding: 2em 3em;
+	padding: 2em 5em;
 	display: flex;
 	justify-content: space-between;
 }
@@ -291,12 +300,12 @@ a:hover {
 .ideasHeaders h1 > a {
 	font-family: 'Work Sans', sans-serif;
 	color: #000;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	text-decoration: none;
 }
 
 .ideasHeaders h2 {
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .ideasHeaderContainer h1 > a:hover {
@@ -310,7 +319,7 @@ a:hover {
 
 .ideasContentContainer {
 	width: 80%;
-	padding: 2em 3em;
+	padding: 2em 5em;
 }
 
 .ideasContentBlock {
@@ -322,7 +331,7 @@ a:hover {
 	font-family: 'Work Sans', sans-serif;
 	color: #212121;
 	font-size: 1.5em;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .ideasContentBlock h3 {
@@ -332,8 +341,8 @@ a:hover {
 }
 
 .ideasContentBlock p {
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 	color: #212121;
 	font-size: 1.1em;
 	line-height: 1.6em;
@@ -342,13 +351,13 @@ a:hover {
 .ideasContentBlock blockquote {
 	line-height: 1.6em;
 	font-style: italic;
-	font-family: 'Merriweather', serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 .ideasContentBlock ol, ul {
 	line-height: 1.5em;
 	font-size: 1.1em;
-	font-family: 'Merriweather', serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 .home {
@@ -415,6 +424,20 @@ a:hover {
 		padding: 2em 2em;
 	}
 
+	.row {
+		padding: 2em 3.5em;
+	}
+
+	.contentBlock:first-child {
+		padding-right: 1.75em;
+		padding-left: 1.75em;
+	}
+
+	.contentBlock:last-child {
+		padding-left: 1.75em;
+		padding-right: 1.75em;
+	}
+
 }
 
 /* Small devices */
@@ -445,7 +468,7 @@ a:hover {
 	}
 
 	#ideasContainer {
-		padding: 2em;
+		padding: 2em 6.6em;
 	}
 
 	.ideas {
@@ -455,6 +478,20 @@ a:hover {
 	.mailingList {
 		width: 90%;
 		padding: 2em 2em;
+	}
+
+	.row {
+		padding: 2em 5em;
+	}
+
+	.contentBlock:first-child {
+		padding-right: 1.75em;
+		padding-left: 1.75em;
+	}
+
+	.contentBlock:last-child {
+		padding-left: 1.75em;
+		padding-right: 1.75em;
 	}
 }
 
@@ -469,7 +506,7 @@ a:hover {
 	}
 
 	.headerContainer {
-		width: 60%;
+		width: 58%;
 	}
 
 	.headerContainer h1 {
@@ -489,7 +526,7 @@ a:hover {
 	}
 
 	#ideasContainer {
-		padding: 4em 5.8em;
+		padding: 2em 6.6em;
 	}
 
 	.ideas {
@@ -503,6 +540,14 @@ a:hover {
 	.img {
 		display: visible;
 	}
+
+	.contentBlock:first-child {
+		padding-right: 1.75em;
+	}
+
+	.contentBlock:last-child {
+		padding-left: 1.75em;
+	}
 }
 
 @media screen and (min-width: 64em) {
@@ -515,7 +560,7 @@ a:hover {
 	}
 
 	.headerContainer {
-		width: 65%;
+		width: 58%;
 	}
 
 	.headerContainer h1 {
@@ -531,13 +576,25 @@ a:hover {
 	}
 
 	.introduction {
-		font-size: 1.7em;
+		font-size: 2em;
 	}
 	#ideasContainer {
-		padding: 4em 5.8em;
+		padding: 4em 6.6em;
 	}
 	.img {
 		display: visible;
+	}
+
+	.contentBlock {
+		padding: 0 6.5em;
+	}
+
+	.contentBlock:first-child {
+		padding-right: 1.75em;
+	}
+
+	.contentBlock:last-child {
+		padding-left: 1.75em;
 	}
 }
 

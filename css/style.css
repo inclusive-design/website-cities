@@ -393,6 +393,7 @@ a:hover {
 
 	.headerContainer {
 		width: 80%;
+		padding: 2em;
 	}
 
 	.headerContainer h1 {
@@ -409,6 +410,7 @@ a:hover {
 
 	.introduction {
 		font-size: 1.5em;
+		width: 80%;
 	}
 
 	#ideasContainer {
@@ -420,22 +422,22 @@ a:hover {
 	}
 
 	.mailingList {
-		width: 90%;
-		padding: 2em 2em;
+		width: 80%;
+		padding: 2em;
 	}
 
 	.row {
-		padding: 2em 3.5em;
+		padding: 2em;
 	}
 
 	.contentBlock:first-child {
-		padding-right: 1.75em;
-		padding-left: 1.75em;
+		padding-right: 0;
+		padding-left: 0;
 	}
 
 	.contentBlock:last-child {
-		padding-left: 1.75em;
-		padding-right: 1.75em;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 }
@@ -449,6 +451,7 @@ a:hover {
 
 	.headerContainer {
 		width: 80%;
+		padding: 2em;
 	}
 
 	.headerContainer h1 {
@@ -465,6 +468,7 @@ a:hover {
 
 	.introduction {
 		font-size: 1.5em;
+		width: 80%;
 	}
 
 	#ideasContainer {
@@ -477,21 +481,21 @@ a:hover {
 
 	.mailingList {
 		width: 90%;
-		padding: 2em 2em;
+		padding: 2em;
 	}
 
 	.row {
-		padding: 2em 5em;
+		padding: 2em;
 	}
 
 	.contentBlock:first-child {
-		padding-right: 1.75em;
-		padding-left: 1.75em;
+		padding-right: 0;
+		padding-left: 0;
 	}
 
 	.contentBlock:last-child {
-		padding-left: 1.75em;
-		padding-right: 1.75em;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 

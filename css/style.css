@@ -440,6 +440,15 @@ a:hover {
 		padding-right: 0;
 	}
 
+	.ideasContentContainer {
+		width: 80%;
+		padding: 2em;
+	}
+
+	.ideasHeaderContainer {
+		padding: 2em;
+	}
+
 }
 
 /* Small devices */
@@ -472,7 +481,8 @@ a:hover {
 	}
 
 	#ideasContainer {
-		padding: 2em 6.6em;
+		width: 80%;
+		padding: 2em;
 	}
 
 	.ideas {
@@ -497,6 +507,16 @@ a:hover {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+	.ideasContentContainer {
+		width: 80%;
+		padding: 2em;
+	}
+
+	.ideasHeaderContainer {
+		padding: 2em;
+	}
+
 }
 
 /* Medium devices */

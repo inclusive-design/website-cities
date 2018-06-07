@@ -4,19 +4,19 @@
 
 /* Global */
 body, html {
-	height: 100%;
-	min-height: 100%;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	background-color: #fff;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	color: #000;
+    height: 100%;
+    min-height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
 }
 
 a {
-	color: #000;
+    color: #000;
     background-image: linear-gradient(180deg,transparent 60%, rgba(191, 191, 191, .5) 0);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -24,29 +24,29 @@ a {
 }
 
 a:hover {
-	background-image: linear-gradient(180deg,transparent 90%, rgb(0, 0, 0) 0);
+    background-image: linear-gradient(180deg,transparent 90%, rgb(0, 0, 0) 0);
 }
 
 
 /* Header */
 #header {
-	background-image: url("../images/header-city.png");
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-size: contain;
-	margin: 0;
-	min-height: 489px;
+    background-image: url("../images/header-city.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    margin: 0;
+    min-height: 489px;
 }
 
 .headerContainer {
-	padding: 11em 6.2em 0 6.2em;
+    padding: 11em 6.2em 0 6.2em;
     width: 58%;
 }
 
 .headerContainer h1 {
-	font-family: 'Work Sans', sans-serif;
-	color: #333;
-	font-size: 2.5em;
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+    font-size: 2.5em;
     font-weight: 700;
     background-color: #fff;
     display: inline-block;
@@ -54,220 +54,220 @@ a:hover {
 }
 
 .subtitle {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 300;
-	color: #333;
-	width: 90%;
-	font-size: 1.5em;
-	text-indent: -0.2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #333;
+    width: 90%;
+    font-size: 1.5em;
+    text-indent: -0.2em;
     background-color: #fff;
     display: inline-block;
 }
 
 .quote {
-	font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 #content {
-	background-color: #fff;
-	width: 100%;
+    background-color: #fff;
+    width: 100%;
 }
 
 #introContainer {
-	background-color: #a7d3e9;
-	padding: 4em 5.8em;
-	margin: 0 auto;
-	text-align: center;
+    background-color: #a7d3e9;
+    padding: 4em 5.8em;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .introduction {
-	width: 70%;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	color: #212121;
-	font-size: 2em;
+    width: 70%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    font-size: 2em;
     display: inline-block;
 }
 
 .row {
-	margin: 0 auto;
-	display: flex;
-	flex-flow: row wrap;
-	padding: 2em 6.5em;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2em 6.5em;
 }
 
 .contentBlock {
-	padding: 0;
-	min-width: 0;
-	flex: 1 500px;
+    padding: 0;
+    min-width: 0;
+    flex: 1 500px;
 }
 
 .contentBlock:first-child {
-	padding-right: 1.75em;
+    padding-right: 1.75em;
 }
 
 .contentBlock:last-child {
-	padding-left: 1.75em;
+    padding-left: 1.75em;
 }
 
 .row:last-child {
-	background: #F2F2F2;
+    background: #F2F2F2;
 }
 
 .contentBlock h2 {
-	font-family: 'Work Sans', sans-serif;
-	color: #212121;
-	font-weight: 500;
-	font-size: 1.5em;
+    font-family: 'Work Sans', sans-serif;
+    color: #212121;
+    font-weight: 500;
+    font-size: 1.5em;
 }
 
 .contentBlock p {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	color: #212121;
-	font-size: 1.2em;
-	line-height: 1.7em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    font-size: 1.2em;
+    line-height: 1.7em;
 }
 
 .contentBlock ol {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	font-size: 1.2em;
-	line-height: 1.9em;
-	counter-reset: li;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.9em;
+    counter-reset: li;
 }
 
 .contentBlock ol > li {
-	list-style: none;
+    list-style: none;
 }
 
 .contentBlock ol > li:before {
-	display: inline-block;
-	font-weight: bold;
-	content: counter(li);
-	counter-increment: li;
-	text-align: left;
-	text-indent: -1.5em;
+    display: inline-block;
+    font-weight: bold;
+    content: counter(li);
+    counter-increment: li;
+    text-align: left;
+    text-indent: -1.5em;
 }
 
 .img {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .imageContainer {
-	text-align: center;
+    text-align: center;
 }
 
 #ideasContainer {
-	background-color: #fff;
-	padding: 4em 6.6em;
+    background-color: #fff;
+    padding: 4em 6.6em;
 }
 
 .ideas h2 {
-	font-family: 'Work Sans', sans-serif;
-	color: #000;
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
     font-weight: 500;
-	padding: 0 0;
-	margin: 0;
-	font-size: 2em;
+    padding: 0 0;
+    margin: 0;
+    font-size: 2em;
 }
 
 .ideasBlock {
-	padding: 1em 0;
+    padding: 1em 0;
 }
 
 .ideas p {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	margin: 0.8em 0;
-	font-size: 1.2em;
-	line-height: 1.6em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin: 0.8em 0;
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
 
 .ideasDate {
-	text-transform: uppercase;
-	font-family: 'Work Sans', sans-serif;
-	font-size: 1.2em;
-	margin-top: 1em;
-	margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0;
 }
 
 .ideasLink h3 {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	font-size: 1.6em;
-	margin-top: 0.2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    margin-top: 0.2em;
 }
 
 .ideasDesc p {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	font-size: 1.2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
 }
 
 #mailingListContainer {
-	background-color: #a7d3e9;
+    background-color: #a7d3e9;
 }
 
 .mailingList {
-	padding: 4em 4em;
-	width: 70%;
-	margin: 0 auto;
-	text-align: center;
+    padding: 4em 4em;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .mailingList h2 {
-	font-family: 'Work Sans', sans-serif;
-	color: #212121;
-	padding: 0 0;
-	margin: 0;
-	font-size: 2em;
-	font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    color: #212121;
+    padding: 0 0;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 .mailingList p {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	color: #212121;
-	margin: 0.8em 0;
-	font-size: 1.2em;
-	line-height: 1.6em;
-	padding-bottom: 1.2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    margin: 0.8em 0;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding-bottom: 1.2em;
 }
 
 .mailingList .submit {
-	border: solid 1px #7c7c7c;
-	padding: 0.5em 0.8em;
-	background-color: #fff;
-	background-image: none;
-	text-decoration: none;
-	padding: 0.7em 1.2em;
-	font-size: 1.2rem;
+    border: solid 1px #7c7c7c;
+    padding: 0.5em 0.8em;
+    background-color: #fff;
+    background-image: none;
+    text-decoration: none;
+    padding: 0.7em 1.2em;
+    font-size: 1.2rem;
 }
 
 .mailingList .submit:active {
-	vertical-align: top;
-	padding: 8px 13px 6px;
+    vertical-align: top;
+    padding: 8px 13px 6px;
 }
 
 
 /* Footer */
 #footer {
-	margin: 0 auto;
-	padding: 2em 2em;
-	text-align: center;
+    margin: 0 auto;
+    padding: 2em 2em;
+    text-align: center;
 }
 
 #footer p {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
 }
 
 .logoContainer {
-	width: 250px;
-	height: 65px;
-	background-image: url("../images/idrc-logo-black.svg");
+    width: 250px;
+    height: 65px;
+    background-image: url("../images/idrc-logo-black.svg");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: contain;
@@ -278,91 +278,87 @@ a:hover {
 }
 
 .logoContainer .logo-idrc {
-	font-size: 0;
+    font-size: 0;
     width: 100%;
 }
 
 
 /* Ideas in Progress */
 #ideasHeader {
-	width: 100%;
-	margin: 0 auto;
-	background-color: transparent;
-	display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    display: block;
 }
 
 .ideasHeaderContainer {
-	padding: 2em 5em;
-	display: flex;
-	justify-content: space-between;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ideasHeaders h1 > a {
-	font-family: 'Work Sans', sans-serif;
-	color: #000;
-	font-size: 2rem;
-	text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
+    font-size: 2rem;
+    text-decoration: none;
 }
 
 .ideasHeaders h2 {
-	font-weight: 500;
-}
-
-.ideasHeaderContainer h1 > a:hover {
-	cursor: hand;
+    font-weight: 500;
 }
 
 #ideasContent {
-	background-color: #F2F2F2;
-	width: 100%;
+    background-color: #F2F2F2;
+    width: 100%;
 }
 
 .ideasContentContainer {
-	width: 80%;
-	padding: 2em 5em;
+    width: 80%;
+    padding: 2em 5em;
 }
 
 .ideasContentBlock {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .ideasContentBlock h2 {
-	font-family: 'Work Sans', sans-serif;
-	color: #212121;
-	font-size: 1.5em;
-	font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    color: #212121;
+    font-size: 1.5em;
+    font-weight: 500;
 }
 
 .ideasContentBlock h3 {
-	font-family: 'Work Sans', sans-serif;
-	font-size: 1.2em;
-	font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .ideasContentBlock p {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	color: #212121;
-	font-size: 1.1em;
-	line-height: 1.6em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    font-size: 1.1em;
+    line-height: 1.6em;
 }
 
 .ideasContentBlock blockquote {
-	line-height: 1.6em;
-	font-style: italic;
-	font-family: 'Work Sans', sans-serif;
+    line-height: 1.6em;
+    font-style: italic;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .ideasContentBlock ol, ul {
-	line-height: 1.5em;
-	font-size: 1.1em;
-	font-family: 'Work Sans', sans-serif;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .home {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -377,267 +373,267 @@ a:hover {
 }
 
 @media only screen and (max-width: 79.5em) {
-	.img {
-		display: none;
-	}
+    .img {
+        display: none;
+    }
 }
 
 /* Extra small devices */
 @media only screen and (max-width: 40em) {
 
-	#header {
-		background-image: none;
-		padding: 1.4em 0.5em;
-		min-height: 0;
-	}
+    #header {
+        background-image: none;
+        padding: 1.4em 0.5em;
+        min-height: 0;
+    }
 
-	.headerContainer {
-		width: 80%;
-		padding: 2em;
-	}
+    .headerContainer {
+        width: 80%;
+        padding: 2em;
+    }
 
-	.headerContainer h1 {
-		font-size: 2em;
-	}
+    .headerContainer h1 {
+        font-size: 2em;
+    }
 
-	.subtitle {
-		font-size: 1em;
-	}
+    .subtitle {
+        font-size: 1em;
+    }
 
-	.quote {
-		font-size: 0.9em;
-	}
+    .quote {
+        font-size: 0.9em;
+    }
 
-	.introduction {
-		font-size: 1.5em;
-		width: 80%;
-	}
+    .introduction {
+        font-size: 1.5em;
+        width: 80%;
+    }
 
-	#ideasContainer {
-		padding: 2em;
-	}
+    #ideasContainer {
+        padding: 2em;
+    }
 
-	.ideas {
-		width: 90%;
-	}
+    .ideas {
+        width: 90%;
+    }
 
-	.mailingList {
-		width: 80%;
-		padding: 2em;
-	}
+    .mailingList {
+        width: 80%;
+        padding: 2em;
+    }
 
-	.row {
-		padding: 2em;
-	}
+    .row {
+        padding: 2em;
+    }
 
-	.contentBlock:first-child {
-		padding-right: 0;
-		padding-left: 0;
-	}
+    .contentBlock:first-child {
+        padding-right: 0;
+        padding-left: 0;
+    }
 
-	.contentBlock:last-child {
-		padding-left: 0;
-		padding-right: 0;
-	}
+    .contentBlock:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-	.ideasContentContainer {
-		width: 80%;
-		padding: 2em;
-	}
+    .ideasContentContainer {
+        width: 80%;
+        padding: 2em;
+    }
 
-	.ideasHeaderContainer {
-		padding: 2em;
-	}
+    .ideasHeaderContainer {
+        padding: 2em;
+    }
 
 }
 
 /* Small devices */
 @media only screen and (min-width: 40em) {
-	#header {
-		background-image: none;
-		padding: 1.4em 0.5em;
-	}
+    #header {
+        background-image: none;
+        padding: 1.4em 0.5em;
+    }
 
-	.headerContainer {
-		width: 80%;
-		padding: 2em;
-	}
+    .headerContainer {
+        width: 80%;
+        padding: 2em;
+    }
 
-	.headerContainer h1 {
-		font-size: 2em;
-	}
+    .headerContainer h1 {
+        font-size: 2em;
+    }
 
-	.subtitle {
-		font-size: 1.2em;
-	}
+    .subtitle {
+        font-size: 1.2em;
+    }
 
-	.quote {
-		font-size: 0.9em;
-	}
+    .quote {
+        font-size: 0.9em;
+    }
 
-	.introduction {
-		font-size: 1.5em;
-		width: 80%;
-	}
+    .introduction {
+        font-size: 1.5em;
+        width: 80%;
+    }
 
-	#ideasContainer {
-		width: 80%;
-		padding: 2em;
-	}
+    #ideasContainer {
+        width: 80%;
+        padding: 2em;
+    }
 
-	.ideas {
-		width: 90%;
-	}
+    .ideas {
+        width: 90%;
+    }
 
-	.mailingList {
-		width: 90%;
-		padding: 2em;
-	}
+    .mailingList {
+        width: 90%;
+        padding: 2em;
+    }
 
-	.row {
-		padding: 2em;
-	}
+    .row {
+        padding: 2em;
+    }
 
-	.contentBlock:first-child {
-		padding-right: 0;
-		padding-left: 0;
-	}
+    .contentBlock:first-child {
+        padding-right: 0;
+        padding-left: 0;
+    }
 
-	.contentBlock:last-child {
-		padding-left: 0;
-		padding-right: 0;
-	}
+    .contentBlock:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-	.ideasContentContainer {
-		width: 80%;
-		padding: 2em;
-	}
+    .ideasContentContainer {
+        width: 80%;
+        padding: 2em;
+    }
 
-	.ideasHeaderContainer {
-		padding: 2em;
-	}
+    .ideasHeaderContainer {
+        padding: 2em;
+    }
 
 }
 
 /* Medium devices */
 @media only screen and (min-width: 48em) {
-	#header {
-		background-image: url("../images/header-city.png");
-		background-repeat: no-repeat;
-		background-position: right top;
-		background-size: contain;
-		padding: 1.4em 0.5em;
-	}
+    #header {
+        background-image: url("../images/header-city.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        padding: 1.4em 0.5em;
+    }
 
-	.headerContainer {
-		width: 58%;
-	}
+    .headerContainer {
+        width: 58%;
+    }
 
-	.headerContainer h1 {
-		font-size: 2.1em;
-	}
+    .headerContainer h1 {
+        font-size: 2.1em;
+    }
 
-	.subtitle {
-		font-size: 1.3em;
-	}
+    .subtitle {
+        font-size: 1.3em;
+    }
 
-	.quote {
-		font-size: 0.9em;
-	}
+    .quote {
+        font-size: 0.9em;
+    }
 
-	.introduction {
-		font-size: 1.6em;
-	}
+    .introduction {
+        font-size: 1.6em;
+    }
 
-	#ideasContainer {
-		padding: 2em 6.6em;
-	}
+    #ideasContainer {
+        padding: 2em 6.6em;
+    }
 
-	.ideas {
-		width: 70%;
-	}
+    .ideas {
+        width: 70%;
+    }
 
-	.mailingList {
-		width: 70%;
-	}
+    .mailingList {
+        width: 70%;
+    }
 
-	.img {
-		visibility: visible;
-	}
+    .img {
+        visibility: visible;
+    }
 
-	.contentBlock:first-child {
-		padding-right: 1.75em;
-	}
+    .contentBlock:first-child {
+        padding-right: 1.75em;
+    }
 
-	.contentBlock:last-child {
-		padding-left: 1.75em;
-	}
+    .contentBlock:last-child {
+        padding-left: 1.75em;
+    }
 
-	.ideasContentContainer {
-		width: 70%;
-		padding: 2em 5em;
-	}
+    .ideasContentContainer {
+        width: 70%;
+        padding: 2em 5em;
+    }
 
-	.ideasHeaderContainer {
-		padding: 2em 5em;
-	}
+    .ideasHeaderContainer {
+        padding: 2em 5em;
+    }
 }
 
 @media screen and (min-width: 64em) {
-	#header {
-		background-image: url("../images/header-city.png");
-		background-repeat: no-repeat;
-		background-position: right top;
-		background-size: contain;
-		padding: 1.4em 0.5em;
-	}
+    #header {
+        background-image: url("../images/header-city.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        padding: 1.4em 0.5em;
+    }
 
-	.headerContainer {
-		width: 58%;
-	}
+    .headerContainer {
+        width: 58%;
+    }
 
-	.headerContainer h1 {
-		font-size: 2.5em;
-	}
+    .headerContainer h1 {
+        font-size: 2.5em;
+    }
 
-	.subtitle {
-		font-size: 1.5em;
-	}
+    .subtitle {
+        font-size: 1.5em;
+    }
 
-	.quote {
-		font-size: 0.9em;
-	}
+    .quote {
+        font-size: 0.9em;
+    }
 
-	.introduction {
-		font-size: 2em;
-	}
-	#ideasContainer {
-		padding: 4em 6.6em;
-	}
-	.img {
-		visibility: visible;
-	}
+    .introduction {
+        font-size: 2em;
+    }
+    #ideasContainer {
+        padding: 4em 6.6em;
+    }
+    .img {
+        visibility: visible;
+    }
 
-	.contentBlock {
-		padding: 0 6.5em;
-	}
+    .contentBlock {
+        padding: 0 6.5em;
+    }
 
-	.contentBlock:first-child {
-		padding-right: 1.75em;
-	}
+    .contentBlock:first-child {
+        padding-right: 1.75em;
+    }
 
-	.contentBlock:last-child {
-		padding-left: 1.75em;
-	}
+    .contentBlock:last-child {
+        padding-left: 1.75em;
+    }
 
-	.ideasContentContainer {
-		width: 70%;
-		padding: 2em 5em;
-	}
+    .ideasContentContainer {
+        width: 70%;
+        padding: 2em 5em;
+    }
 
-	.ideasHeaderContainer {
-		padding: 2em 5em;
-	}
+    .ideasHeaderContainer {
+        padding: 2em 5em;
+    }
 }
 
 
@@ -645,9 +641,9 @@ a:hover {
 
 /* UIO Customization */
 .flc-toc-tocContainer {
-	width: 85%;
-	margin: 0 auto;
-	font-size: 1.5em;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar {
@@ -691,7 +687,7 @@ a:hover {
 .fl-theme-wb html,
 .fl-theme-bw html,
 .fl-theme-lgdg html {
-	background: none;
+    background: none;
 }
 
 .fl-theme-by #header,
@@ -699,27 +695,27 @@ a:hover {
 .fl-theme-wb #header,
 .fl-theme-bw #header,
 .fl-theme-lgdg #header {
-	background: none;
+    background: none;
 }
 
 .fl-theme-wb .logoContainer {
-  background-image: url("../images/idrc-logo.svg");
+    background-image: url("../images/idrc-logo.svg");
 }
 
 .fl-theme-bw .logoContainer {
-  background-image: url("../images/idrc-logo-black.svg");
+    background-image: url("../images/idrc-logo-black.svg");
 }
 
 .fl-theme-by .logoContainer {
-  background-image: url("../images/idrc-logo-black.svg");
+    background-image: url("../images/idrc-logo-black.svg");
 }
 
 .fl-theme-yb .logoContainer {
-  background-image: url("../images/idrc-logo-yellow.svg");
+    background-image: url("../images/idrc-logo-yellow.svg");
 }
 
 .fl-theme-lgdg .logoContainer {
-  background-image: url("../images/idrc-logo-grey.svg");
+    background-image: url("../images/idrc-logo-grey.svg");
 }
 
 /* Transition setting for all elements to avoid the "flash" effect when switching contrast themes via alanharnum.ca */

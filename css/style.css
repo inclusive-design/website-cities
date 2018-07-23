@@ -491,7 +491,8 @@ a:hover {
     }
 
     .row {
-        padding: 2em;
+        padding-left: 4em 6.6em;
+        padding-right: 4em 6.6em;
     }
 
     .contentBlock:first-child {

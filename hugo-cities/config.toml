@@ -1,4 +1,3 @@
 baseURL = "https://cities.inclusivedesign.ca/"
 languageCode = "en-us"
 title = "Co-designing Inclusive Cities"
-theme = "inclusive-cities"

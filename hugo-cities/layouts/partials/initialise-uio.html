@@ -1,0 +1,15 @@
+<!-- Initialise UIO -->
+<script>
+    $(document).ready(function () {
+        var uio = fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+            terms: {
+                "templatePrefix": "../../js/lib/infusion/src/framework/preferences/html",
+                "messagePrefix": "../../js/lib/infusion/src/framework/preferences/messages"
+            },
+            "tocTemplate": "../../js/lib/infusion/src/components/tableOfContents/html/TableOfContents.html",
+            "ignoreForToC": {
+                "overviewPanel": ".flc-overviewPanel"
+            }
+        });
+    });
+</script>

@@ -1,0 +1,28 @@
+{{ define "title" }}{{ .Site.Title }} - {{ .Title }}{{ end }}
+
+{{ define "main" }}
+<div id="ideasHeader">
+    <div class="ideasHeaderContainer">
+        <div class="ideasHeaders"><h1><a href="/">Co-designing Inclusive Cities</a></h1>
+        <h2>Ideas in Progress</h2></div>
+        <div class="imageContainerIdeas"><img src="../../images/birds.png" class="img" alt="Birds" /></div>
+    </div>
+</div>
+
+<div id="ideasContent">
+
+    <div class="flc-toc-tocContainer toc"> </div>
+
+    <div class="ideasContentContainer">
+        <div class="ideasContentBlock">
+            <span class="ideasDate">{{ .Date.Format "January 2, 2006" }}</span>
+
+            <h2>{{ .Title }}</h2>
+
+            {{ .Content }}
+
+            <p><a href="/" class="home">Back to home</a></p>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -14,10 +14,7 @@
 <body>
     {{ partial "uio.html" . }}
 
-    <div id="body">
-        {{ block "main" . }}{{ end }}
-        {{ partial "footer.html" . }}
-    </div>
+    {{ block "main" . }}{{ end }}
 
     {{ partial "initialise-uio.html" . }}
 </body>

@@ -1,9 +1,9 @@
-<!-- BEGIN markup for Preference Editor -->
+{{ "<!-- BEGIN markup for Preference Editor -->" | safeHTML }}
 <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
-    <!--
-        This div is for the sliding panel bar that shows and hides the Preference Editor controls in the mobile view.
-        A separate panel bar for mobile displays is needed to preserver the correct tab order.
-    -->
+    {{ "<!--" | safeHTML }}
+        {{ "This div is for the sliding panel bar that shows and hides the Preference Editor controls in the mobile view." | safeHTML }}
+        {{ "A separate panel bar for mobile displays is needed to preserver the correct tab order." | safeHTML }}
+    {{ "-->" | safeHTML }}
     <div class="fl-panelBar fl-panelBar-smallScreen">
         <span class="fl-prefsEditor-buttons">
             <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
@@ -11,13 +11,13 @@
         </span>
     </div>
 
-    <!-- This is the div that will contain the Preference Editor component -->
+    {{ "<!-- This is the div that will contain the Preference Editor component -->" | safeHTML }}
     <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
 
-    <!--
-        This div is for the sliding panel bar that shows and hides the Preference Editor controls in the desktop view.
-        A separate panel bar for desktop displays is needed to preserver the correct tab order.
-    -->
+    {{ "<!--" | safeHTML }}
+        {{ "This div is for the sliding panel bar that shows and hides the Preference Editor controls in the desktop view." | safeHTML }}
+        {{ "A separate panel bar for desktop displays is needed to preserver the correct tab order." | safeHTML }}
+    {{ "-->" | safeHTML }}
     <div class="fl-panelBar fl-panelBar-wideScreen">
         <span class="fl-prefsEditor-buttons">
             <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
@@ -25,4 +25,4 @@
         </span>
     </div>
 </div>
-<!-- END markup for Preference Editor -->
+{{ "<!-- END markup for Preference Editor -->" | safeHTML }}

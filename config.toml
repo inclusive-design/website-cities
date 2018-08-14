@@ -1,3 +1,4 @@
 baseURL = "https://cities.inclusivedesign.ca/"
-languageCode = "en-us"
+disableKinds = ["RSS", "sitemap", "taxonomyTerm"]
+languageCode = "en"
 title = "Co-designing Inclusive Cities"

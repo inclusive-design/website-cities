@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Co-designing Inclusive Cities - School Co-Design Activity Results</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../js/lib/infusion/src/framework/preferences/css/Enactors.css" />
+    <link rel="stylesheet" type="text/css" href="../../js/lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+    <link rel="stylesheet" type="text/css" href="../../js/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+    <script src="../../js/lib/infusion/infusion-custom.js"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+    <!-- BEGIN markup for Preference Editor -->
+       <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+           <!--
+               This div is for the sliding panel bar that shows and hides the Preference Editor controls in the mobile view.
+               A separate panel bar for mobile displays is needed to preserver the correct tab order.
+           -->
+           <div class="fl-panelBar fl-panelBar-smallScreen">
+               <span class="fl-prefsEditor-buttons">
+                   <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                   <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+               </span>
+           </div>
+
+           <!-- This is the div that will contain the Preference Editor component -->
+           <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+           <!--
+               This div is for the sliding panel bar that shows and hides the Preference Editor controls in the desktop view.
+               A separate panel bar for desktop displays is needed to preserver the correct tab order.
+           -->
+           <div class="fl-panelBar fl-panelBar-wideScreen">
+               <span class="fl-prefsEditor-buttons">
+                   <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                   <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+               </span>
+           </div>
+       </div>
+       <!-- END markup for Preference Editor -->
+
+    <div id="body">
+      <div id="ideasHeader">
+
+            <div class="ideasHeaderContainer">
+                <div class="ideasHeaders"><h1><a href="/">Co-designing Inclusive Cities</a></h1>
+                <h2>Ideas in Progress</h2></div>
+                <div class="imageContainerIdeas"><img src="../../images/birds.png" class="img" alt="Birds" /></div>
+            </div>
+      </div>
+
+      <div id="ideasContent">
+
+          <div class="flc-toc-tocContainer toc"> </div>
+
+          <div class="ideasContentContainer">
+              <div class="ideasContentBlock">
+                  <span class="ideasDate">July 30, 2018</span>
+                  <h2>School Co-Design Activity Results</h2>
+                  <p>As part of our efforts to include diverse perspectives in creation of inclusive cities, IDRC organized an embedded co-design session in elementary and middle schools with grade 3, 5, and 6 students. The co-design activity was developed in collaboration with the classroom teachers and parents to tailor the activity to the interests and needs of the children. To complete this activity the teachers were provided with the required materials and instructions to conduct the co-design activity in their own classrooms. For further details regarding this activity please visit the </a href="https://cities.inclusivedesign.ca/ideas/students-co-design-activity/">Students co-designing their dream neighbourhoods</a>post</p>
+                  <p>The overarching themes that emerged from the results shows that environmentally friendliness, accessibility, and inclusivity of neighbourhoods were important factors for students in all three grades. Making the neighbourhood accessible for people of all ages was particularly important to the grade 5 and 6 students and they included features that encompass all age groups. Grade 5 and 6 students included at least one senior home and one medical centre in their neighbourhood. Most of them also included parks and playgrounds. On their neighbourhood maps, parks were either large and located in central areas or smaller and spread out throughout the neighbourhood. In most cases, parks were surrounded by other public or private services such as schools, daycare, libraries and housing. Most of grade 5 and 6 students also included several libraries in their neighbourhoods. The results also showed that both grades included subways and streetcars for transportation, however, grade 6 groups included these features more often than grade 5 groups. </p>
+                  <p>As part of this activity, students were given blank cards to add their own features to their neighbourhood. Some of the interesting extra features added to these maps include religious centres, airports, banks, gyms, and stadiums. Grade 3 students added more extra features than their peers in grade 5 and 6, and most of their features were supporting fun and recreational activities, such as arcades, amusement parks, and gyms.</p>
+                  <p>Grade 3 students completed the first section of the activities. The grade 5 and 6 groups completed all three sections of the activity. In response to the development proposal, most grade 5s accepted the proposal with changes, however, most grade 6 groups rejected the proposal mainly because of concerns due to privacy and excessive screen time. Almost everyone across both grades expressed worry about privacy, and a few groups suggested time limits for access. Interestingly none of the groups accepted the proposal without changes.</p>
+
+                  <img src="../../images/StudentsResults.jpg" class="img" alt="finished student city co-designs on wall" />
+                  <p><a href="/" class="home">Back to home</a></p>
+              </div>
+          </div>
+      </div>
+
+      <div id="footer">
+          <div class="logoContainer">
+              <a href="http://idrc.ocadu.ca/" class="logo-idrc" title="Inclusive Design Research Centre">Inclusive Design Research Centre</a>
+          </div>
+          <p>This website is maintained and created by the <a href="https://idrc.ocadu.ca/">Inclusive Design Research Centre</a>.<br />
+          It is distributed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Creative Commons Attribution, Non-Commercial, Share-Alike 4.0 International license</a>.</p>
+      </div>
+    </div>
+
+    <!-- Initialise UIO -->
+    <script>
+        $(document).ready(function () {
+            var uio = fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+                terms: {
+                    "templatePrefix": "../../js/lib/infusion/src/framework/preferences/html",
+                    "messagePrefix": "../../js/lib/infusion/src/framework/preferences/messages"
+                },
+                "tocTemplate": "../../js/lib/infusion/src/components/tableOfContents/html/TableOfContents.html",
+                "ignoreForToC": {
+                    "overviewPanel": ".flc-overviewPanel"
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

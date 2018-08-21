@@ -2,5 +2,5 @@
 
 {{ define "main" }}
 {{ .Content }}
-{{ partial "footer.html" . }}
+{{ partial "footer.html" (dict "footerAdditional" "<br />\nBackground image of city of Toronto credited to <a href=\"https://chuckmantorontonostalgia.wordpress.com/\">John Chuckman</a>.") }}
 {{ end }}

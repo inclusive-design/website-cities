@@ -1,0 +1,36 @@
+---
+title: Invitation to an inclusive collaborative design activity
+date: "2018-07-25"
+---
+
+<p>Dear Community,</p>
+
+<p><a href="https://idrc.ocadu.ca/">IDRC</a> has agreed to work with the <a href="https://sidewalktoronto.ca">Sidewalk Toronto</a> team to help with creation of their accessibility and inclusion principles. Sidewalk Toronto is a joint effort between Alphabet’s <a href="https://www.sidewalklabs.com/">Sidewalk Labs</a> and <a href="https://www.waterfrontoronto.ca/nbe/portal/waterfront/Home">Waterfront Toronto</a> to use smart technology and new construction techniques to develop a piece of land on Toronto’s eastern waterfront, beginning with the creation of the Quayside neighbourhood on Queen’s Quay East.</p>
+
+<p>We aim to ensure that the Sidewalk Toronto team considers the wide and diverse range of people’s needs and preferences in the design and development of this piece of land. We are reaching out to different groups and communities to invite them to participate in a co-design process in order to understand what they define and envision as an inclusive and accessible city. We can use this information to provide the Sidewalk Toronto team with recommendations regarding their accessibility and inclusion principles that will be included in their master innovation and development plan.</p>
+
+<p>We would like to invite you to join any of the following co-design events to contribute your ideas about creating an inclusive, welcoming, and livable city. Participants will receive $100 honoraria as a token of our appreciation for your participation and contribution. There is a total of 15-20 spots available per session. If you are interested in joining any of these events, please kindly email us back and we will be sure to secure a spot for you.</p>
+
+<p>Once we receive confirmation, we will send more background information for those attending. We plan to create an accessible experience throughout these sessions and we will provide accessibility services upon request.</p>
+
+<ul>
+    <li>Co-design session 1
+        <ul>
+            <li>Hosted by OCAD university at 49 McCaul street on Wednesday, August 8th from 9am -5pm.</li>
+        </ul>
+    </li>
+    <li>Co-design session 2
+        <ul>
+            <li>Hosted by Sidewalk Labs at 307 Lakeshore Boulevard East on Friday August 24th from 9:00 am - 5:00 pm.</li>
+        </ul>
+    </li>
+    <li>Co-design session 3
+        <ul>
+            <li>This will be a split session hosted by OCAD University at 49 McCaul street on Wednesday September 5th and Thursday September 6th - 5:00 pm - 9:00 pm. Participants are asked to attend both evening sessions.</li>
+        </ul>
+    </li>
+</ul>
+
+<p>Please email us back at <a href="mailto:cities@idrc.ocadu.ca">cities@idrc.ocadu.ca</a> if you are interested in joining.</p>
+
+<p>We look forward to hearing from you.</p>

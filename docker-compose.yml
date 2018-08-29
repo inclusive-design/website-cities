@@ -1,0 +1,6 @@
+version: '3'
+services:
+  static_site:
+    build: .    
+    ports:
+      - "${STATIC_SITE_PORT}:80"

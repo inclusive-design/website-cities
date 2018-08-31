@@ -16,7 +16,7 @@ The day began with a warm up activity. In this activity, the participants sat in
 
 ### Introducing the Dynamic Street Prototype: Sidewalk Labs
 
-Following the warm-activity, Jesse Shapins from Sidewalk Toronto provided an overview of the dynamic street prototype at the session’s venue, and talked about the broader implications for the city of Toronto. He described the four key components of the street design: modular, dynamic, heated, and permeable. Jesse and other representatives from Sidewalk Toronto also answered questions from the participants regarding the material used for the street, the technology, and the goals of such approach to street design.
+Following the warm up activity, Jesse Shapins from Sidewalk Toronto provided an overview of the dynamic street prototype at the session’s venue, and talked about the broader implications for the city of Toronto. He described the four key components of the street design: modular, dynamic, heated, and permeable. Jesse and other representatives from Sidewalk Toronto also answered questions from the participants regarding the material used for the street, the technology, and the goals of this approach to street design.
 
 ### Introducing the themes for the session:
 

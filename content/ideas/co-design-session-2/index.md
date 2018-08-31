@@ -81,7 +81,9 @@ A city working for everyone:
 
 As the groups engaged in discussion, the assigned facilitator provided insight and guided the discussion to reflect each theme. Each group then had the opportunity to briefly share their ideas with the larger group and received feedback before continuing on to the next part of the activity.
 
-{{< imgblock src="images/IMG_7707.JPG" resize="narrow" alt="Whiteboard with ideas generated during a large group discussion. Each group shared their urban experiences and the barriers they have encountered on the streets as well as some preliminary ideas/solutions to these issues. The participant groups included: Relink (Shared Spaces For All), Harmony (Managing Conflict), Sweet Streets (Lost & Found), Boulevard (Shared 4 All), Side Thought (Lost & Found)" >}}
+{{< imgblock src="images/IMG_7707.JPG" resize="narrow" alt="Whiteboard with ideas generated during a large group discussion" >}}
+
+[Image description for the group discussion whiteboard]({{< relref "/image-descriptions/co-design-session-2/group-discussion-whiteboard.md" >}})
 
 Following the brainstorming session, each group had 1.5 hrs to select one idea and explore different ways to prototype their idea to make it a reality. Some groups chose to create three dimensional models using the physical space, while other groups created drawings or completed a write-up of their design. The following images are examples of prototypes created by the groups.
 
@@ -113,4 +115,6 @@ For the last hour, each group shared their work with the rest of the teams in an
 
 At the end of the session, participants were asked to complete a feedback form in order to assess their experience through the day and inform IDRC how they can improve their future co-design sessions. The results from this session will be posted in the next few weeks.
 
-{{< imgblock src="images/IMG_7728.JPG" resize="narrow" alt="Whiteboard of notes on the discussion of the 5 prototypes. Each group described their prototype, presented their initial process, and discussed the critiques they received. Relink created a multisensory information kiosk. Boulevard created an embedded tactile strip system which also feeds information to an app. Sweet Streets created hexagonal street pavers with dynamic abilities to add or remove tactile strips/bumps. Harmony created an optimized intersection with dynamic signs and an associated app. Side Thought created a pedestrian and community focused neighbourhood with a colour and texture coded wayfinding system indicating cardinal directions." >}}
+{{< imgblock src="images/IMG_7728.JPG" resize="narrow" alt="Whiteboard of notes on the discussion of the 5 prototypes" >}}
+
+[Image description for the prototype discussion whiteboard]({{< relref "/image-descriptions/co-design-session-2/prototype-discussion-whiteboard.md" >}})

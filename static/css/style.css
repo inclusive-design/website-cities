@@ -351,7 +351,7 @@ a:hover {
     font-family: 'Work Sans', sans-serif;
 }
 
-.ideasContentBlock ol, ul {
+.ideasContentBlock ol, .ideasContentBlock ul {
     line-height: 1.5em;
     font-size: 1.1em;
     font-family: 'Work Sans', sans-serif;

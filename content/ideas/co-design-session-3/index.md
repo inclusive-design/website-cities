@@ -113,13 +113,21 @@ Duration: 1 hour 30 minutes**
 
 The second day began promptly with the prototyping challenge. Participants were given an hour and a half to choose an idea they brainstormed the previous day, expand on the idea, and build or prepare a demonstration of their idea. Each group was provided some prompting questions to help this process: Is it accessible? Is it safe? Does it support independence? What would you need? How can technology help? Who else is involved?
 
-{{< imgblock src="images/IMG_7863.jpg" resize="wide" alt="Pictured is group \"Assorted Barrier Busters\" prototype. They have used lego blocks to build a platform, craft paper to build an elevator cube and plasticine to create a mobility device, such as an electric scooter made and a guide dog." >}}
+{{< imgblock src="images/IMG_7863.jpg" resize="wide" alt="\"Assorted Barrier Busters\" group's prototype" >}}
 
-{{< imgblock src="images/IMG_1864.jpg" resize="wide" alt="Pictured is group \"Assorted Barrier Busters\" proposed \"Access\" app prototype made with craft paper. There is also a sheet of paper that shows the information they desire to include in their app, such as internal, external, thresholds, generic." >}}
+Shown above is "Assorted Barrier Busters" group's prototype. They have used lego blocks to build a platform, craft paper to build an elevator cube and plasticine to create a mobility device, such as an electric scooter made and a guide dog.
 
-{{< imgblock src="images/IMG_7870.jpg" resize="wide" alt="Pictured is group \"Challenging Hedgehog\" prototype made with Plasticine of a special tile tile with the function of vibrating and heating the paver." >}}
+{{< imgblock src="images/IMG_1864.jpg" resize="wide" alt="\"Assorted Barrier Busters\" group's Access app prototype" >}}
 
-{{< imgblock src="images/IMG_8071.jpg" resize="wide" alt="Pictured is group \"Cats & Dogs\" prototype made with paper cub, tape lego block and pipe cleaner and other craft material to represent a mini robot." >}}
+Shown above is "Assorted Barrier Busters" group's proposed "Access" app prototype made with craft paper. There is also a sheet of paper that shows the information they desire to include in their app, such as internal, external, thresholds, generic.
+
+{{< imgblock src="images/IMG_7870.jpg" resize="wide" alt="\"Challenging Hedgehog\" group's prototype" >}}
+
+Shown above is "Challenging Hedgehog" group's prototype made with plasticine to represent a special tile with the function of vibrating and heating the paver.
+
+{{< imgblock src="images/IMG_8071.jpg" resize="wide" alt="\"Cats & Dogs\" group's prototype" >}}
+
+Shown above is "Cats & Dogs" group's prototype made with paper cup, tape, lego block, and pipe cleaner and other craft material to represent a mini robot.
 
 ### Design Activity: Part 4 - Swap and Critique prototype
 

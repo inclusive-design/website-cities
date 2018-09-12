@@ -38,7 +38,7 @@ Whiteboard with ideas generated during a large group discussion.
 
 * Beacon technology {{< arrow >}} doors that slide based on beacon
 * Building surrounds no snow and ice
-* Tactile surfaces leading to elevator {{< arrow >}} ore receptionist to help
+* Tactile surfaces leading to elevator {{< arrow >}} or receptionist to help
 * Device that tells you verbally what’s around and guide you {{< arrow >}} ipad with map of building
 
 ## Group#2 group
@@ -54,4 +54,4 @@ Whiteboard with ideas generated during a large group discussion.
 
 ## Assorted Barrier Busters group
 
-* Cab pulling up to office building in January {{< arrow >}} ram and road clear of debris {{< arrow >}} some vehicle that docks at cab for smooth transition/transfer which carries you into building {{< arrow >}} recall your accessibility preferences based on badge {{< arrow >}} app to be a local helper.
+* Cab pulling up to office building in January {{< arrow >}} ramp and road clear of debris {{< arrow >}} some vehicle that docks at cab for smooth transition/transfer which carries you into building {{< arrow >}} recall your accessibility preferences based on badge {{< arrow >}} app to be a local helper.

@@ -115,7 +115,7 @@ The second day began promptly with the prototyping challenge. Participants were 
 
 {{< imgblock src="images/IMG_7863.jpg" resize="wide" alt="\"Assorted Barrier Busters\" group's prototype" >}}
 
-Shown above is "Assorted Barrier Busters" group's prototype. They have used lego blocks to build a platform, craft paper to build an elevator cube and plasticine to create a mobility device, such as an electric scooter made and a guide dog.
+Shown above is "Assorted Barrier Busters" group's prototype. They have used lego blocks to build a platform, craft paper to build an elevator cube and plasticine to create a mobility device, such as an electric scooter and a guide dog.
 
 {{< imgblock src="images/IMG_1864.jpg" resize="wide" alt="\"Assorted Barrier Busters\" group's Access app prototype" >}}
 

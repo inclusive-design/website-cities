@@ -18,7 +18,7 @@ Duration: 15-20 minutes**
 
 The first day began with a warm up activity. In this activity, participants were given the following imaginary scenario, "Imagine all doors disappeared from the world". Then, each participant was given two random items written and embossed on a piece of paper. These items were purposely chosen to have varying levels of practical use for building doors, and included items such as "marshmallows", "hedgehogs", "foam blocks" and "bricks". Participants were then asked to form groups of three and discuss ways to build a door with their materials. After about five minutes of brainstorming, two groups of three merged to create an even better door with the new materials. Groups had another five minutes to combine their ideas and build a better door. At the end of this activity, groups had a chance to share their ideas with the larger group. Facilitators encouraged groups to have fun with the activity, and not worry about developing a polished idea.
 
-{{< imgblock src="images/IMG_1862.jpg" resize="wide" alt="The image above shows examples of items used for the warm up activity printed on braille cards. The cards pictured have names of items such as \"bag of beans\", \"cupcakes\", \"pressured air\", \"marshmallows\", \"water\" and \"keyboards\"" >}}
+{{< imgblock src="images/IMG_1862.jpg" resize="wide" alt="Examples of items used for the warm up activity printed on braille cards. The cards pictured have names of items such as \"bag of beans\", \"cupcakes\", \"pressured air\", \"marshmallows\", \"water\" and \"keyboards\"" >}}
 
 ### Introducing the themes for the session:
 
@@ -32,7 +32,7 @@ After the warm-up activity, the following themes were introduced to the audience
 
 <li>Up & Down: Moving between different levels of a space 
 <blockquote>
-"This theme explores thresholds that exist between different levels of a space for example going from one level of a building to another. With this theme we want you to think of the different types of thresholds that are encountered moving up and down, and the challenges that exist in crossing these thresholds? How can these transitions be made more seamless?"
+"This theme explores thresholds that exist between different levels of a space for example going from one level of a building to another. With this theme we want you to think of the different types of thresholds that are encountered moving up and down, and the challenges that exist in crossing these thresholds. How can these transitions be made more seamless?"
 </blockquote></li>
 
 <li>Getting Around: Transitioning between different modes of transportation

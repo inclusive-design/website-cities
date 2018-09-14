@@ -39,7 +39,7 @@ An occupancy sensor (pressure sensor, camera, etc.) in the street that lets peop
 
 - Occupancy sensor (pressure sensor or camera or radar)
 - Traffic sensor (radar or camera or LIDAR)
-- LED lights (check out if new lights from chris have arrived and if we can use them for a crosswalk scenario)
+- LED lights
 - Arduino
 - Sound emitting speaker, e.g. https://www.instructables.com/id/Arduino-Basics-Making-Sound/.
 

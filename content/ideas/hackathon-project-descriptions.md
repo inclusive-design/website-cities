@@ -13,7 +13,7 @@ An occupancy sensor (pressure sensor, camera, etc.) in the street that lets peop
 
 ### [Project #2: Tranquil Refuge]({{< relref "/hackathon/prd/tranquil-refuge.md" >}})
 
-A place that people that need a physical or sensory reprieve from the environment can go to rest and recharge. Potential to give priority access to people with accessibility needs. [Read more]({{< relref "/hackathon/prd/tranquil-refuge.md" >}})
+A place where people who need a physical or sensory reprieve from the environment can go to rest and recharge. Potential to give priority access to people with accessibility needs. [Read more]({{< relref "/hackathon/prd/tranquil-refuge.md" >}})
 
 ### [Project #3: Construction Advisory Beacon Messages]({{< relref "/hackathon/prd/construction-advisory-beacon-messages.md" >}})
 

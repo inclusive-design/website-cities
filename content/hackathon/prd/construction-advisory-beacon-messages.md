@@ -21,7 +21,7 @@ An advisory message sent from a beacon informing people of construction impedime
 ## This prototype does not need to include
 
 - You don’t need to actually push your messages to the beacon or add a real camera.
-- Ability for beacon to take the image - assume that you have a bunch of pictures that the beacon has taken 1x/day (you can take these with an phone).
+- Ability for beacon to take the image - assume that you have a bunch of pictures that the beacon has taken 1x/day (you can take these with a phone).
 - Orientation (left or right) of construction from the user, since beacons are omnidirectional.
 
 ## This prototype could optionally include

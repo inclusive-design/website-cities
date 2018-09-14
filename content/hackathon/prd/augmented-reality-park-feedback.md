@@ -8,7 +8,7 @@ Providing actionable information about a public park — features and amenities 
 
 ## Use cases
 
-1. This pavement is broken. User can pull out a phone with this AR app to see who the responsible agency is and make a call or text to report it.
+1. The pavement is broken. User can pull out a phone with this AR app to see who the responsible agency is and make a call or text to report it.
 1. There is construction in the park. Someone who is blind or partially sighted is walking down a path and encounters the construction. They pull out their phone and hold it up; they hear a message about who is in charge of the construction and a question about if they want to report it being inaccessible. They make the call and then go about their day. If they want to request additional help, there’s also an option for that.
 
 ## This prototype must include
@@ -16,7 +16,7 @@ Providing actionable information about a public park — features and amenities 
 1. Visual and audio component; you should hear an indicator when you’re in view of something
 1. Interaction for further information (“shake to hear more”)
 1. A call to action: send an email, make a call, notify responsible persons
-1. Be aware of where the users is located and include in action / report
+1. Be aware of where the user is located and include in action / report
 1. We assume that the user will have a phone or tablet here.
 
 ## This prototype could optionally include

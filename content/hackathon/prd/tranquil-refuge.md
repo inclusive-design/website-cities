@@ -8,20 +8,20 @@ A place where people who need a physical or sensory reprieve from the environmen
 
 ## Use cases
 
-1. An 8 month pregnant woman has been visiting a street festival in Quayside, and it’s over 30 degrees out. She desperately needs to sit down and cool off. She’s also ready to go home, but doesn’t know the best way to get out of the festival and find the public transportation option that will get her home the fastest.
-1. A parent is visiting Quayside with their child who is on the autism spectrum. They know that their child is only comfortable being out in a loud and busy environment for 15 minutes at a time and needs a quiet, restful, low-lit place to chill out and recharge between activities.
-1. A teenager who uses a mobility device notices their chair is running low on batteries. They need somewhere out of the way to charge their chair. As they start looking around for a place to go, they realize their phone is running low on batteries too - they’ll need to find somewhere to go to find an outlet for that too.
+- An 8 month pregnant woman has been visiting a street festival in Quayside, and it’s over 30 degrees out. She desperately needs to sit down and cool off. She’s also ready to go home, but doesn’t know the best way to get out of the festival and find the public transportation option that will get her home the fastest.
+- A parent is visiting Quayside with their child who is on the autism spectrum. They know that their child is only comfortable being out in a loud and busy environment for 15 minutes at a time and needs a quiet, restful, low-lit place to chill out and recharge between activities.
+- A teenager who uses a mobility device notices their chair is running low on batteries. They need somewhere out of the way to charge their chair. As they start looking around for a place to go, they realize their phone is running low on batteries too - they’ll need to find somewhere to go to find an outlet for that too.
 
 ## This prototype must include
 
-1. A life size model of a physically enclosed pod-like structure.
+- A life size model of a physically enclosed pod-like structure.
     - This model must accommodate all kinds of mobility devices (scooters, chairs, motorized personal vehicles, bikes, strollers, etc). There should not be a curb to entry; if there is a step, it should have a ramp.
-1. Seating
-1. Mockup of an information screen with illustrative information (e.g. map of the area with food and restrooms)
-1. Audible, conversational location-aware smart device to answer questions (e.g. Google home to direct person to the closest coffee shop)
-1. Low-stimulus colors and adjustable lighting and sound options (e.g. white noise from Google Home).
-1. A way to give feedback on the space
-1. Text / symbol based signage and/or audible messaging that communicates the rules and norms for using the space in plain English.
+- Seating
+- Mockup of an information screen with illustrative information (e.g. map of the area with food and restrooms)
+- Audible, conversational location-aware smart device to answer questions (e.g. Google home to direct person to the closest coffee shop)
+- Low-stimulus colors and adjustable lighting and sound options (e.g. white noise from Google Home).
+- A way to give feedback on the space
+- Text / symbol based signage and/or audible messaging that communicates the rules and norms for using the space in plain English.
 
 ## This prototype could optionally include
 

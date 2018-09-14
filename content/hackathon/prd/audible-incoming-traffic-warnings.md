@@ -8,18 +8,18 @@ An occupancy sensor (pressure sensor, camera, etc.) in the street that lets peop
 
 ## Use cases
 
-1. Someone who is blind or has low-vision is preparing to cross to the bike lane and would be notified that there is a biker approaching from the left and how much time before the bike/car will pass.
-1. Someone is standing in the middle of the street and not paying attention; an electric AV approaches but doesn’t make a sound. This traffic warning notifies the person that there is an AV approaching and guides them off the street.
-1. The light is green and the pedestrian has right of way, but there is a car approaching quickly that may run the light. This would notify the pedestrian that it is not yet safe to walk. (Only in a legacy vehicle situation).
+- Someone who is blind or has low-vision is preparing to cross to the bike lane and would be notified that there is a biker approaching from the left and how much time before the bike/car will pass.
+- Someone is standing in the middle of the street and not paying attention; an electric AV approaches but doesn’t make a sound. This traffic warning notifies the person that there is an AV approaching and guides them off the street.
+- The light is green and the pedestrian has right of way, but there is a car approaching quickly that may run the light. This would notify the pedestrian that it is not yet safe to walk. (Only in a legacy vehicle situation).
 
 ## This prototype must include
 
-1. A way to sense or indicate that someone is waiting to cross
-1. A way to sense or indicate traffic that is approaching from at least 50m/150ft away (assuming vehicle travelling 40km/hr at outer limit).
-1. How far away (in time) the vehicle is
-1. Which direction it’s coming from
-1. Produce an audible warning signal and description
-1. Doesn’t require a phone
+- A way to sense or indicate that someone is waiting to cross
+- A way to sense or indicate traffic that is approaching from at least 50m/150ft away (assuming vehicle travelling 40km/hr at outer limit).
+- How far away (in time) the vehicle is
+- Which direction it’s coming from
+- Produce an audible warning signal and description
+- Doesn’t require a phone
 
 ## This prototype could optionally include
 

@@ -3,6 +3,10 @@ title: "Hackathon Project Descriptions"
 date: "2018-09-14"
 ---
 
+We've gone through all of the great ideas from the co-design sessions and selected 8 of them to prototype at the September 21 Hackathon. For each one, we've prepared a design challenge, which lists the required features and intended use cases for the project.
+
+For more details about the Hackathon, and to apply to take part, please see the [Accessible City Hackathon Application announcement]({{< relref "/ideas/accessible-city-hackathon-app.html" >}}).
+
 ### [Project #1: Audible incoming traffic warnings @ intersections]({{< relref "/hackathon/prd/audible-incoming-traffic-warnings.md" >}})
 
 An occupancy sensor (pressure sensor, camera, etc.) in the street that lets people know about someone approaching on a bicycle or car if they're preparing to cross the street and / or currently in the street. [Read more]({{< relref "/hackathon/prd/audible-incoming-traffic-warnings.md" >}})

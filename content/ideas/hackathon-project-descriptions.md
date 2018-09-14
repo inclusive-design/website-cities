@@ -22,3 +22,15 @@ A dependable audio interface for ordering non-emergency medical transport. [Read
 ### [Project #5: Augmented reality park feedback experience]({{< relref "/hackathon/prd/augmented-reality-park-feedback.md" >}})
 
 Providing actionable information about a public park — features and amenities — and a means for reporting maintenance issues within the park to responsible parties in an accessible, easy manner. [Read more]({{< relref "/hackathon/prd/augmented-reality-park-feedback.md" >}})
+
+### [Project #6: Rumble Pavement]({{< relref "/hackathon/prd/rumble-pavement.md" >}})
+
+A dynamic audible indication of where the sidewalk (pedestrian-only section) ends and potentially dangerous bike or vehicular traffic starts. [Read more]({{< relref "/hackathon/prd/rumble-pavement.md" >}})
+
+### [Project #7: Tactile Sidewalk Wayfinding Strip]({{< relref "/hackathon/prd/tactile-sidewalk-wayfinding-strip.md" >}})
+
+A continuous tactile path on all sidewalks that provides wayfinding to and contextual, place-based information about the nearest transit stop. [Read more]({{< relref "/hackathon/prd/tactile-sidewalk-wayfinding-strip.md" >}})
+
+### [Project #8: AI Floor Describer]({{< relref "/hackathon/prd/ai-floor-describer.md" >}})
+
+Auto-generate an audio description of a one-floor floorplan, including the elevators / stairs / washrooms / seating area / doors. [Read more]({{< relref "/hackathon/prd/ai-floor-describer.md" >}})

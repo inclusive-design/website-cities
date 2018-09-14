@@ -14,3 +14,11 @@ A place that people that need a physical or sensory reprieve from the environmen
 ### [Project #3: Construction Advisory Beacon Messages]({{< relref "/hackathon/prd/construction-advisory-beacon-messages.md" >}})
 
 An advisory message sent from a beacon informing people of construction impediment(s) on the path. [Read more]({{< relref "/hackathon/prd/construction-advisory-beacon-messages.md" >}})
+
+### [Project #4: Self-driving cars for sub-emergency medical visits]({{< relref "/hackathon/prd/self-driving-cars-for-sub-emergency-medical-visits.md" >}})
+
+A dependable audio interface for ordering non-emergency medical transport. [Read more]({{< relref "/hackathon/prd/self-driving-cars-for-sub-emergency-medical-visits.md" >}})
+
+### [Project #5: Augmented reality park feedback experience]({{< relref "/hackathon/prd/augmented-reality-park-feedback.md" >}})
+
+Providing actionable information about a public park — features and amenities — and a means for reporting maintenance issues within the park to responsible parties in an accessible, easy manner. [Read more]({{< relref "/hackathon/prd/augmented-reality-park-feedback.md" >}})

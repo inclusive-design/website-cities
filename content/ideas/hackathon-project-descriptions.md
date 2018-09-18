@@ -7,7 +7,7 @@ We've gone through all of the great ideas from the co-design sessions and select
 
 For more details about the Hackathon, and to apply to take part, please see the [Accessible City Hackathon Application announcement]({{< relref "/ideas/accessible-city-hackathon-app.html" >}}).
 
-### [Project #1: Audible incoming traffic warnings @ intersections]({{< relref "/hackathon/prd/audible-incoming-traffic-warnings.md" >}})
+### [Project #1: Audible or haptic incoming traffic warnings @ intersections]({{< relref "/hackathon/prd/audible-incoming-traffic-warnings.md" >}})
 
 An occupancy sensor (pressure sensor, camera, etc.) in the street that lets people know about someone approaching on a bicycle or car if they're preparing to cross the street and / or currently in the street. [Read more]({{< relref "/hackathon/prd/audible-incoming-traffic-warnings.md" >}})
 
@@ -29,7 +29,7 @@ Providing actionable information about a public park — features and amenities 
 
 ### [Project #6: Rumble Pavement]({{< relref "/hackathon/prd/rumble-pavement.md" >}})
 
-A dynamic audible indication of where the sidewalk (pedestrian-only section) ends and potentially dangerous bike or vehicular traffic starts. [Read more]({{< relref "/hackathon/prd/rumble-pavement.md" >}})
+A dynamic audible/haptic indication of where the sidewalk (pedestrian-only section) ends and potentially dangerous bike or vehicular traffic starts. [Read more]({{< relref "/hackathon/prd/rumble-pavement.md" >}})
 
 ### [Project #7: Tactile Sidewalk Wayfinding Strip]({{< relref "/hackathon/prd/tactile-sidewalk-wayfinding-strip.md" >}})
 

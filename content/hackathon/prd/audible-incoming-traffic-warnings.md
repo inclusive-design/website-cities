@@ -1,5 +1,5 @@
 ---
-title: "Hackathon Project #1: Audible incoming traffic warnings @ intersections"
+title: "Hackathon Project #1: Audible or haptic incoming traffic warnings @ intersections"
 ---
 
 ## Idea
@@ -8,7 +8,8 @@ An occupancy sensor (pressure sensor, camera, etc.) in the street that lets peop
 
 ## Use cases
 
-- Someone who is blind or has low-vision is preparing to cross to the bike lane and would be notified that there is a biker approaching from the left and how much time before the bike/car will pass.
+- Someone who is blind or has low-vision is preparing to cross to the bike lane and would be notified auditorily that there is a biker approaching from the left and how much time before the bike/car will pass.
+- Someone who is deaf is preparing to cross the bike lane and would be notified via a watch vibration that there’s a bicyclist approaching from the left.
 - Someone is standing in the middle of the street and not paying attention; an electric AV approaches but doesn’t make a sound. This traffic warning notifies the person that there is an AV approaching and guides them off the street.
 - The light is green and the pedestrian has right of way, but there is a car approaching quickly that may run the light. This would notify the pedestrian that it is not yet safe to walk. (Only in a legacy vehicle situation).
 
@@ -23,6 +24,7 @@ An occupancy sensor (pressure sensor, camera, etc.) in the street that lets peop
 
 ## This prototype could optionally include
 
+- This could optionally provide a vibration or haptic signal as well (via smart watch or bracelet), and light up the space between the bicyclist/vehicle with a light path in the street that gets shorter as the bicyclist moves toward the crosswalk.
 - This could optionally integrate with the temporary physical tactile crosswalk to notify a biker that they should stop for a pedestrian.
 - This could optionally integrate with street lighting that would turn red if the person should not start crossing
 - This could optionally integrate with the AR demo to give you an auditory signal when the AR AVs approach you if you’re standing in the middle of the street.

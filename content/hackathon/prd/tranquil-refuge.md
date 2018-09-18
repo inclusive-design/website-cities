@@ -10,6 +10,7 @@ A place where people who need a physical or sensory reprieve from the environmen
 
 - An 8 month pregnant woman has been visiting a street festival in Quayside, and it’s over 30 degrees out. She desperately needs to sit down and cool off. She’s also ready to go home, but doesn’t know the best way to get out of the festival and find the public transportation option that will get her home the fastest.
 - A parent is visiting Quayside with their child who is on the autism spectrum. They know that their child is only comfortable being out in a loud and busy environment for 15 minutes at a time and needs a quiet, restful, low-lit place to chill out and recharge between activities.
+- A person who is Deaf has been signing with their friends outside on the grass in the hot sun for a long time; they need a place to be able to rest and close their eyes without worrying about personal safety.
 - A teenager who uses a mobility device notices their chair is running low on batteries. They need somewhere out of the way to charge their chair. As they start looking around for a place to go, they realize their phone is running low on batteries too - they’ll need to find somewhere to go to find an outlet for that too.
 
 ## This prototype must include

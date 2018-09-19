@@ -568,7 +568,7 @@ a:hover {
     }
 
     .contentBlock:last-child {
-        padding-left: 1.75em;
+        padding-left: 0;
     }
 
     .ideasContentContainer {
@@ -625,7 +625,7 @@ a:hover {
     }
 
     .contentBlock:last-child {
-        padding-left: 1.75em;
+        padding-left: 0;
     }
 
     .ideasContentContainer {

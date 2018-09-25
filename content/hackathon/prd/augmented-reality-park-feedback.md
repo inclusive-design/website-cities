@@ -46,4 +46,4 @@ Providing actionable information about a public park — features and amenities 
 
 - Experience with AR programming
 
-[Back to the Hackathon project descriptions]({{< relref "/ideas/hackathon-project-descriptions.md" >}})
+{{< backlink "/ideas/hackathon-project-descriptions.md" >}}

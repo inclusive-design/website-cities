@@ -42,4 +42,4 @@ A dynamic audible/haptic indication of where the sidewalk (pedestrian-only secti
 - Hardware engineering (Raspberry Pi)
 - Programming
 
-[Back to the Hackathon project descriptions]({{< relref "/ideas/hackathon-project-descriptions.md" >}})
+{{< backlink "/ideas/hackathon-project-descriptions.md" >}}

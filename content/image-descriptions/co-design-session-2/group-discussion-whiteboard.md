@@ -70,3 +70,5 @@ Theme: Lost & Found
 - people plan where they go {{< arrow >}} how to help when things change
 - culture of city {{< arrow >}} only changing/dynamic in some areas
     - letting other areas know that they may be next to become dynamic
+
+{{< backlink "/ideas/co-design-session-2/index.md" >}}

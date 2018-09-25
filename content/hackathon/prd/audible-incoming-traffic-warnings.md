@@ -49,4 +49,4 @@ An occupancy sensor (pressure sensor, camera, etc.) in the street that lets peop
 
 - Arduino skills / sensors (some light hardware)
 
-[Back to the Hackathon project descriptions]({{< relref "/ideas/hackathon-project-descriptions.md" >}})
+{{< backlink "/ideas/hackathon-project-descriptions.md" >}}

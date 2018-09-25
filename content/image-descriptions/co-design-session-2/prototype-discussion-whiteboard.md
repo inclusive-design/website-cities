@@ -110,3 +110,5 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
         - multiple benefits
     - each doors@building has screen
         - info is on things that don't change
+
+{{< backlink "/ideas/co-design-session-2/index.md" >}}

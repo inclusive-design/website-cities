@@ -51,4 +51,4 @@ A continuous tactile path on all sidewalks that provides wayfinding to and conte
 - Ability to cut, tape and glue
 - Ability to test with wheels
 
-[Back to the Hackathon project descriptions]({{< relref "/ideas/hackathon-project-descriptions.md" >}})
+{{< backlink "/ideas/hackathon-project-descriptions.md" >}}

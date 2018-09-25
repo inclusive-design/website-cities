@@ -17,12 +17,12 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
 
 * Warning plate {{< arrow >}} warn people that a ramp/drop is approaching
 * Constructed like an ice cream sandwich
-  * Cane users can hear that they’re on it 
-* Haptic features {{< arrow >}} circuitry inside and underneath 
+  * Cane users can hear that they’re on it
+* Haptic features {{< arrow >}} circuitry inside and underneath
 * Heating plate
 * How many lights? {{< arrow >}} solicit user feedback
 * Will heating interfere with other circuitry
-* Navigate to plate {{< arrow >}} meant to indicate upcoming slope {{< arrow >}} plate at top of slope {{< arrow >}} find feel with tactility of bumps 
+* Navigate to plate {{< arrow >}} meant to indicate upcoming slope {{< arrow >}} plate at top of slope {{< arrow >}} find feel with tactility of bumps
   * Metal because of durability and conductivity
 
 ### Criticisms
@@ -37,7 +37,7 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
 * Holes for heating/drainage/light {{< arrow >}} hole are very small
 * Hollow space changes sound regardless how you navigate
 * Bumps are like current tactile bumps but smoothed out a little for smoother movement for all
-	
+
 ## Cats and Dogs group
 
 * Wayfinding to get to building
@@ -58,7 +58,7 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
 * Has auditory output
 * Doesn’t require personal info {{< arrow >}} just preferences
 * Stored on site {{< arrow >}} connected to larger system (about 3 ft tall to prevent tripping and easier use)
-* Battery powered 
+* Battery powered
 * Has emergency mode and leads to nearest exit
 * How not to freak out pets {{< arrow >}} if it becomes common you can train it to become used to it
 * Automation eventually leads to savings
@@ -74,7 +74,7 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
 * Open source real time data
 * Personal profile that you can access at bus stop if your phone dies/you don’t have a phone
 * 1st screen {{< arrow >}} location and destination {{< arrow >}} mode of transport
-* Give other info {{< arrow >}} interests, hobbies, good snow removal, construction (detailed information), fallen trees, links to things (311/911) 
+* Give other info {{< arrow >}} interests, hobbies, good snow removal, construction (detailed information), fallen trees, links to things (311/911)
 * “In-Struct”
 
 ### Revisions/Discussion
@@ -83,7 +83,7 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
 * If phone dies {{< arrow >}} charging stations which has all the ports
 * Multimodal notifications {{< arrow >}} multilingual
 * Problems with wifi and data costs money
-* Keep simple and easy to use 
+* Keep simple and easy to use
   * Focus on GPS aspect
   * Curb cuts and construction
 * Kiosk {{< arrow >}} find info and charge device
@@ -103,14 +103,14 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
 ### Revision/Discussion
 
 * No physical barriers {{< arrow >}} was intentional, trying not to exclude people, system meant to draw attention to be wary of people crossing, should be pedestrians only
-* What happens when elevator is broken 
+* What happens when elevator is broken
   * Info will be in embedded app
 * How to scale? {{< arrow >}} network of paths?
 * What about snow? {{< arrow >}} robots or heated
 
 ## Assorted Barrier Busters group
 
-* Interview next day 
+* Interview next day
 * Access app for accessibility in and out of buildings
 * Voice activation
 * Set up for automation at thresholds
@@ -121,7 +121,7 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
   * Control panels on the side (not on door side)
   * Height accessible buttons
   * Buttons raised and have braille
-* Display outside elevator to tell which one is coming and how long 
+* Display outside elevator to tell which one is coming and how long
   * Beeps a few seconds before it arrives
 
 ### Revision/Discussion
@@ -130,4 +130,6 @@ Whiteboard of notes on the discussion of the 5 prototypes. Each group described 
 * Smartphone/app {{< arrow >}} fob with 3 buttons and the ability to pre-set custom preferences
 * New system {{< arrow >}} learning curve? Building costs?
 * Employer gives people phones
-* Like the idea of buttons on side instead of on door 
+* Like the idea of buttons on side instead of on door
+
+{{< backlink "/ideas/co-design-session-3/index.md" >}}

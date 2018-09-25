@@ -46,4 +46,4 @@ An advisory message sent from a beacon informing people of construction impedime
 - Machine learning
 - Programming
 
-[Back to the Hackathon project descriptions]({{< relref "/ideas/hackathon-project-descriptions.md" >}})
+{{< backlink "/ideas/hackathon-project-descriptions.md" >}}

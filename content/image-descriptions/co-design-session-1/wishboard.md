@@ -83,3 +83,5 @@ Context: Hospital
 - Finger/eye scanning system to replace health cards
 - Education for emergency + volunteer room staff on how to properly communicate with people in crisis
 - Public Education about accessing healthcare - prior and on location
+
+{{< backlink "/ideas/co-design-session-1.html" >}}

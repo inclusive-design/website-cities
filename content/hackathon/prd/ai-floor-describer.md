@@ -46,4 +46,4 @@ Auto-generate an audio description of a one-floor floorplan, including the eleva
 
 - Machine Learning
 
-[Back to the Hackathon project descriptions]({{< relref "/ideas/hackathon-project-descriptions.md" >}})
+{{< backlink "/ideas/hackathon-project-descriptions.md" >}}

@@ -50,4 +50,4 @@ A dependable audio interface for ordering non-emergency medical transport.
 - Programming
 - UX flow design
 
-[Back to the Hackathon project descriptions]({{< relref "/ideas/hackathon-project-descriptions.md" >}})
+{{< backlink "/ideas/hackathon-project-descriptions.md" >}}

@@ -29,9 +29,9 @@ Whiteboard with ideas generated during a large group discussion.
 * Construction sites{{< arrow >}} hard to get around & never the same {{< arrow >}} no curb cuts
 * Apps for construction zones/closures
 * More audio things {{< arrow >}} where to tap for presto {{< arrow >}} better turnstiles
-* Taxis {{< arrow >}} hard to flag 
+* Taxis {{< arrow >}} hard to flag
   * Cant see meter, only uber has an app
-* More space to sit on sidewalk 
+* More space to sit on sidewalk
   * Not in way to prevent tripping
 
 ## Cats and Dogs group
@@ -55,3 +55,5 @@ Whiteboard with ideas generated during a large group discussion.
 ## Assorted Barrier Busters group
 
 * Cab pulling up to office building in January {{< arrow >}} ramp and road clear of debris {{< arrow >}} some vehicle that docks at cab for smooth transition/transfer which carries you into building {{< arrow >}} recall your accessibility preferences based on badge {{< arrow >}} app to be a local helper.
+
+{{< backlink "/ideas/co-design-session-3/index.md" >}}

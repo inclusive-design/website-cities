@@ -327,13 +327,19 @@ a:hover {
 .ideasContentBlock h2 {
     font-family: 'Work Sans', sans-serif;
     color: #212121;
-    font-size: 1.5em;
-    font-weight: 500;
+    font-size: 2.2em;
+    font-weight: 400;
 }
 
 .ideasContentBlock h3 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.ideasContentBlock h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3em;
     font-weight: 500;
 }
 

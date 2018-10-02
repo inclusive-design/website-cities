@@ -3,7 +3,7 @@ title: "Co-design Session #3: Thresholds"
 date: "2018-09-11"
 ---
 
-The last of three co-design sessions was held on September 5th and 6th at the Inclusive Design Research Center (IDRC) at 49 McCaul Street. The event was split between two evening sessions. The purpose of having an evening session was to accommodate participants who might be unable to attend during regular business hours. An audio describer was present at both nights and provided audio description of any visual material or built object as requested by participants.
+The last of three co-design sessions was held on September 5th and 6th at the Inclusive Design Research Centre (IDRC) at 49 McCaul Street. The event was split between two evening sessions. The purpose of having an evening session was to accommodate participants who might be unable to attend during regular business hours. An audio describer was present at both nights and provided audio description of any visual material or built object as requested by participants.
 
 Each day began at 5:15 pm and ended around 9 pm. Five IDRC members and one accessibility consultant from Sidewalk Labs facilitated a group of twenty people from the Greater Toronto Area participating in this collaborative event. The focus of the third, and last, session was on thresholds. Thus, the planned activities for the day encouraged participants to reflect on their personal experiences in moving between different spaces and environments and think about how to improve these transition points in the future. To discuss and come up with ideas related to different types of thresholds, we focused on the following areas:
 

@@ -56,3 +56,13 @@ The prototyping activity enabled us to draw out specific qualities that the part
 The group prototypes suggested that participants valued dynamic spaces that served many purposes and could be adapted to many different public uses. There was also significant emphasis on the design of spaces that provided sufficient information through multiple modalities and sensory domains to allow ease of access for all users. Other groups advocated for interconnected services that improve efficiency throughout the city. Most participants expressed that options should be given to provide feedback, receive feedback, and track their feedback and any action taken in response to their feedback. Groups also provided feedback on other prototype ideas, and commented on issues around cost, privacy, and access in the design of cities and services provided.
 
 The IDRC team went through all the notes and the artifacts from this session and extracted as many ideas as possible for the hackathon session. The IDRC team and Sidewalk team went through these ideas once again and picked about 3-4 ideas to be built during the hackathon.
+
+### Raw Data
+
+- {{< resource src="Morning Groups Journey Maps.pdf" text="Scanned images of the journey map worksheets from the morning session (PDF)" >}}
+- {{< resource src="Afternoon Groups Project Description and Critique.pdf" text="Scanned images of the project descriptions and peer feedback worksheets from the afternoon session (PDF)" >}}
+- {{< resource src="Journey Maps Themes and Wishes table.docx" text="Tables generated based on the collected information in co-design session #1 (Word document)" >}}
+
+### Generated Ideas
+
+- {{< resource src="Prototype Ideas from Co-design 1.docx" text="List of ideas from the first session for the hackathon (Word document)" >}}

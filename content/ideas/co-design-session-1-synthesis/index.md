@@ -23,7 +23,7 @@ During the afternoon session, participants were assigned to new groups. Each gro
 
 This team developed a transit system that will be accessible for people with different abilities. In this design, the names for subway lines, streetcars and buses were associated with street names that they were situated on. The names of subway stations corresponded to the intersections or major landmarks it was located on. The subway lines were color coded and used the same colours for intersecting streetcar lines. Similar font was used in subway and streetcar lines that traveled in the same direction, for example same font for North-South lines and another font for East-West lines. All the vehicles, maps, and signs were marked with textures and colors instead of numbers. Each texture was associated with a particular color. For further information about this project you can visit [one of the participants' post regarding her experience during this session](https://pario.blogspot.com/2018/09/co-designing-ttc-for-cognitive-visual.html).
 
-{{< imgblock src="images/prototype.JPG" resize="wide" alt="A prototype of multi-modal TTC system" >}}
+{{< imgblock src="images/prototype.JPG" resize="wide" alt="Prototype map of multi-modal TTC system with coloured lines and stops" >}}
 
 #### An integrated transportation system for sub-emergency needs
 
@@ -35,13 +35,13 @@ This team developed a one-button service that calls an autonomous vehicle to dri
 
 This team worked on creation of a semi-closed and accessible space that creates a refuge in busy and crowded areas. They proposed a kiosk that promotes relaxation and sensory regulation such as with plants, including water station, kids toys, and mood music and lighting. The second aspect of this kiosk is a screen that provides information about accessible transit, food, healthcare, and other social services in the area.
 
-{{< imgblock src="images/IMG_20180813_150936.jpg" resize="wide" alt="Sketch of the layout of a tranquil refuge" >}}
+{{< imgblock src="images/IMG_20180813_150936.jpg" resize="wide" alt="Sketch of the layout of a tranquil refuge: a central area with facilities around the outside" >}}
 
 #### Fostering fallow spaces for unstructured creations
 
 This team proposed a service to intentionally make room for fallow spaces to happen in the city. They identified fallow spaces as spaces or infrastructure hiding in plain sight due to institutional neglect, no economic interest, abandonment, or having ambiguous ownership. They plan to build a network of these pre-existing fallow spaces and provide options for people to acquire custom permits to rezone and use these spaces for different purposes. Fallow spaces can be booked through a booking system online.
 
-{{< imgblock src="images/IMG_7455.JPG" resize="wide" alt="Sketch of a network of fallow spaces" >}}
+{{< imgblock src="images/IMG_7455.JPG" resize="wide" alt="Sketch of a network of fallow spaces: locations connected by lines" >}}
 
 #### Accessible healthcare
 

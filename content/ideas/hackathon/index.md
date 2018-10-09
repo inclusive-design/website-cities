@@ -15,6 +15,8 @@ During the morning session (10:00 am -12:00 pm), groups had 2 hours to assign ro
 After lunch and during the afternoon session (1:00 pm - 4:30 pm), groups had another 3 hours to work on their project. At 2:30 pm, groups were asked to share a quick update about their progress with the larger group and get feedback from their peers and the facilitators.
 Around 4:45 pm, groups started giving out their final presentations.
 
+{{< imgblock src="images/Hackathon Panorama.jpg" resize="wide" alt="The Sidewalk Lab space, with participants sitting on the Dynamic Streets prototype. In the foreground, group Tranquil Refuge is engaging in discussion regarding the design of their idea." >}}
+
 ### Hackathon Project #1: Audible or haptic incoming traffic warnings at intersections
 
 {{< imgblock src="images/project1.png" resize="wide" alt="A visual illustration of the audible or haptic incoming traffic warning prototype" >}}

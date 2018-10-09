@@ -10,7 +10,7 @@ Two members from the accessibility team at Sidewalk Labs and five IDRC members f
 
 Participants were divided into 8 groups with at least one Sidewalk engineer in each group. The participants were assigned to projects they had expressed an interest in during the invitation process.
 
-During the morning session (10:00 am -12:00 pm), groups had 2 hours to assign roles, develop a plan and start building their project. At each hour, groups were asked to update the progress status and notify facilitators if they required assistance.
+During the morning session (10:00 am - 12:00 pm), groups had 2 hours to assign roles, develop a plan and start building their project. At each hour, groups were asked to update the progress status and notify facilitators if they required assistance.
 
 After lunch and during the afternoon session (1:00 pm - 4:30 pm), groups had another 3 hours to work on their project. At 2:30 pm, groups were asked to share a quick update about their progress with the larger group and get feedback from their peers and the facilitators.
 Around 4:45 pm, groups started giving out their final presentations.

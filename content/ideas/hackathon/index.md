@@ -71,7 +71,7 @@ Users can explore a public park with AR using an iPad. Key features can be selec
 
 ### Hackathon Project #6: Rumble pavement
 
-{{< imgblock src="images/MVIMG_20180921_181704.jpg" resize="wide" alt="Participants providing a demonstration of their design to other groups" >}}
+{{< imgblock src="images/MVIMG_20180921_181704.jpg" resize="wide" alt="Participants providing a demonstration of their Rumble Pavement design to other groups" >}}
 
 #### Team’s Project Description:
 

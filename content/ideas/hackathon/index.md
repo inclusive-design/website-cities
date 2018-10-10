@@ -15,7 +15,7 @@ During the morning session (10:00 am - 12:00 pm), groups had 2 hours to assign r
 After lunch and during the afternoon session (1:00 pm - 4:30 pm), groups had another 3 hours to work on their project. At 2:30 pm, groups were asked to share a quick update about their progress with the larger group and get feedback from their peers and the facilitators.
 Around 4:45 pm, groups started giving out their final presentations.
 
-{{< imgblock src="images/Hackathon Panorama.jpg" resize="wide" alt="The Sidewalk Lab space, with participants sitting on the Dynamic Streets prototype. In the foreground, group Tranquil Refuge is engaging in discussion regarding the design of their idea." >}}
+{{< imgblock src="images/Hackathon_Panorama.jpg" resize="wide" alt="The Sidewalk Lab space, with participants sitting on the Dynamic Streets prototype. In the foreground, group Tranquil Refuge is engaging in discussion regarding the design of their idea." >}}
 
 ### Hackathon Project #1: Audible or haptic incoming traffic warnings at intersections
 
@@ -39,7 +39,7 @@ This project proposes a semi enclosed space with options to book fully enclosed 
 
 ### Hackathon Project #3: Construction Advisory Beacon Messages
 
-{{< imgblock src="images/Construction Advisory Beacon Messages.jpg" resize="wide" alt="A screen showing a view of the street with colored circular images representing beacons warning pedestrians of construction impediments on the path" >}}
+{{< imgblock src="images/Construction_Advisory_Beacon_Messages.jpg" resize="wide" alt="A screen showing a view of the street with colored circular images representing beacons warning pedestrians of construction impediments on the path" >}}
 
 #### Team’s Project Description:
 
@@ -49,7 +49,7 @@ This project proposes a new feature integrated with BlindSquare that users curre
 
 ### Hackathon Project #4: Self-driving cars for sub-emergency medical visits
 
-{{< imgblock src="images/Self-driving medical sub-emergency cars.jpg" resize="wide" alt="Three participants presenting their design idea for self-driving cars providing services during sub-emergency medical visits" >}}
+{{< imgblock src="images/Self-driving_medical_sub-emergency_cars.jpg" resize="wide" alt="Three participants presenting their design idea for self-driving cars providing services during sub-emergency medical visits" >}}
 
 #### Team’s Project Description:
 
@@ -91,7 +91,7 @@ Raised indicators in the shape of arrowheads/chevrons provide tactile feedback o
 
 ### Hackathon Project #8: AI Floor Describer
 
-{{< imgblock src="images/AI Floor Describer.jpg" resize="wide" alt="Three participants presenting their idea to the larger group" >}}
+{{< imgblock src="images/AI_Floor_Describer.jpg" resize="wide" alt="Three participants presenting their idea to the larger group" >}}
 
 #### Team’s Project Description:
 

@@ -3,6 +3,8 @@ title: "Co-design Session #2: Dynamic Streets"
 date: "2018-08-30"
 ---
 
+**Update October 18, 2018:** The [Co-design Session #2 Synthesis Report]({{< relref "/ideas/co-design-session-2-synthesis/index.md" >}}) is now available.
+
 The second of three co-design sessions was held on August 24th at the Sidewalk Labs office at 307 Lakeshore Boulevard East, Toronto. The session began at 9:20 am and ended around 5:00 pm. Five IDRC members and one accessibility consultant from Sidewalk facilitated a group of 20 people from the Greater Toronto Area participating in this collaborative event. The focus of the second session was dynamic streets. Thus, the planned activities for the day encouraged participants to reflect on their personal experiences on the streets of Toronto in relation to three main themes and think about how their experiences can be used to inform the streets of the future. The three themes focused on issues of wayfinding and orientation, co-existing within a dynamic space with competing needs, and envisioning a city that meets the needs of all its users.
 
 ### Warm-Up Activity: Share one word that you associate with "street"
@@ -113,7 +115,7 @@ Once groups completed their critique, they returned the worksheets to the origin
 
 For the last hour, each group shared their work with the rest of the teams in an open discussion. Teams were engaged in active discussion and questions when presenting each idea.
 
-At the end of the session, participants were asked to complete a feedback form in order to assess their experience through the day and inform IDRC how they can improve their future co-design sessions. The results from this session will be posted in the next few weeks.
+At the end of the session, participants were asked to complete a feedback form in order to assess their experience through the day and inform IDRC how they can improve their future co-design sessions. The results from this session are available in the [Co-design Session #2 Synthesis Report]({{< relref "/ideas/co-design-session-2-synthesis/index.md" >}}).
 
 {{< imgblock src="images/IMG_7728.JPG" resize="narrow" alt="Whiteboard of notes on the discussion of the 5 prototypes" >}}
 

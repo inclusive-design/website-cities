@@ -1,6 +1,6 @@
 ---
 title: "Houselink Co-design Session: Summary and Results"
-date: "2018-10-11"
+date: "2018-10-18"
 ---
 
 As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with [Houselink](http://www.houselink.on.ca/) and organized an embedded co-design session at their Bloor Street location. The session included thirteen participants with lived experience of a mental illness or drug abuse/addiction who engaged in various activities over two separate sessions. The sessions were facilitated by the Houselink coordinator who received prior instruction and a facilitation

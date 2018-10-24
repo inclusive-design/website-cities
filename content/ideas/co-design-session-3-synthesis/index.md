@@ -96,3 +96,13 @@ The prototyping activity enabled us to draw out specific qualities that the part
 The prototypes suggested that groups considered a combination of low tech/ analogue techniques with more high tech solutions to be able to address a wider range of needs. Most teams included a mobile app to notify users of real-time changes, alternative routes, and also provide information in different languages and modalities. Most prototypes tried to include an option for entering personal preferences to receive directions based on individual needs. Some of the prototypes also aimed to enable users to control and adjust their surrounding environment based on their preferences, such as timing of the automatic doors, voice activation of the controls, temperature of the indoor spaces, etc. All groups tried to incorporate multiple modes of interaction (haptic, visual, audio) to address a broader range of needs. Some of the groups emphasized the importance of integrating real-time data, such as construction, snow removal, accidents, fallen trees, crime, weather info, broken elevators, etc. to inform users of the most current accessible routes.
 
 The IDRC team went through all the notes and the artifacts from this session and extracted as many ideas as possible for the hackathon session. The IDRC team and Sidewalk team went through these ideas once again and picked about 3-4 ideas to be built during the hackathon.
+
+### Raw Data
+
+
+- {{< resource src="scanned_worksheets.pdf" text="Scanned images of the group worksheets and peer feedback from the entire session (PDF)" >}}
+- {{< resource src="Co-design_Session_3_Raw_Data.docx" text="Tables generated based on the collected information in co-design session#3 (Word document)" >}}
+
+### Generated Ideas
+
+- {{< resource src="Prototype_Ideas_from_Co-Design_3.docx" text="List of ideas from the third session for the hackathon (Word document)" >}}

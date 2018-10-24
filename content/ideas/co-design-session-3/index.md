@@ -3,6 +3,8 @@ title: "Co-design Session #3: Thresholds"
 date: "2018-09-11"
 ---
 
+**Update October 24, 2018:** The [Co-design Session #3 Synthesis Report]({{< relref "/ideas/co-design-session-3-synthesis/index.md" >}}) is now available.
+
 The last of three co-design sessions was held on September 5th and 6th at the Inclusive Design Research Centre (IDRC) at 49 McCaul Street. The event was split between two evening sessions. The purpose of having an evening session was to accommodate participants who might be unable to attend during regular business hours. An audio describer was present at both nights and provided audio description of any visual material or built object as requested by participants.
 
 Each day began at 5:15 pm and ended around 9 pm. Five IDRC members and one accessibility consultant from Sidewalk Labs facilitated a group of twenty people from the Greater Toronto Area participating in this collaborative event. The focus of the third, and last, session was on thresholds. Thus, the planned activities for the day encouraged participants to reflect on their personal experiences in moving between different spaces and environments and think about how to improve these transition points in the future. To discuss and come up with ideas related to different types of thresholds, we focused on the following areas:
@@ -30,14 +32,14 @@ After the warm-up activity, the following themes were introduced to the audience
 "This theme explores thresholds that we encounter moving in and out of spaces, for example moving in and out of buildings, private or public spaces or places with open or restricted access. We want you to think of your personal experiences transitioning between spaces. How do you think these thresholds limit or enable your urban experience?"
 </blockquote></li>
 
-<li>Up & Down: Moving between different levels of a space 
+<li>Up & Down: Moving between different levels of a space
 <blockquote>
 "This theme explores thresholds that exist between different levels of a space for example going from one level of a building to another. With this theme we want you to think of the different types of thresholds that are encountered moving up and down, and the challenges that exist in crossing these thresholds. How can these transitions be made more seamless?"
 </blockquote></li>
 
 <li>Getting Around: Transitioning between different modes of transportation
 <blockquote>
-"In urban settings, we often rely on different modes of transportation to get around the city. For example our morning commutes to work may include taking the subway, then switching and hopping on a street car and then walking to our work building. During these commutes we come across many thresholds that either slow us down or facilitate our journey to work. With this theme, we want you to think about your journey throughout the city, the thresholds you encounter, and reflect on your unique experience crossing these thresholds." 
+"In urban settings, we often rely on different modes of transportation to get around the city. For example our morning commutes to work may include taking the subway, then switching and hopping on a street car and then walking to our work building. During these commutes we come across many thresholds that either slow us down or facilitate our journey to work. With this theme, we want you to think about your journey throughout the city, the thresholds you encounter, and reflect on your unique experience crossing these thresholds."
 </blockquote></li>
 </ol>
 
@@ -46,9 +48,9 @@ After the warm-up activity, the following themes were introduced to the audience
 **Objective: Discussing each theme based on personal experiences<br>
 Duration: 45 minutes**
 
-Step one, two, and three of the design activity included questions that encouraged participants to reflect on their personal experiences and share their perspectives to build a common understanding of their theme. 
+Step one, two, and three of the design activity included questions that encouraged participants to reflect on their personal experiences and share their perspectives to build a common understanding of their theme.
 
-Below are the questions asked in step one to three for each theme: 
+Below are the questions asked in step one to three for each theme:
 
 In & Out:
 <ol>
@@ -98,7 +100,7 @@ Getting Around:
 
 * Challenge: Imagine a better experience in the future for switching modes of transportation
 
-As the groups engaged in discussion, the assigned facilitators provided insight and guided the discussion to reflect on each theme. Each group then had the opportunity to briefly share their ideas with the larger group and received feedback before prototyping their idea the next day. The end of the group discussion on preliminary ideas marked the end of the first half of this two-day session. Participants were encouraged to reflect on their ideas and be more observant of the thresholds over the following day. 
+As the groups engaged in discussion, the assigned facilitators provided insight and guided the discussion to reflect on each theme. Each group then had the opportunity to briefly share their ideas with the larger group and received feedback before prototyping their idea the next day. The end of the group discussion on preliminary ideas marked the end of the first half of this two-day session. Participants were encouraged to reflect on their ideas and be more observant of the thresholds over the following day.
 
 {{< imgblock src="images/IMG_7848.jpg" resize="wide" alt="Ideas generated by different groups around personal encounters with thresholds in the city, and reflections of positive and negative experiences associated with these encounters. The responses listed are from groups \"Hedgehog\", \"The A team\",\"Challenging\", \"Cats and Dogs\", \"Group#2\" and \"Assorted Barrier Busters\"" >}}
 
@@ -151,6 +153,4 @@ For the last hour, each group shared their work with the rest of the teams in an
 
 [Image description for the prototype discussion whiteboard]({{< relref "/image-descriptions/co-design-session-3/prototype-discussion-whiteboard.md" >}})
 
-At the end of the session, participants were asked to complete a feedback form in order to assess their experience through the day and inform IDRC how they can improve their future co-design sessions. The results from this session will be posted in the next few weeks.
-
-
+At the end of the session, participants were asked to complete a feedback form in order to assess their experience through the day and inform IDRC how they can improve their future co-design sessions. The results from this session are available in the [Co-design Session #3 Synthesis Report]({{< relref "/ideas/co-design-session-3-synthesis/index.md" >}}).

@@ -2,7 +2,7 @@
 title: "Image Description for the Plant a Home Ideal Neighbourhood Whiteboard"
 ---
 
-What is your ideal neighborhood?
+What is your ideal neighbourhood?
 
 Transportation:
 
@@ -17,10 +17,9 @@ Infrastructure:
 - Community center
 - Public libraries
 - Places to work
-- Public libraries
 - Universities
 - Clinics
-- Small neighborhood store
+- Small neighbourhood store
 
 Streets:
 
@@ -33,7 +32,7 @@ Streets:
 Safety:
 
 - Low crimes
-- Neighborhood watch
+- Neighbourhood watch
 
 Others:
 

@@ -1,6 +1,6 @@
 ---
 title: "Plant a Home Co-Design Session: Empowering Independent Living in the Neighbourhood"
-date: "2018-10-19"
+date: "2018-10-31"
 ---
 
 The IDRC partnered with [Plant a Home](https://plantahome.ca/) to hold a co-design session on September 16th from 1:00-5:00pm at 49 McCaul Street, Toronto. Two representatives from Plant a Home facilitated the session with nine participants from Toronto, Woodstock, and London. Plant a Home is a social enterprise based in London Ontario that seeks to provide independent, long-term housing for adults with developmental disabilities.

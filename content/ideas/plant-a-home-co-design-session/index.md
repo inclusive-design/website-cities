@@ -13,7 +13,9 @@ The theme of this session was Empowering Independent Living in the Neighbourhood
 
 What is an ideal neighbourhood to you?
 
-{{< imgblock src="images/IMG_0196.jpg" resize="wide" alt="Photo of a whiteboard with postit notes on the topic of Your Ideal Neighbourhood" >}}
+{{< imgblock src="images/IMG_0196.jpg" resize="wide" alt="Photo of a whiteboard with post-it notes on the topic of Your Ideal Neighbourhood" >}}
+
+[Image description for the ideal neighbourhood whiteboard]({{< relref "/image-descriptions/plant-a-home-co-design-session/your-ideal-neighbourhood.md" >}})
 
 Participants contributed and organized their ideas of the ideal neighbourhood on a white board.
 
@@ -38,7 +40,7 @@ Then the group discussed the following questions:
 #### 3. Access to transportation from your home
 
 - List the detailed steps you need to take to travel around the city from your home.
-- Think about and share the barriers you face travelling around the city from your home?
+- Think about and share the barriers you face traveling around the city from your home?
 - Think about and share times when it was easy for you to travel around the city from your home?
 - How can existing transit options in your neighbourhood be improved, or new transit options be created to better meet your needs?
 

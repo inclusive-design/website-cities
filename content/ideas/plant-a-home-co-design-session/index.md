@@ -13,6 +13,8 @@ The theme of this session was Empowering Independent Living in the Neighbourhood
 
 What is an ideal neighbourhood to you?
 
+{{< imgblock src="images/IMG_0196.jpg" resize="wide" alt="Photo of a whiteboard with postit notes on the topic of Your Ideal Neighbourhood" >}}
+
 Participants contributed and organized their ideas of the ideal neighbourhood on a white board.
 
 ### Group Discussions

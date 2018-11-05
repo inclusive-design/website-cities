@@ -9,4 +9,4 @@ The Inclusive Cities co-design session started at 1:30 on Friday and ended aroun
 
 ### Raw Data
 
-- Tables generated based on the collected information at the DEEP co-design activity (Word document)
+- {{< resource src="DEEP_raw_data_tables.docx" text="Tables generated based on the collected information at the DEEP co-design activity (Word document)" >}}

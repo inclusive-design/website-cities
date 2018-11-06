@@ -731,3 +731,21 @@ a:hover {
     transition-property: color, background-color;
     transition-duration: 1s;
 }
+
+/* Resources */
+
+.resources-card-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resources-card {
+    margin: 0.5em;
+    border: 2px solid #bbb;
+    background: #fff;
+    padding: 2em 2em;
+    width: 9em;
+    min-height: 9em;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}

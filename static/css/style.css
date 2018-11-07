@@ -749,3 +749,11 @@ a:hover {
     min-height: 9em;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
 }
+
+a.resources-card-link {
+    background-image: none;
+}
+
+a.resources-card-link:hover {
+    background-image: none;
+}

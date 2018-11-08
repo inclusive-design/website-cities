@@ -1,0 +1,9 @@
+<h2>{{ .Get "heading" }}</h2>
+
+<div class="resources-card-row">
+{{ range where .Page.Pages "Params.resource_section" (.Get "section")}}
+    <a class="resources-card-link" href="{{.RelPermalink}}"><div class="resources-card">
+        {{.Content}}
+    </div></a>
+{{ end }}
+</div>

@@ -2,26 +2,5 @@
 
 {{ define "main" }}
 {{ .Content }}
-
-<h2>What topics to explore?</h2>
-
-<div class="resources-card-row">
-{{ range where .Pages "Params.resource_section" "topics"}}
-    <a class="resources-card-link" href="{{.RelPermalink}}"><div class="resources-card">
-        {{.Content}}
-    </div></a>
-{{ end }}
-</div>
-
-<h2>Who is going to be there?</h2>
-
-<div class="resources-card-row">
-{{ range where .Pages "Params.resource_section" "who"}}
-    <a class="resources-card-link" href="{{.RelPermalink}}"><div class="resources-card">
-        {{.Content}}
-    </div></a>
-{{ end }}
-</div>
-
 {{ partial "footer.html" (dict "footerAdditional" "") }}
 {{ end }}

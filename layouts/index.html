@@ -1,6 +1,7 @@
 {{ define "title" }}{{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-{{ .Content }}
-{{ partial "footer.html" (dict "footerAdditional" "<br />\nBackground image of city of Toronto credited to <a href=\"https://chuckmantorontonostalgia.wordpress.com/\">John Chuckman</a>.") }}
+    {{ partial "navbar.html" . }}
+    {{ .Content }}
+    {{ partial "footer.html" (dict "footerAdditional" "<br />\nBackground image of city of Toronto credited to <a href=\"https://chuckmantorontonostalgia.wordpress.com/\">John Chuckman</a>.") }}
 {{ end }}

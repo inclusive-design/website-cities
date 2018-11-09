@@ -1,0 +1,8 @@
+<div class="navbar">
+    <div
+    class="navbar-section {{ if .IsHome }}navbar-section-current{{ end }}"><a href="{{ relref . "/_index.html" }}">HOME</a></div><div
+
+    class="navbar-section {{ if eq .Section "resources" }}navbar-section-current{{ end }}"><a href="{{ relref . "/resources/_index.md" }}">RESOURCES</a></div><div
+
+    class="navbar-section {{ if eq .Section "ideas" }}navbar-section-current{{ end }}">BLOG</div>
+</div>

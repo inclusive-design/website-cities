@@ -732,6 +732,27 @@ a:hover {
     transition-duration: 1s;
 }
 
+/* Navbar */
+
+.navbar-section {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.navbar-section-current {
+    border-width: 0 0 4px 0;
+    border-style: solid;
+    border-color: #999;
+}
+
+.navbar-section a {
+    background-image: none;
+}
+
+.navbar-section a:hover {
+    background-image: none;
+}
+
 /* Resources */
 
 .resources-card-row {

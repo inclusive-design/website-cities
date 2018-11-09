@@ -1,0 +1,7 @@
+{{ define "title" }}{{ .Site.Title }} - {{ .Title }}{{ end }}
+
+{{ define "main" }}
+    {{ partial "navbar.html" . }}
+    {{ .Content }}
+    {{ partial "footer.html" (dict "footerAdditional" "") }}
+{{ end }}

@@ -4,5 +4,5 @@
 
     class="navbar-section {{ if eq .Section "resources" }}navbar-section-current{{ end }}"><a href="{{ relref . "/resources/_index.md" }}">RESOURCES</a></div><div
 
-    class="navbar-section {{ if eq .Section "ideas" }}navbar-section-current{{ end }}">BLOG</div>
+    class="navbar-section {{ if or (eq .Section "blog") (eq .Section "ideas") }}navbar-section-current{{ end }}"><a href="{{ relref . "/blog/_index.md" }}">BLOG</a></div>
 </div>

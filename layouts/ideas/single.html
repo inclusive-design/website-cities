@@ -2,18 +2,11 @@
 
 {{ define "main" }}
 <div id="body">
-    <div id="ideasHeader">
-        <div class="ideasHeaderContainer">
-            <div class="ideasHeaders"><h1><a href="{{ relref . "/_index.html" }}">Co-designing Inclusive Cities</a></h1>
-            <h2>Ideas in Progress</h2></div>
-            <div class="imageContainerIdeas"><img src="{{ "/images/birds.png" | relURL }}" class="img" alt="Birds" /></div>
-        </div>
-    </div>
-
+    {{ partial "blogHeader.html" . }}
     {{ partial "navbar.html" . }}
 
     <div id="ideasContent">
-        <div class="flc-toc-tocContainer toc"> </div>
+        <div class="flc-toc-tocContainer toc"></div>
         <div class="ideasContentContainer">
             <div class="ideasContentBlock">
                 <span class="ideasDate">{{ .Date.Format "January 2, 2006" }}</span>

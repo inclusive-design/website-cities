@@ -1,5 +1,16 @@
 {{ define "title" }}{{ .Site.Title }} - {{ .Title }}{{ end }}
 
 {{ define "main" }}
-{{ partial "plain-body.html" . }}
+<div id="body">
+    {{ partial "resourcesHeader.html" . }}
+    {{ partial "navbar.html" . }}
+
+    <h2>{{ .Title }}</h2>
+
+    <div class="flc-toc-tocContainer toc"></div>
+
+    {{ .Content }}
+
+    {{ partial "footer.html" (dict "footerAdditional" "") }}
+</div>
 {{ end }}

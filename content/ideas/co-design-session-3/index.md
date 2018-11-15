@@ -1,6 +1,7 @@
 ---
 title: "Co-design Session #3: Thresholds"
 date: "2018-09-11"
+description: "The last of three co-design sessions was held on September 5th and 6th at the Inclusive Design Research Centre (IDRC) at 49 McCaul Street. The focus of the third session was thresholds."
 ---
 
 **Update October 24, 2018:** The [Co-design Session #3 Synthesis Report]({{< relref "/ideas/co-design-session-3-synthesis/index.md" >}}) is now available.

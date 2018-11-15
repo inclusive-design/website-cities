@@ -1,6 +1,7 @@
 ---
 title: "Helen Keller Centre Co-design Session: Summary and Results"
 date: "2018-10-11"
+description: "IDRC partnered with Helen Keller Centre and organized an embedded co-design session at their North York Centre. The session was held on September 28th, 2018."
 ---
 
 As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with [Helen Keller Centre](https://chkc.org/) and organized an embedded co-design session at their North York Centre. The session was held on September 28th, 2018. Two individuals from the deaf blind community participated in a 2.5 hour long co-design session from 9:00 am to 11:30 am with assistance of their interveners. Three IDRC members were also available to facilitate this session.

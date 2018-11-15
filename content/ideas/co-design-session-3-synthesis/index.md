@@ -1,6 +1,7 @@
 ---
 title: "Co-design Session #3 Synthesis Report"
 date: "2018-10-24"
+description: "The third co-design session focused on the topic of Threshold moments. At this session participants were tasked with discussing their experiences with different types of thresholds or transition points in their urban experience, brainstorming solutions to the challenges they experienced, and prototyping their ideas. For the discussions, groups were assigned one of three topics related to thresholds: Up and down (moving between different levels of a space), In and out (moving in and out of spaces), and Getting around (transitioning between different modes of transportation)."
 ---
 
 The third co-design session focused on the topic of Threshold moments. At this session participants were tasked with discussing their experiences with different types of thresholds or transition points in their urban experience, brainstorming solutions to the challenges they experienced, and prototyping their ideas. For the discussions, groups were assigned one of three topics related to thresholds: Up and down (moving between different levels of a space), In and out (moving in and out of spaces), and Getting around (transitioning between different modes of transportation). For more information about this session please visit the [Co-Design Session #3: Thresholds]({{< relref "/ideas/co-design-session-3/index.md" >}}) post.

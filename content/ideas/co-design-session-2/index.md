@@ -1,6 +1,7 @@
 ---
 title: "Co-design Session #2: Dynamic Streets"
 date: "2018-08-30"
+description: "The second of three co-design sessions was held on August 24th at the Sidewalk Labs office at 307 Lakeshore Boulevard East, Toronto. The focus of the second session was dynamic streets."
 ---
 
 **Update October 18, 2018:** The [Co-design Session #2 Synthesis Report]({{< relref "/ideas/co-design-session-2-synthesis/index.md" >}}) is now available.

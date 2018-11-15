@@ -1,6 +1,7 @@
 ---
 title: "Deaf Culture Centre Co-design Session: Summary and Results"
 date: "2018-10-01"
+description: "As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with Creative Amnesty and organized an embedded co-design session at the Deaf Culture Centre. The session was held on September 16th, 2018 at the Deaf Culture Centre in the Distillery District."
 ---
 
 As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with [Creative Amnesty](https://www.creativeamnesty.ca/) and organized an embedded co-design session at the [Deaf Culture Centre](https://deafculturecentre.ca/). The session was held on September 16th, 2018 at the Deaf Culture Centre in the Distillery District. The session was held in the afternoon after a coding workshop. Six hearing and eleven deaf people participated in a 2 hour long co-design session from 2:00 pm to 4:00 pm. Two IDRC members facilitated this session with the help of two ASL interpreters.

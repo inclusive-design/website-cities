@@ -1,6 +1,13 @@
 {{ define "title" }}{{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
+    <div id="header">
+        <div class="headerContainer">
+            <h1>Co-designing Inclusive Cities</h1><br />
+            <div class="subtitle">&#8220;Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody.&#8221;<br />
+            <span class="quote">Jane Jacobs</span></div>
+        </div>
+    </div>
     {{ partial "navbar.html" . }}
     {{ .Content }}
     {{ partial "footer.html" (dict "footerAdditional" "<br />\nBackground image of city of Toronto credited to <a href=\"https://chuckmantorontonostalgia.wordpress.com/\">John Chuckman</a>.") }}

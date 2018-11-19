@@ -778,12 +778,31 @@ a:hover {
 
 .resourcesCard {
     margin: 0.5em;
-    border: 2px solid #bbb;
+    border: 1px solid #bbb;
     background: #fff;
-    padding: 2em 2em;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.resourcesCardHeader {
+    padding: 0.2em 0.5em;
+}
+
+.resourcesCardHeader.perspective {
+    background: #303d47;
+}
+
+.resourcesCardHeader.reflection {
+    background: #ca8f20;
+}
+
+.resourcesCardHeader.tool {
+    background: #e15846;
+}
+
+.resourcesCardBody {
+    padding: 2em;
     width: 9em;
     min-height: 9em;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
 }
 
 a.resourcesCardLink {
@@ -791,5 +810,9 @@ a.resourcesCardLink {
 }
 
 a.resourcesCardLink:hover {
-    background-image: none;
+    text-decoration: underline;
+}
+
+.resourcesCard.descriptionCollapsed .resourcesDescription {
+    display: none;
 }

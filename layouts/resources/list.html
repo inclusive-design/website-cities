@@ -13,4 +13,14 @@
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}
 </div>
+
+<script>
+    $(document).ready(function () {
+        $(".toggleResourcesCardDescription").click(function(event) {
+            event.preventDefault();
+            $(event.target).closest(".resourcesCard").toggleClass("descriptionCollapsed");
+        });
+    });
+</script>
+
 {{ end }}

@@ -2,8 +2,21 @@
 
 <div class="resourcesCardRow">
 {{ range where .Page.Pages "Params.resources_section" (.Get "section")}}
-    <a class="resourcesCardLink" href="{{.RelPermalink}}"><div class="resourcesCard">
-        {{.Content}}
-    </div></a>
+    <div class="resourcesCard descriptionCollapsed">
+        <div class="resourcesCardHeader {{ .Params.resources_format }}">
+            {{ if eq .Params.resources_format "perspective" }}
+                <img src="/images/Bird_Icon.svg" width="22px" height="22px" alt="Perspective">
+            {{ else if eq .Params.resources_format "reflection" }}
+                <img src="/images/Fish_Icon.svg" width="22px" height="22px" alt="Reflection">
+            {{ else if eq .Params.resources_format "tool" }}
+                <img src="/images/Cat_Icon.svg" width="22px" height="22px" alt="Tool">
+            {{ end }}
+        </div>
+        <div class="resourcesCardBody">
+            <div><a class="resourcesCardLink" href="{{.RelPermalink}}">{{.Title}}</a></div>
+            <div><a class="toggleResourcesCardDescription" href="#">V</a></div>
+            <div class="resourcesDescription">{{.Description}}</div>
+        </div>
+    </div>
 {{ end }}
 </div>

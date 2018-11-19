@@ -764,13 +764,19 @@ a:hover {
 
 /* Resources */
 
-.resources-card-row {
+.resourcesListContainer {
+    padding: 0 6.5em 3em 6.5em;
+}
+
+.resourcesCardRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background: #f2f2f2;
+    padding: 0.5em;
 }
 
-.resources-card {
+.resourcesCard {
     margin: 0.5em;
     border: 2px solid #bbb;
     background: #fff;
@@ -780,10 +786,10 @@ a:hover {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
 }
 
-a.resources-card-link {
+a.resourcesCardLink {
     background-image: none;
 }
 
-a.resources-card-link:hover {
+a.resourcesCardLink:hover {
     background-image: none;
 }

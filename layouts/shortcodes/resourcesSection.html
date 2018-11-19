@@ -1,8 +1,8 @@
 <h2>{{ .Get "heading" }}</h2>
 
-<div class="resources-card-row">
+<div class="resourcesCardRow">
 {{ range where .Page.Pages "Params.resources_section" (.Get "section")}}
-    <a class="resources-card-link" href="{{.RelPermalink}}"><div class="resources-card">
+    <a class="resourcesCardLink" href="{{.RelPermalink}}"><div class="resourcesCard">
         {{.Content}}
     </div></a>
 {{ end }}

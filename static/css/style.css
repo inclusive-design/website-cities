@@ -161,7 +161,7 @@ a:hover {
 
 #ideasContainer {
     background-color: #fff;
-    padding: 4em 6.6em;
+    padding: 2em 6.5em;
 }
 
 .ideas h2 {
@@ -254,6 +254,7 @@ a:hover {
 
 /* Footer */
 #footer {
+    background: #f2f2f2;
     margin: 0 auto;
     padding: 2em 2em;
     text-align: center;
@@ -293,7 +294,7 @@ a:hover {
 }
 
 .ideasHeaderContainer {
-    padding: 2em 5em;
+    padding: 2em 0 2em 6.5em;
     display: flex;
     justify-content: space-between;
 }
@@ -310,13 +311,12 @@ a:hover {
 }
 
 #ideasContent {
-    background-color: #F2F2F2;
     width: 100%;
 }
 
 .ideasContentContainer {
     width: 80%;
-    padding: 2em 5em;
+    padding: 3em 5em 4em 6.5em;
 }
 
 .ideasContentBlock {
@@ -498,8 +498,8 @@ a:hover {
     }
 
     .row {
-        padding-left: 6.6em;
-        padding-right: 6.6em;
+        padding-left: 6.5em;
+        padding-right: 6.5em;
     }
 
     .contentBlock:first-child {
@@ -554,7 +554,7 @@ a:hover {
     }
 
     #ideasContainer {
-        padding: 2em 6.6em;
+        padding: 2em 6.5em;
     }
 
     .ideas {
@@ -579,11 +579,11 @@ a:hover {
 
     .ideasContentContainer {
         width: 70%;
-        padding: 2em 5em;
+        padding: 3em 5em 4em 6.5em;
     }
 
     .ideasHeaderContainer {
-        padding: 2em 5em;
+        padding: 2em 0 2em 6.5em;
     }
 }
 
@@ -616,7 +616,7 @@ a:hover {
         font-size: 2em;
     }
     #ideasContainer {
-        padding: 4em 6.6em;
+        padding: 2em 6.5em;
     }
     .img {
         visibility: visible;
@@ -636,11 +636,11 @@ a:hover {
 
     .ideasContentContainer {
         width: 70%;
-        padding: 2em 5em;
+        padding: 3em 5em 4em 6.5em;
     }
 
     .ideasHeaderContainer {
-        padding: 2em 5em;
+        padding: 2em 0 2em 6.5em;
     }
 }
 
@@ -734,23 +734,32 @@ a:hover {
 
 /* Navbar */
 
+.navbar {
+    background: #333333;
+    padding: 1.2em 0 1em 6.5em;
+}
+
 .navbar-section {
     display: inline-block;
-    margin-right: 0.5em;
+    padding: 0 0 0.2em 0;
+    margin: 0 1.4em 0 0;
 }
 
 .navbar-section-current {
-    border-width: 0 0 4px 0;
+    border-width: 0 0 2px 0;
     border-style: solid;
-    border-color: #999;
+    border-color: #f2f2f2;
 }
 
 .navbar-section a {
+    font-size: 1.4em;
     background-image: none;
+    color: #f2f2f2;
 }
 
 .navbar-section a:hover {
     background-image: none;
+    color: #f2f2f2;
 }
 
 /* Resources */

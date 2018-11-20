@@ -769,14 +769,13 @@ a:hover {
 }
 
 .resourcesCardRow {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     background: #f2f2f2;
     padding: 0.5em;
 }
 
 .resourcesCard {
+    display: inline-block;
+    vertical-align: top;
     margin: 0.5em;
     border: 1px solid #bbb;
     background: #fff;
@@ -787,32 +786,54 @@ a:hover {
     padding: 0.2em 0.5em;
 }
 
-.resourcesCardHeader.perspective {
+.resourcesCard.perspective .resourcesCardHeader {
     background: #303d47;
 }
 
-.resourcesCardHeader.reflection {
+.resourcesCard.reflection .resourcesCardHeader {
     background: #ca8f20;
 }
 
-.resourcesCardHeader.tool {
+.resourcesCard.tool .resourcesCardHeader {
     background: #e15846;
 }
 
-.resourcesCardBody {
+.resourcesCardTitle {
     padding: 2em;
     width: 9em;
-    min-height: 9em;
+    min-height: 3em;
 }
 
-a.resourcesCardLink {
+.resourcesCard a {
     background-image: none;
 }
 
-a.resourcesCardLink:hover {
+.resourcesCard a:hover {
     text-decoration: underline;
 }
 
-.resourcesCard.descriptionCollapsed .resourcesDescription {
+.resourcesCardDescriptionToggleContainer {
+    text-align: center;
+}
+
+.resourcesCard.descriptionCollapsed .resourcesCardDescription {
     display: none;
+}
+
+.resourcesCard.perspective .resourcesCardDescription {
+    background: #303d47;
+}
+
+.resourcesCard.reflection .resourcesCardDescription {
+    background: #ca8f20;
+}
+
+.resourcesCard.tool .resourcesCardDescription {
+    background: #e15846;
+}
+
+.resourcesCardDescription {
+    padding: 1em 2em;
+    width: 9em;
+    color: #fff;
 }

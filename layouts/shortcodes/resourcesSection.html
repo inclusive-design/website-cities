@@ -1,9 +1,8 @@
 <h2>{{ .Get "heading" }}</h2>
 
 <div class="resourcesCardRow">
-{{ range where .Page.Pages "Params.resources_section" (.Get "section")}}
-    <div class="resourcesCard descriptionCollapsed">
-        <div class="resourcesCardHeader {{ .Params.resources_format }}">
+{{ range where .Page.Pages "Params.resources_section" (.Get "section")}}<div class="resourcesCard descriptionCollapsed {{ .Params.resources_format }}">
+        <div class="resourcesCardHeader">
             {{ if eq .Params.resources_format "perspective" }}
                 <img src="{{ "/images/Bird_Icon.svg" | relURL }}" height="22px" alt="Perspective">
             {{ else if eq .Params.resources_format "reflection" }}
@@ -12,11 +11,8 @@
                 <img src="{{ "/images/Cat_Icon.svg" | relURL }}" height="22px" alt="Tool">
             {{ end }}
         </div>
-        <div class="resourcesCardBody">
-            <div><a class="resourcesCardLink" href="{{.RelPermalink}}">{{.Title}}</a></div>
-            <div><a class="toggleResourcesCardDescription" href="#">V</a></div>
-            <div class="resourcesDescription">{{.Description}}</div>
-        </div>
-    </div>
-{{ end }}
+        <div class="resourcesCardTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></div>
+        <div class="resourcesCardDescriptionToggleContainer"><img class="resourcesCardDescriptionToggle" src="{{ "/images/arrow_down.svg" | relURL }}" height="22px"></div>
+        <div class="resourcesCardDescription">{{.Description}}</div>
+    </div>{{ end }}
 </div>

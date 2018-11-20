@@ -762,7 +762,7 @@ a:hover {
     color: #f2f2f2;
 }
 
-/* Resources */
+/* Resources list page */
 
 .resourcesListContainer {
     padding: 0 6.5em 3em 6.5em;
@@ -784,6 +784,10 @@ a:hover {
 
 .resourcesCardHeader {
     padding: 0.2em 0.5em;
+}
+
+.resourcesCardHeader img {
+    height: 22px;
 }
 
 .resourcesCard.perspective .resourcesCardHeader {
@@ -853,4 +857,58 @@ a:hover {
     width: 9em;
     min-height: 9em;
     color: #fff;
+}
+
+/* Resource pages */
+
+.resourcePageTitleSection {
+    padding: 3.5em 6.5em 2em 6.5em;
+    color: #fff;
+}
+
+.resourcePageTitleSection.perspective {
+    background: #303d47;
+}
+
+.resourcePageTitleSection.reflection {
+    background: #ca8f20;
+}
+
+.resourcePageTitleSection.tool {
+    background: #e15846;
+}
+
+.resourcePageTitleSection > * {
+    vertical-align: top;
+}
+
+.resourcePageFormatIcon {
+    display: inline-block;
+}
+
+.resourcePageFormatIcon img {
+    height: 60px;
+}
+
+.resourcePageTitleAndDescription {
+    display: inline-block;
+    padding: 0 0 0 2em;
+}
+
+.resourcePageTitleAndDescription h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0 0 0.25em 0;
+}
+
+.resourcePageDescription {
+    font-size: 1.1em;
+    max-width: 33em;
+}
+
+.resourcePageContent {
+    padding: 2em 6.5em 3em 6.5em;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    max-width: 40em;
 }

@@ -5,11 +5,19 @@
     {{ partial "resourcesHeader.html" . }}
     {{ partial "navbar.html" . }}
 
-    <h2>{{ .Title }}</h2>
+    <div class="resourcePageTitleSection {{ .Params.resources_format }}">
+        <div class="resourcePageFormatIcon">{{ partial "resourceFormatIcon" . }}</div><div
+        class="resourcePageTitleAndDescription">
+            <h2>{{ .Title }}</h2>
+            <div class="resourcePageDescription">{{ .Description }}</div>
+        </div>
+    </div>
 
     <div class="flc-toc-tocContainer toc"></div>
 
+    <div class="resourcePageContent">
     {{ .Content }}
+    </div>
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}
 </div>

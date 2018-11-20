@@ -1,0 +1,7 @@
+{{ if eq .Params.resources_format "perspective" }}
+    <img src="{{ "/images/Bird_Icon.svg" | relURL }}" alt="Perspective">
+{{ else if eq .Params.resources_format "reflection" }}
+    <img src="{{ "/images/Fish_Icon.svg" | relURL }}" alt="Reflection">
+{{ else if eq .Params.resources_format "tool" }}
+    <img src="{{ "/images/Cat_Icon.svg" | relURL }}" alt="Tool">
+{{ end }}

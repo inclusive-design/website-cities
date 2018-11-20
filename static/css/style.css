@@ -799,9 +799,9 @@ a:hover {
 }
 
 .resourcesCardTitle {
-    padding: 2em 2em 0 2em;
+    padding: 2em 2em 1em 2em;
     width: 9em;
-    min-height: 4.5em;
+    min-height: 3.5em;
     font-weight: 600;
 }
 
@@ -815,6 +815,21 @@ a:hover {
 
 .resourcesCardDescriptionToggleContainer {
     text-align: center;
+}
+
+.resourcesCardDescriptionToggle {
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("../images/arrow_up.svg");
+    width: 80px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.resourcesCard.descriptionCollapsed .resourcesCardDescriptionToggle {
+    background-image: url("../images/arrow_down.svg");
 }
 
 .resourcesCard.descriptionCollapsed .resourcesCardDescription {
@@ -834,8 +849,8 @@ a:hover {
 }
 
 .resourcesCardDescription {
-    padding: 1em 2em 0 2em;
+    padding: 1em 2em 1em 2em;
     width: 9em;
-    min-height: 10em;
+    min-height: 9em;
     color: #fff;
 }

@@ -5,11 +5,11 @@
     <div class="resourcesCard descriptionCollapsed">
         <div class="resourcesCardHeader {{ .Params.resources_format }}">
             {{ if eq .Params.resources_format "perspective" }}
-                <img src="{{ "/images/Bird_Icon.svg" | relURL }}" width="22px" height="22px" alt="Perspective">
+                <img src="{{ "/images/Bird_Icon.svg" | relURL }}" height="22px" alt="Perspective">
             {{ else if eq .Params.resources_format "reflection" }}
-                <img src="{{ "/images/Fish_Icon.svg" | relURL }}" width="22px" height="22px" alt="Reflection">
+                <img src="{{ "/images/Fish_Icon.svg" | relURL }}" height="22px" alt="Reflection">
             {{ else if eq .Params.resources_format "tool" }}
-                <img src="{{ "/images/Cat_Icon.svg" | relURL }}" width="22px" height="22px" alt="Tool">
+                <img src="{{ "/images/Cat_Icon.svg" | relURL }}" height="22px" alt="Tool">
             {{ end }}
         </div>
         <div class="resourcesCardBody">

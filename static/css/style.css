@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700');
 
 
 /* Global */
@@ -799,9 +799,10 @@ a:hover {
 }
 
 .resourcesCardTitle {
-    padding: 2em;
+    padding: 2em 2em 0 2em;
     width: 9em;
-    min-height: 3em;
+    min-height: 4.5em;
+    font-weight: 600;
 }
 
 .resourcesCard a {
@@ -833,7 +834,8 @@ a:hover {
 }
 
 .resourcesCardDescription {
-    padding: 1em 2em;
+    padding: 1em 2em 0 2em;
     width: 9em;
+    min-height: 10em;
     color: #fff;
 }

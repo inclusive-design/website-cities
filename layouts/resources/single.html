@@ -21,6 +21,15 @@
         </div>
     </div>
 
+    {{ if isset .Params "related_resources" }}
+        <div class="resourcePageRelatedResources">
+            <h3>Related Resources</h3>
+            {{ range .Params.related_resources }}
+                {{- trim (partial "resourcesCard.html" ($.GetPage .)) " \r\n" | safeHTML -}}
+            {{ end }}
+        </div>
+    {{ end }}
+
     {{ partial "footer.html" (dict "footerAdditional" "") }}
 </div>
 {{ end }}

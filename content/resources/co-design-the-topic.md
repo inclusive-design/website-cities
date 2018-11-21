@@ -3,6 +3,9 @@ resources_section: topics
 resources_format: perspective
 title: "Co-design the topic"
 description: "Working with collaborators helps to define a topic that is relevant to their needs and context."
+related_resources:
+  - work-with-diverse-creators
+  - lessons-from-community-outreach
 ---
 
 Planning a collaborative activity usually starts with identifying the questions or topics that need to be further explored. This could be an overwhelming step, as these topics may be too abstract and entangled with other issues, or they may be too specific, structured, or biased. Exploring topics in contexts/cultures that are different from yours is another challenge. Ensuring the selected topics are relevant, understandable and not triggering or offensive for the participating community are some important aspects to consider.

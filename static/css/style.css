@@ -912,11 +912,15 @@ a:hover {
 }
 
 .resourcePageContentContainer {
-    padding: 2em 6.5em 3em 6.5em;
+    padding: 2em 6.5em 2em 6.5em;
 }
 
 .resourcePageContent {
     font-size: 1.1em;
     line-height: 1.6em;
     max-width: 45em;
+}
+
+.resourcePageRelatedResources {
+    padding: 0 6.5em 3em 6.5em;
 }

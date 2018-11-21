@@ -15,8 +15,10 @@
 
     <div class="flc-toc-tocContainer toc"></div>
 
-    <div class="resourcePageContent">
-    {{ .Content }}
+    <div class="resourcePageContentContainer">
+        <div class="resourcePageContent">
+            {{ .Content }}
+        </div>
     </div>
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}

@@ -906,8 +906,11 @@ a:hover {
     max-width: 33em;
 }
 
-.resourcePageContent {
+.resourcePageContentContainer {
     padding: 2em 6.5em 3em 6.5em;
+}
+
+.resourcePageContent {
     font-size: 1.1em;
     line-height: 1.6em;
     max-width: 40em;

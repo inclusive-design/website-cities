@@ -807,6 +807,7 @@ a:hover {
     width: 9em;
     min-height: 3.5em;
     font-weight: 600;
+    line-height: 1.4em;
 }
 
 .resourcesCard a {
@@ -855,11 +856,13 @@ a:hover {
 .resourcesCardDescription {
     padding: 1em 2em 1em 2em;
     width: 9em;
-    min-height: 9em;
+    min-height: 10em;
     color: #fff;
+    font-weight: 300;
+    line-height: 1.4em;
 }
 
-/* Resource pages */
+/* Resource detail pages */
 
 .resourcePageTitleSection {
     padding: 3.5em 6.5em 2em 6.5em;
@@ -903,7 +906,9 @@ a:hover {
 
 .resourcePageDescription {
     font-size: 1.1em;
-    max-width: 33em;
+    font-weight: 300;
+    max-width: 38em;
+    line-height: 1.4em;
 }
 
 .resourcePageContentContainer {
@@ -913,5 +918,5 @@ a:hover {
 .resourcePageContent {
     font-size: 1.1em;
     line-height: 1.6em;
-    max-width: 40em;
+    max-width: 45em;
 }

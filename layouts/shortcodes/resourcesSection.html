@@ -1,7 +1,7 @@
 <h2>{{ .Get "heading" }}</h2>
 
 <div class="resourcesCardRow">
-{{ range where .Page.Pages "Params.resources_section" (.Get "section")}}<div
+{{ range sort (where .Page.Pages "Params.resources_section" (.Get "section")) "Params.resources_format" }}<div
     class="resourcesCard descriptionCollapsed {{ .Params.resources_format }}">
         <div class="resourcesCardHeader">{{partial "resourceFormatIcon" .}}</div>
         <div class="resourcesCardTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></div>

@@ -922,5 +922,12 @@ a:hover {
 }
 
 .resourcePageRelatedResources {
-    padding: 0 6.5em 3em 6.5em;
+    padding: 0.5em;
+    margin: 0 6.5em 3em 6.5em;
+    background: #f2f2f2;
+}
+
+.resourcePageRelatedResources h3 {
+    margin: 0.5em;
+    padding: 0;
 }

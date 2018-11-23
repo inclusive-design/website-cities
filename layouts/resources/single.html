@@ -25,11 +25,14 @@
         <div class="resourcePageRelatedResources">
             <h3>Related Resources</h3>
             {{ range .Params.related_resources -}}
-                {{- with ($.GetPage .) -}}
-                    <div class="resourcesCard {{.Params.resources_format}}">
-                        <div class="resourcesCardHeader">{{partial "resourceFormatIcon" .}}</div>
-                        <div class="resourcesCardTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></div>
+                {{- $relatedResource :=  ($.GetPage .) -}}
+                {{- if $relatedResource -}}
+                    <div class="resourcesCard {{$relatedResource.Params.resources_format}}">
+                        <div class="resourcesCardHeader">{{partial "resourceFormatIcon" $relatedResource}}</div>
+                        <div class="resourcesCardTitle"><a href="{{$relatedResource.RelPermalink}}">{{$relatedResource.Title}}</a></div>
                     </div>
+                {{- else -}}
+                    {{ errorf "Related Resource %q not found, referenced from %q" . $.Title }}
                 {{- end -}}
             {{- end }}
         </div>

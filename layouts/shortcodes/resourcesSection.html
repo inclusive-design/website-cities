@@ -5,8 +5,8 @@
     <div class="resourcesCard descriptionCollapsed {{.Params.resources_format}}">
         <div class="resourcesCardHeader">{{partial "resourceFormatIcon" .}}</div>
         <div class="resourcesCardTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></div>
-        <div class="resourcesCardDescriptionToggleContainer"><div class="resourcesCardDescriptionToggle"></div></div>
-        <div class="resourcesCardDescription">{{.Description}}</div>
+        <div class="resourcesCardDescriptionToggleContainer"><div class="resourcesCardDescriptionToggle" tabindex="0" role="button" aria-label="{{.Title}} description" aria-expanded="false" aria-controls="description-{{.UniqueID}}"></div></div>
+        <div class="resourcesCardDescription" id="description-{{.UniqueID}}">{{.Description}}</div>
     </div>
 {{- end }}
 </div>

@@ -16,9 +16,21 @@
 
 <script>
     $(document).ready(function () {
-        $(".resourcesCardDescriptionToggle").click(function(event) {
-            event.preventDefault();
-            $(event.target).closest(".resourcesCard").toggleClass("descriptionCollapsed");
+        $(".resourcesCardDescriptionToggle").on("click keydown", function(event) {
+            if (event.type === "click"
+                    || (event.type === "keydown"
+                        && (event.keyCode === 13 || event.keyCode === 32))) {
+                event.preventDefault();
+                // Get current state
+                var expanded = $(event.target).attr("aria-expanded") != "false";
+                // Toggle the expanded state
+                expanded = !expanded;
+                // Set aria-expanded
+                $(event.target).attr("aria-expanded", expanded);
+                // TODO: Can I remove descriptionCollapsed and just use aria-expanded?
+                // And set the class descriptionCollapsed
+                $(event.target).closest(".resourcesCard").toggleClass("descriptionCollapsed", !expanded);
+            }
         });
     });
 </script>

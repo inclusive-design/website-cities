@@ -557,6 +557,18 @@ a:hover {
     max-width: 45em;
 }
 
+.resourcePageContent ul {
+    padding-left: 1em;
+}
+
+.resourcePageContent ul ul {
+    padding-left: 3em;
+}
+
+.resourcePageContent h3 {
+    margin-top: 2.5em;
+}
+
 .resourcePageRelatedResources {
     padding: 0.5em;
     margin: 0 6.5em 3em 6.5em;

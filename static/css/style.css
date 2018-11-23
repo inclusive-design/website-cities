@@ -368,370 +368,6 @@ a:hover {
     font-weight: 400;
 }
 
-
-
-/* Turn off parallax on smaller screens */
-@media only screen and (max-device-width: 1366px) {
-
-    body, html {
-        background-attachment: scroll;
-    }
-
-}
-
-@media only screen and (max-width: 79.5em) {
-    .img {
-        display: none;
-    }
-}
-
-/* Extra small devices */
-@media only screen and (max-width: 40em) {
-
-    #header {
-        background-image: none;
-        padding: 1.4em 0.5em;
-        min-height: 0;
-    }
-
-    .headerContainer {
-        width: 80%;
-        padding: 2em;
-    }
-
-    .headerContainer h1 {
-        font-size: 2em;
-    }
-
-    .subtitle {
-        font-size: 1em;
-    }
-
-    .quote {
-        font-size: 0.9em;
-    }
-
-    .introduction {
-        font-size: 1.5em;
-        width: 80%;
-    }
-
-    #ideasContainer {
-        padding: 2em;
-    }
-
-    .ideas {
-        width: 90%;
-    }
-
-    .mailingList {
-        width: 80%;
-        padding: 2em;
-    }
-
-    .row {
-        padding: 2em;
-    }
-
-    .contentBlock:first-child {
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    .contentBlock:last-child {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .ideasContentContainer {
-        width: 80%;
-        padding: 2em;
-    }
-
-    .ideasHeaderContainer {
-        padding: 2em;
-    }
-
-}
-
-/* Small devices */
-@media only screen and (min-width: 40em) {
-    #header {
-        background-image: none;
-        padding: 1.4em 0.5em;
-    }
-
-    .headerContainer {
-        width: 80%;
-        padding: 2em;
-    }
-
-    .headerContainer h1 {
-        font-size: 2em;
-    }
-
-    .subtitle {
-        font-size: 1.2em;
-    }
-
-    .quote {
-        font-size: 0.9em;
-    }
-
-    .introduction {
-        font-size: 1.5em;
-        width: 80%;
-    }
-
-    #ideasContainer {
-        width: 80%;
-        padding: 2em;
-    }
-
-    .ideas {
-        width: 90%;
-    }
-
-    .mailingList {
-        width: 90%;
-        padding: 2em;
-    }
-
-    .row {
-        padding-left: 6.5em;
-        padding-right: 6.5em;
-    }
-
-    .contentBlock:first-child {
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    .contentBlock:last-child {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .ideasContentContainer {
-        width: 80%;
-        padding: 2em;
-    }
-
-    .ideasHeaderContainer {
-        padding: 2em;
-    }
-
-}
-
-/* Medium devices */
-@media only screen and (min-width: 48em) {
-    #header {
-        background-image: url("../images/header-city.png");
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: contain;
-        padding: 1.4em 0.5em;
-    }
-
-    .headerContainer {
-        width: 58%;
-    }
-
-    .headerContainer h1 {
-        font-size: 2.1em;
-    }
-
-    .subtitle {
-        font-size: 1.3em;
-    }
-
-    .quote {
-        font-size: 0.9em;
-    }
-
-    .introduction {
-        font-size: 1.6em;
-    }
-
-    #ideasContainer {
-        padding: 2em 6.5em;
-    }
-
-    .ideas {
-        width: 70%;
-    }
-
-    .mailingList {
-        width: 70%;
-    }
-
-    .img {
-        visibility: visible;
-    }
-
-    .contentBlock:first-child {
-        padding-right: 2.5em;
-    }
-
-    .contentBlock:last-child {
-        padding-left: 0;
-    }
-
-    .ideasContentContainer {
-        width: 70%;
-        padding: 3em 5em 4em 6.5em;
-    }
-
-    .ideasHeaderContainer {
-        padding: 2em 0 2em 6.5em;
-    }
-}
-
-@media screen and (min-width: 64em) {
-    #header {
-        background-image: url("../images/header-city.png");
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: contain;
-        padding: 1.4em 0.5em;
-    }
-
-    .headerContainer {
-        width: 58%;
-    }
-
-    .headerContainer h1 {
-        font-size: 2.5em;
-    }
-
-    .subtitle {
-        font-size: 1.5em;
-    }
-
-    .quote {
-        font-size: 0.9em;
-    }
-
-    .introduction {
-        font-size: 2em;
-    }
-    #ideasContainer {
-        padding: 2em 6.5em;
-    }
-    .img {
-        visibility: visible;
-    }
-
-    .contentBlock {
-        padding: 0 6.5em;
-    }
-
-    .contentBlock:first-child {
-        padding-right: 2.5em;
-    }
-
-    .contentBlock:last-child {
-        padding-left: 0;
-    }
-
-    .ideasContentContainer {
-        width: 70%;
-        padding: 3em 5em 4em 6.5em;
-    }
-
-    .ideasHeaderContainer {
-        padding: 2em 0 2em 6.5em;
-    }
-}
-
-
-
-
-/* UIO Customization */
-.flc-toc-tocContainer {
-    width: 85%;
-    margin: 0 auto;
-    font-size: 1.5em;
-}
-
-.fl-prefsEditor-separatedPanel .fl-panelBar {
-    background-color: transparent;
-    color: #000;
-    border-bottom: none;
-    box-shadow: none;
-}
-
-.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
-    background-color: transparent;
-    color: #000;
-    box-shadow: none;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom: 0;
-    border-right: 0;
-    border-left: 0;
-    margin-right: 10em;
-}
-
-.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
-    background-color: transparent;
-    color: #000;
-    box-shadow: none;
-}
-
-.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
-    background-color: transparent;
-    color: #000;
-    box-shadow: none;
-}
-
-.fl-theme-by body,
-.fl-theme-yb body,
-.fl-theme-wb body,
-.fl-theme-bw body,
-.fl-theme-lgdg body,
-.fl-theme-by html,
-.fl-theme-yb html,
-.fl-theme-wb html,
-.fl-theme-bw html,
-.fl-theme-lgdg html {
-    background: none;
-}
-
-.fl-theme-by #header,
-.fl-theme-yb #header,
-.fl-theme-wb #header,
-.fl-theme-bw #header,
-.fl-theme-lgdg #header {
-    background: none;
-}
-
-.fl-theme-wb .logoContainer {
-    background-image: url("../images/idrc-logo.svg");
-}
-
-.fl-theme-bw .logoContainer {
-    background-image: url("../images/idrc-logo-black.svg");
-}
-
-.fl-theme-by .logoContainer {
-    background-image: url("../images/idrc-logo-black.svg");
-}
-
-.fl-theme-yb .logoContainer {
-    background-image: url("../images/idrc-logo-yellow.svg");
-}
-
-.fl-theme-lgdg .logoContainer {
-    background-image: url("../images/idrc-logo-grey.svg");
-}
-
-/* Transition setting for all elements to avoid the "flash" effect when switching contrast themes via alanharnum.ca */
-* {
-    transition-property: color, background-color;
-    transition-duration: 1s;
-}
-
 /* Navbar */
 
 .navbar {
@@ -930,4 +566,439 @@ a:hover {
 .resourcePageRelatedResources h3 {
     margin: 0.5em;
     padding: 0;
+}
+
+/* Turn off parallax on smaller screens */
+@media only screen and (max-device-width: 1366px) {
+
+    body, html {
+        background-attachment: scroll;
+    }
+
+}
+
+@media only screen and (max-width: 79.5em) {
+    .img {
+        display: none;
+    }
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 40em) {
+
+    #header {
+        background-image: none;
+        padding: 1.4em 0.5em;
+        min-height: 0;
+    }
+
+    .headerContainer {
+        width: 80%;
+        padding: 2em;
+    }
+
+    .headerContainer h1 {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+
+    .quote {
+        font-size: 0.9em;
+    }
+
+    .introduction {
+        font-size: 1.5em;
+        width: 80%;
+    }
+
+    #ideasContainer {
+        padding: 2em;
+    }
+
+    .ideas {
+        width: 90%;
+    }
+
+    .mailingList {
+        width: 80%;
+        padding: 2em;
+    }
+
+    .row {
+        padding: 2em;
+    }
+
+    .contentBlock:first-child {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .contentBlock:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ideasContentContainer {
+        width: 80%;
+        padding: 2em;
+    }
+
+    .ideasHeaderContainer {
+        padding: 2em;
+    }
+
+    .navbar {
+        padding-left: 2em;
+    }
+
+    .resourcesListContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageTitleSection {
+        padding: 2em;
+    }
+
+    .resourcePageContentContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageRelatedResources {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+}
+
+/* Small devices */
+@media only screen and (min-width: 40em) {
+
+    #header {
+        background-image: none;
+        padding: 1.4em 0.5em;
+    }
+
+    .headerContainer {
+        width: 80%;
+        padding: 2em;
+    }
+
+    .headerContainer h1 {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+
+    .quote {
+        font-size: 0.9em;
+    }
+
+    .introduction {
+        font-size: 1.5em;
+        width: 80%;
+    }
+
+    #ideasContainer {
+        width: 80%;
+        padding: 2em;
+    }
+
+    .ideas {
+        width: 90%;
+    }
+
+    .mailingList {
+        width: 90%;
+        padding: 2em;
+    }
+
+    .row {
+        padding-left: 6.5em;
+        padding-right: 6.5em;
+    }
+
+    .contentBlock:first-child {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .contentBlock:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ideasContentContainer {
+        width: 80%;
+        padding: 2em;
+    }
+
+    .ideasHeaderContainer {
+        padding: 2em;
+    }
+
+    .navbar {
+        padding-left: 2em;
+    }
+
+    .resourcesListContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageTitleSection {
+        padding: 2em;
+    }
+
+    .resourcePageContentContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageRelatedResources {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+}
+
+/* Medium devices */
+@media only screen and (min-width: 48em) {
+
+    #header {
+        background-image: url("../images/header-city.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        padding: 1.4em 0.5em;
+    }
+
+    .headerContainer {
+        width: 58%;
+    }
+
+    .headerContainer h1 {
+        font-size: 2.1em;
+    }
+
+    .subtitle {
+        font-size: 1.3em;
+    }
+
+    .quote {
+        font-size: 0.9em;
+    }
+
+    .introduction {
+        font-size: 1.6em;
+    }
+
+    #ideasContainer {
+        padding: 2em 6.5em;
+    }
+
+    .ideas {
+        width: 70%;
+    }
+
+    .mailingList {
+        width: 70%;
+    }
+
+    .img {
+        visibility: visible;
+    }
+
+    .contentBlock:first-child {
+        padding-right: 2.5em;
+    }
+
+    .contentBlock:last-child {
+        padding-left: 0;
+    }
+
+    .ideasContentContainer {
+        width: 70%;
+        padding: 3em 5em 4em 6.5em;
+    }
+
+    .ideasHeaderContainer {
+        padding: 2em 0 2em 6.5em;
+    }
+
+    .navbar {
+        padding-left: 6.5em;
+    }
+
+    .resourcesListContainer {
+        padding-left: 6.5em;
+        padding-right: 6.5em;
+    }
+
+    .resourcePageTitleSection {
+        padding: 3.5em 6.5em 2em 6.5em;
+    }
+
+    .resourcePageContentContainer {
+        padding-left: 6.5em;
+        padding-right: 6.5em;
+    }
+
+    .resourcePageRelatedResources {
+        margin-left: 6.5em;
+        margin-right: 6.5em;
+    }
+
+}
+
+@media screen and (min-width: 64em) {
+
+    #header {
+        background-image: url("../images/header-city.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        padding: 1.4em 0.5em;
+    }
+
+    .headerContainer {
+        width: 58%;
+    }
+
+    .headerContainer h1 {
+        font-size: 2.5em;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+    }
+
+    .quote {
+        font-size: 0.9em;
+    }
+
+    .introduction {
+        font-size: 2em;
+    }
+
+    #ideasContainer {
+        padding: 2em 6.5em;
+    }
+
+    .img {
+        visibility: visible;
+    }
+
+    .contentBlock {
+        padding: 0 6.5em;
+    }
+
+    .contentBlock:first-child {
+        padding-right: 2.5em;
+    }
+
+    .contentBlock:last-child {
+        padding-left: 0;
+    }
+
+    .ideasContentContainer {
+        width: 70%;
+        padding: 3em 5em 4em 6.5em;
+    }
+
+    .ideasHeaderContainer {
+        padding: 2em 0 2em 6.5em;
+    }
+
+}
+
+/* UIO Customization */
+.flc-toc-tocContainer {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar {
+    background-color: transparent;
+    color: #000;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    background-color: transparent;
+    color: #000;
+    box-shadow: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-right: 10em;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    background-color: transparent;
+    color: #000;
+    box-shadow: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    background-color: transparent;
+    color: #000;
+    box-shadow: none;
+}
+
+.fl-theme-by body,
+.fl-theme-yb body,
+.fl-theme-wb body,
+.fl-theme-bw body,
+.fl-theme-lgdg body,
+.fl-theme-by html,
+.fl-theme-yb html,
+.fl-theme-wb html,
+.fl-theme-bw html,
+.fl-theme-lgdg html {
+    background: none;
+}
+
+.fl-theme-by #header,
+.fl-theme-yb #header,
+.fl-theme-wb #header,
+.fl-theme-bw #header,
+.fl-theme-lgdg #header {
+    background: none;
+}
+
+.fl-theme-wb .logoContainer {
+    background-image: url("../images/idrc-logo.svg");
+}
+
+.fl-theme-bw .logoContainer {
+    background-image: url("../images/idrc-logo-black.svg");
+}
+
+.fl-theme-by .logoContainer {
+    background-image: url("../images/idrc-logo-black.svg");
+}
+
+.fl-theme-yb .logoContainer {
+    background-image: url("../images/idrc-logo-yellow.svg");
+}
+
+.fl-theme-lgdg .logoContainer {
+    background-image: url("../images/idrc-logo-grey.svg");
+}
+
+/* Transition setting for all elements to avoid the "flash" effect when switching contrast themes via alanharnum.ca */
+* {
+    transition-property: color, background-color;
+    transition-duration: 1s;
 }

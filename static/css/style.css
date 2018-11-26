@@ -401,7 +401,51 @@ a:hover {
 /* Resources list page */
 
 .resourcesListContainer {
-    padding: 0 6.5em 3em 6.5em;
+    padding: 1em 6.5em 3em 6.5em;
+}
+
+.resourcesListContainer h2 {
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+.resourcesIntroSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.resourcesIntroText {
+    flex: 1 0 350px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 2em 3em 0 0;
+}
+
+.resourcesIntroText h2 {
+    margin-top: 0;
+}
+
+.resourcesCoDesignTemplateImg {
+    flex: 0 0 auto;
+    margin-top: 2em;
+}
+
+.resourcesCoDesignTemplateImg a {
+    background-image: none;
+}
+
+.resourcesCoDesignTemplateImg a:hover {
+    text-decoration: none;
+}
+
+.resourcesCardListIntro {
+    margin-top: 2em;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    max-width: 50em;
 }
 
 .resourcesCardRow {

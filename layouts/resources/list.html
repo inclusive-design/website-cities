@@ -8,7 +8,25 @@
     <div class="flc-toc-tocContainer toc"></div>
 
     <div class="resourcesListContainer">
-    {{ .Content }}
+
+        {{ $coDesignTemplateImgOrig := .Resources.GetMatch "Co-design template-01.png" }}
+        {{ .Scratch.Set "coDesignTemplateImg" ($coDesignTemplateImgOrig.Resize "550x") }}
+        {{ $coDesignTemplateImg := .Scratch.Get "coDesignTemplateImg" }}
+
+        <div class="resourcesIntroSection">
+            <div class="resourcesIntroText">
+                <h2>PLANNING YOUR CO-DESIGN ACTIVITY</h2>
+
+                Including unique and diverse needs in the co-design process is an effective way to ensure our design adapts to a broader range of needs. However, involving citizens in a co-design process may seem expensive, time consuming, and overwhelming. This template provides a list of items to consider when planning, executing, facilitating, and reporting a co-design process based on your goals, context, and resources. It can be used in any format or order, and adapted for your own processes by adding, removing, and modifying its content.
+            </div>
+            <div class="resourcesCoDesignTemplateImg"><a href="{{ (.Resources.GetMatch "Co-design template.pdf").RelPermalink }}"><img src="{{ $coDesignTemplateImg.RelPermalink }}" alt="Co-design template"></a></div>
+        </div>
+
+        <hr>
+
+        <div class="resourcesCardListIntro">A list of resources is provided to elaborate on each section of the template. These resources include best practices, reflections of our own co-design experiences, and practical tools to plan a co-design process. We encourage all those involved in co-design to contribute to these resources, share perspectives, methods, challenges, and learnings.</div>
+
+        {{ .Content }}
     </div>
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}

@@ -14,4 +14,4 @@ A contributor license agreement (CLA) outlines the terms of an individual’s pa
 To be able to participate in a collaborative activity, each contributor needs to sign a CLA to indicate agreement to the provided license terms. Individuals who choose to not sign a CLA won’t be able to participate in a collaborative activity, as every participants’ permission is required to be able to openly license the contributions.
 
 
-Link to CLA template
+{{< resource src="Contributor License Agreement Template.docx" text="CLA template (Word document)" >}}

@@ -470,18 +470,6 @@ a:hover {
     height: 22px;
 }
 
-.resourcesCard.perspective .resourcesCardHeader {
-    background: #303d47;
-}
-
-.resourcesCard.reflection .resourcesCardHeader {
-    background: #ca8f20;
-}
-
-.resourcesCard.tool .resourcesCardHeader {
-    background: #e15846;
-}
-
 .resourcesCardTitle {
     padding: 1.7em 2em;
     width: 9em;
@@ -521,18 +509,6 @@ a:hover {
     display: none;
 }
 
-.resourcesCard.perspective .resourcesCardDescription {
-    background: #303d47;
-}
-
-.resourcesCard.reflection .resourcesCardDescription {
-    background: #ca8f20;
-}
-
-.resourcesCard.tool .resourcesCardDescription {
-    background: #e15846;
-}
-
 .resourcesCardDescription {
     padding: 1em 2em;
     width: 9em;
@@ -542,23 +518,31 @@ a:hover {
     color: #fff;
 }
 
+/* Resource format colours */
+
+.resourcesCard.perspective .resourcesCardHeader,
+.resourcesCard.perspective .resourcesCardDescription,
+.resourcePageTitleSection.perspective {
+    background: #303d47;
+}
+
+.resourcesCard.reflection .resourcesCardHeader,
+.resourcesCard.reflection .resourcesCardDescription,
+.resourcePageTitleSection.reflection {
+    background: #A5660A;
+}
+
+.resourcesCard.tool .resourcesCardHeader,
+.resourcesCard.tool .resourcesCardDescription,
+.resourcePageTitleSection.tool {
+    background: #D14637;
+}
+
 /* Resource detail pages */
 
 .resourcePageTitleSection {
     padding: 3.5em 6.5em 2em 6.5em;
     color: #fff;
-}
-
-.resourcePageTitleSection.perspective {
-    background: #303d47;
-}
-
-.resourcePageTitleSection.reflection {
-    background: #ca8f20;
-}
-
-.resourcePageTitleSection.tool {
-    background: #e15846;
 }
 
 .resourcePageTitleSection > * {

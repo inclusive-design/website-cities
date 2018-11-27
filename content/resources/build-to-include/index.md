@@ -9,10 +9,10 @@ related_resources:
   - accessibility-of-the-space
 ---
 
-When planning a co-design activity, its physical materials  should meet the accessibility needs of all participants (e.g. braille, ASL, captions, audio descriptions, tactile representation, plain language). The concepts presented in an activity should not be technical, and instead ensure understandability and relatability for all those participating. Further, the structure of the activity should be flexible to allow participants to define their preferred workflow.
+When planning a co-design activity, its physical materials  should meet the accessibility needs of all participants (e.g. braille, ASL, captions, audio descriptions, tactile representation, plain language). The concepts presented in an activity should not be technical, and instead ensure understandability and relatability for all those participating. Further, the structure of the activity should be flexible to allow participants to define their preferred workflow. 
 
 
-The type of interaction required by an activity whether it is a group discussion, written work, building things, recording audio/video, etc. should be accessible for all involved in the activity. Tools and materials needed to support those interactions should enable equal participation as well. Some activities inherently affect participation for example when someone is responsible for taking notes they have less of a chance to participate in discussions.
+The type of interaction required by an activity whether it is a group discussion, written work, building things, recording audio/video, etc. should be accessible for all involved in the activity. Tools and materials needed to support those interactions should enable equal participation as well. Some activities inherently affect participation for example when someone is responsible for taking notes they have less of a chance to participate in discussions. 
 
 
 Activities that require groups to rely on each other can also be a barrier as each group may have a different pace and workflow. Facilitators should pay close attention to every participant’s needs, group dynamics and interactions between different groups to accommodate groups with different workflows and pace. They should try to assist anyone experiencing difficulty and have supportive material and examples of completed activities available for anyone who requires more support.

@@ -9,7 +9,7 @@ related_resources:
   - urban-hot-spots
 ---
 
-This tool is inspired by the [liberating structures “1 2 4 all approach”](http://www.liberatingstructures.com/1-1-2-4-all/) developed by Henri Lipmanowicz and Keith McCandless. It encourages participants in collaborative settings to first spend some time on an activity individually and then join a small group to discuss their perspectives and build upon each others’ ideas. Finally each small group selects a few ideas to share with the other groups participating in the collaborative activity. Giving participants individual time to reflect on their perspectives and personal experiences ensures that everyone has an opportunity to engage with the topic and the proposed activities and gives individuals the opportunity to formulate their opinions without being influenced by others.
+This tool is inspired by the [liberating structures “1 2 4 all approach”](http://www.liberatingstructures.com/1-1-2-4-all/) developed by Henri Lipmanowicz and Keith McCandless. It encourages participants in collaborative settings to first spend some time on an activity individually and then join a small group to discuss their perspectives and build upon each others’ ideas. Finally each small group selects a few ideas to share with the other groups participating in the collaborative activity. Giving participants individual time to reflect on their perspectives and personal experiences ensures that everyone has an opportunity to engage with the topic and the proposed activities and gives individuals the opportunity to formulate their opinions without being influenced by others. 
 
 ### TRY
 

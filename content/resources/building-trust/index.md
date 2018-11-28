@@ -6,7 +6,7 @@ description: "It takes humility, respect, and transparency to earn your collabor
 related_resources:
   - define-objectives
   - work-with-diverse-creators
-  - essential-role-of-open
+  - the-essential-role-of-openness
 ---
 
 Engaging marginalized communities and people who have often been excluded from the design process requires building a trusting relationship. Vulnerable communities often feel that their involvement is not valued (e.g. giving feedback and never knowing what happens with it, giving intellectual labour freely, etc.) due to the issue of reinforced dynamics of power, decision making, and even colonialism. Many individuals experience consultation fatigue as a result of being the token invitee in design projects in which important design decisions have already been made. Often these individuals are only approached to achieve a check on equity and diversity policy checklists. And individuals often become ‘the’ one that is always asked to represent. 

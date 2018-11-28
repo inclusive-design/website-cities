@@ -9,7 +9,7 @@ related_resources:
   - things-that-can-t-be-controlled
 ---
 
-An access guide is an effective way to introduce people to an event they are invited to participate in. It contains information about the event, the space, the agenda, the location and any accommodations that have been arranged. An access guide can also include images and maps for those who are curious about the location, and about the people who will be present.  Although creation of an access guide may need some time and resources, it is a worthwhile effort as it can be used for various events held at that space and reduce the anxiety and stress levels related to attending an event in an unfamiliar environment.  The following checklist provides a list of items that should be included in an access guide. Here is also an example of an access guide that IDRC team has put together for one of their co-design events: Access guide example
+An access guide is an effective way to introduce people to an event they are invited to participate in. It contains information about the event, the space, the agenda, the location and any accommodations that have been arranged. An access guide can also include images and maps for those who are curious about the location, and about the people who will be present.  Although creation of an access guide requires some time and resources, it is a worthwhile effort as it can be used for various events held at that space and reduce the anxiety and stress levels related to attending an event in an unfamiliar environment.  The following checklist provides a list of items that should be included in an access guide. Here is also an example of an access guide that IDRC team has put together for one of their co-design events: Access guide example
 
 ### CHECKLIST
 
@@ -30,16 +30,16 @@ An access guide is an effective way to introduce people to an event they are inv
    - Availability of shelter at the bus stops
    - Accessibility of the pathway from the stop to the venue
    - Availability of shuttle services to the event
-   - Any other note to consider, such as road constructions, special schedules, etc.
+   - Any other note to consider, such as road construction, transportation service disruptions, , special schedules, etc.
 - Getting to the event by walking/wheeling
    - Presence of stairs or any sudden changes in the ground level on the way to the event
-   - Any other barriers that affects using the sidewalks, such as snow, ice, standing water, trees, construction work, temporary closure, garbage bins, etc.
+   - Any other barriers that affects using the sidewalks, such as snow, ice, standing water, trees, construction work, temporary closures, garbage bins, etc.
 - Getting to the event by driving
-   - The number of available designated parking spots for people with disabilities and whether they are Indoor or outdoor
+   - The number of available designated parking spots for people with disabilities and whether they are indoor or outdoor
    - Their distance to the main entrance
    - Information about the availability of curb cuts, night lighting, and accessible elevators from the parking area to the venue
    - Accessibility and location of pay stations
-   - Any other note to consider, such as accumulation of ice, snow, or water in the designated parking spots
+   - Any other notes to consider, such as accumulation of ice, snow, or water in the designated parking spots
 - Accessibility of the venue
    - Information about wayfinding systems and signage in the exterior and interior spaces at your venue
    - The width of the hallways, doorways, and available space for mobility devices
@@ -58,7 +58,7 @@ An access guide is an effective way to introduce people to an event they are inv
    - Available features to adjust distracting sounds and background noises
    - Any other note regarding floor covering and tripping hazards, such as electrical wires
    - List of available equipment, materials and tools to participate in the planned co-design activities
-- General information that make the event more accessible and inclusive
+- General information that makes the event more accessible and inclusive
    - Availability of reserved spots in the room or at different working station for mobility devices
    - Availability of extra spaces/seats for personal assistants and service animals
    - Information about the rest areas for service animals
@@ -66,7 +66,7 @@ An access guide is an effective way to introduce people to an event they are inv
    - Clear instruction about how to access Wi-Fi network (if available)
    - Information about any video surveillance, video recordings, or collection of user information via sensors and cameras during the event
    - Reminding participants to be mindful of how people prefer to identify themselves
-   - Reminding participants of using considerate language when addressing people with disabilities, and speak at normal pace
+   - Reminding participants of using considerate language when addressing people with disabilities, and to speak at normal pace
    - Reminding participants to warn the group if they are going to speak about difficult or violent themes
    - A brief bio of all participants (if applicable)
    - Include information about the event’s timing, your flexibility and if you allow for more time on an item if needed and more frequent and longer breaks if needed

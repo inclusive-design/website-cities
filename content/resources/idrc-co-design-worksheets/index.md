@@ -2,7 +2,7 @@
 resources_section: activities
 resources_format: tool
 title: "IDRC Co-design worksheets"
-description: "A links to all the worksheets we used throughout our co-design process is provided here."
+description: "Links to all the worksheets we used throughout our co-design process are provided here."
 related_resources:
   - inclusive-city-imaginary
   - individual-group-all

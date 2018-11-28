@@ -4,7 +4,7 @@ resources_format: reflection
 title: "Sharing our findings"
 description: "It is essential to openly share the results of co-design events with the participants and the community."
 related_resources:
-  - essential-role-of-open
+  - the-essential-role-of-openness
   - protect-collective-contributions  
 ---
 

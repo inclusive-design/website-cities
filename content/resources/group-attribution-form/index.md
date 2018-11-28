@@ -5,7 +5,7 @@ title: "Group attribution form"
 description: "Group attribution forms offer an efficient way to attribute collective work."
 related_resources:
   - protect-collective-contributions
-  - essential-role-of-open
+  - the-essential-role-of-openness
   - contributor-license-agreement
 ---
 

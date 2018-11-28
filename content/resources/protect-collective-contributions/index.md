@@ -4,7 +4,7 @@ resources_format: perspective
 title: "Protect collective contributions"
 description: "To build trust, participants should be clearly informed of their rights and terms of participation."
 related_resources:
-  - essential-role-of-open
+  - the-essential-role-of-openness
   - contributor-license-agreement
   - group-attribution-form
 ---

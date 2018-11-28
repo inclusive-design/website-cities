@@ -478,11 +478,11 @@ a:hover {
     font-weight: 600;
 }
 
-.resourcesCard a {
+.resourcesCardTitle a {
     background-image: none;
 }
 
-.resourcesCard a:hover {
+.resourcesCardTitle a:hover {
     text-decoration: underline;
 }
 
@@ -517,6 +517,15 @@ a:hover {
     font-weight: 300;
     color: #000;
     background: #E6E6E6;
+}
+
+.resourcesCardDescription a {
+    background-image: none;
+    text-decoration: underline;
+}
+
+.resourcesCardDescription a:hover {
+    text-decoration: underline;
 }
 
 /* Resource format colours */

@@ -15,7 +15,7 @@ Once you have a broad topic/theme for a co-design event, you can invite particip
 
 ### TRY
 
-- Select a broad topic that you would like to explore through a co-design activity
+- Select a broad topic that you would like to explore through a co-design activity.
 - Invite participants to an open process of exploring and refining the directions you want to take with this topic.
 - Work directly with the participants when possible, otherwise work with groups and organizations that advocate for your participants. This can be done in person, or via collaborative online tools, such as shared google documents to enable remote collaboration. 
 - Discuss the following questions with your collaborators to refine the theme (share personal experiences):
@@ -25,6 +25,6 @@ Once you have a broad topic/theme for a co-design event, you can invite particip
     - Who are the people involved?
     - What kinds of activities are happening related to this theme?
     - What challenges/gaps are being experienced?
-- Use the responses to further refine the theme and further break it down to sub-themes
-- Work with your collaborators to select one area.
+  - Use the responses to further refine the theme and further break it down to sub-themes.
+  - Work with your collaborators to select one area. 
 - Ensure your final theme is clear, easy to understand, and supported by additional materials for further guidance and clarification.

@@ -14,6 +14,7 @@ This tool is inspired by the [“Hotspots for Bullying”](https://www.tandfonli
 
 We have used this tool as inspiration to help us develop activities that could be used to understand the meanings associated with different areas in the city that participants occupy, visit, or try to avoid on a regular basis. This activity aims to shed light on characteristics, meanings and qualities that people associate with different spaces in their city. Urban planners, designers and developer can use this information to better understand the deeper relationships people have developed with different parts of their city. Here are two different templates that could be used for this activity:
 
+
 - {{< resource src="Individual exercise to reflect on urban hot spots.pdf" text="Individual exercise to reflect on urban hot spots (PDF)" >}}
 - {{< resource src="Individual exercise to reflect on personal urban experiences.pdf" text="Individual exercise to reflect on personal urban experiences (PDF)" >}}
 

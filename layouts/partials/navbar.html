@@ -1,8 +1,15 @@
-<div class="navbar">
-    <div
-    class="navbar-section {{ if .IsHome }}navbar-section-current{{ end }}"><a href="{{ relref . "/_index.html" }}">HOME</a></div><div
-
-    class="navbar-section {{ if eq .Section "resources" }}navbar-section-current{{ end }}"><a href="{{ relref . "/resources/_index.md" }}">RESOURCES</a></div><div
-
-    class="navbar-section {{ if or (eq .Section "blog") (eq .Section "ideas") }}navbar-section-current{{ end }}"><a href="{{ relref . "/blog/_index.md" }}">BLOG</a></div>
-</div>
+{{ if .IsHome }}
+    {{ .Scratch.Set "currentSection" "home" }}
+{{ else if eq .Section "resources" }}
+    {{ .Scratch.Set "currentSection" "resources" }}
+{{ else if or (eq .Section "blog") (eq .Section "ideas") }}
+    {{ .Scratch.Set "currentSection" "blog" }}
+{{ end }}
+{{ $currentSection := .Scratch.Get "currentSection" }}
+<nav>
+    <ul>
+        {{- trim (partial "navbarEntry" (dict "Page" . "currentSection" $currentSection "entrySection" "home" "name" "HOME" "link" "/_index.html" )) " \n" | safeHTML -}}
+        {{- trim (partial "navbarEntry" (dict "Page" . "currentSection" $currentSection "entrySection" "resources" "name" "RESOURCES" "link" "/resources/_index.md" )) " \n" | safeHTML -}}
+        {{- trim (partial "navbarEntry" (dict "Page" . "currentSection" $currentSection "entrySection" "blog" "name" "BLOG" "link" "/blog/_index.md" )) " \n" | safeHTML -}}
+    </ul>
+</nav>

@@ -515,25 +515,23 @@ a:hover {
     line-height: 1.4em;
     min-height: 12.6em; /* line-height * 9 */
     font-weight: 300;
-    color: #fff;
+    color: #000;
+    background: #E6E6E6;
 }
 
 /* Resource format colours */
 
 .resourcesCard.perspective .resourcesCardHeader,
-.resourcesCard.perspective .resourcesCardDescription,
 .resourcePageTitleSection.perspective {
     background: #303d47;
 }
 
 .resourcesCard.reflection .resourcesCardHeader,
-.resourcesCard.reflection .resourcesCardDescription,
 .resourcePageTitleSection.reflection {
     background: #A5660A;
 }
 
 .resourcesCard.tool .resourcesCardHeader,
-.resourcesCard.tool .resourcesCardDescription,
 .resourcePageTitleSection.tool {
     background: #D14637;
 }

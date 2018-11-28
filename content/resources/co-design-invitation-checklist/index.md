@@ -20,7 +20,7 @@ Inviting people to a co-design event is the first point of contact with potentia
    - Availability of individuals who require personal assistance may depend on the availability of their assistants and their ability to commute to the workshop.
    - Consider parents with young children may not be able to attend workshops unless child care is provided.
 - When sending out invitations:
-   - Create a spreadsheet of organizations, groups, communities, individuals that should be included in this event. Template example
+   - Create a spreadsheet of organizations, groups, communities, individuals that should be included in this event. {{< resource src="Organizations Database.xlsx" text="Organizations Database template example (Excel spreadsheet)" >}}
    - Consider inviting people at least 3 weeks to one month ahead of time to give potential participants time to plan and make arrangements.
    - In the invitation email, inform participants how this event meets their accessibility needs and what accessibility services are provided.
    - In the invitation email, clearly inform participants what kinds of commitments they are making, how their contributions will be used, and how they will be compensated for their participation.
@@ -28,6 +28,6 @@ Inviting people to a co-design event is the first point of contact with potentia
    - If they decide to participate, inquire about their dietary restrictions and accessibility requirements, and whether they will be joining with a personal assistant or a service animal.
    - Send a friendly reminder to the participants at least 1 week prior to the event and include any material that needs clear understanding at the event, such as contributor license agreements, group attribution forms, and access guides.
    - Send participants any other material that they have requested to review prior to the session, such as the workshop agenda and the activities.
-   - Create a spreadsheet including participant’s name, their needs and preferences and any other notes discussed in your communication with them. Template example
+   - Create a spreadsheet including participant’s name, their needs and preferences and any other notes discussed in your communication with them. {{< resource src="Participants Database.xlsx" text="Participants Database template example (Excel spreadsheet)" >}}
 - After the workshop:
    - Update your participants database regarding who participated, add any other note regarding the needs and preferences that was noticed or emerged during the session.

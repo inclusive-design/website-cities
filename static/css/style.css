@@ -468,7 +468,7 @@ li.navbarEntry a:hover {
     border-style: solid;
 }
 
-.resourcesLegend li img {
+.resourcesLegend li svg {
     height: 16px;
 }
 
@@ -490,8 +490,9 @@ li.navbarEntry a:hover {
     padding: 0.2em 0.5em;
 }
 
-.resourcesCardHeader img {
+.resourcesCardHeader svg {
     height: 22px;
+    fill: #FFF;
 }
 
 .resourcesCardTitle {
@@ -581,6 +582,18 @@ li.navbarEntry a:hover {
     border-color: #D14637;
 }
 
+.resourcesLegend li.perspective svg {
+    fill: #303d47;
+}
+
+.resourcesLegend li.reflection svg {
+    fill: #A5660A;
+}
+
+.resourcesLegend li.tool svg {
+    fill: #D14637;
+}
+
 /* Resource detail pages */
 
 .resourcePageTitleSection {
@@ -596,8 +609,9 @@ li.navbarEntry a:hover {
     display: inline-block;
 }
 
-.resourcePageFormatIcon img {
+.resourcePageFormatIcon svg {
     height: 60px;
+    fill: #FFF;
 }
 
 .resourcePageTitleAndDescription {
@@ -1078,6 +1092,33 @@ li.navbarEntry a:hover {
 
 .fl-theme-lgdg .logoContainer {
     background-image: url("../images/idrc-logo-grey.svg");
+}
+
+.fl-theme-bw .resourcesLegend li svg,
+.fl-theme-bw .resourcesCardHeader svg,
+.fl-theme-bw .resourcePageFormatIcon svg,
+.fl-theme-by .resourcesLegend li svg,
+.fl-theme-by .resourcesCardHeader svg,
+.fl-theme-by .resourcePageFormatIcon svg {
+    fill: #000;
+}
+
+.fl-theme-wb .resourcesLegend li svg,
+.fl-theme-wb .resourcesCardHeader svg,
+.fl-theme-wb .resourcePageFormatIcon svg {
+    fill: #FFF;
+}
+
+.fl-theme-yb .resourcesLegend li svg,
+.fl-theme-yb .resourcesCardHeader svg,
+.fl-theme-yb .resourcePageFormatIcon svg {
+    fill: #FF0;
+}
+
+.fl-theme-lgdg .resourcesLegend li svg,
+.fl-theme-lgdg .resourcesCardHeader svg,
+.fl-theme-lgdg .resourcePageFormatIcon svg {
+    fill: #BDBDBB;
 }
 
 /* Transition setting for all elements to avoid the "flash" effect when switching contrast themes via alanharnum.ca */

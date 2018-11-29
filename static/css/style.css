@@ -469,6 +469,7 @@ li.navbarEntry a:hover {
 }
 
 .resourcesLegend li svg {
+    width: 16px;
     height: 16px;
 }
 
@@ -491,6 +492,7 @@ li.navbarEntry a:hover {
 }
 
 .resourcesCardHeader svg {
+    width: 22px;
     height: 22px;
     fill: #FFF;
 }
@@ -610,6 +612,7 @@ li.navbarEntry a:hover {
 }
 
 .resourcePageFormatIcon svg {
+    width: 60px;
     height: 60px;
     fill: #FFF;
 }

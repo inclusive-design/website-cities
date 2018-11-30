@@ -1,6 +1,7 @@
 ---
 title: "PARC (Parkdale Activity and Recreation Centre) Co-design Session: Summary and Results"
 date: "2018-10-09"
+description: "As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with PARC and organized an embedded co-design session to be completed during their staff meeting on September 26th, 2018."
 ---
 
 As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with [PARC](http://parc.on.ca/) and organized an embedded co-design session to be completed during their staff meeting on September 26th, 2018. About 20 staff members participated in a forty minute co-design activity from 3:00 pm to 3:40 pm. Two IDRC members were also available to facilitate this session.

@@ -1,0 +1,14 @@
+<h2>{{ .Get "heading" }}</h2>
+
+<div class="resourcesCardRow">
+{{ range (where .Page.Pages "Params.resources_section" (.Get "section")).GroupByParam "resources_format" -}}
+{{- range .Pages.ByTitle -}}
+    <div class="resourcesCard descriptionCollapsed {{.Params.resources_format}}">
+        <div class="resourcesCardHeader">{{partial "resourceFormatIcon" .}}</div>
+        <div class="resourcesCardTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></div>
+        <div class="resourcesCardDescriptionToggleContainer"><div class="resourcesCardDescriptionToggle" tabindex="0" role="button" aria-label="{{.Title}} description" aria-expanded="false" aria-controls="description-{{.UniqueID}}"></div></div>
+        <div class="resourcesCardDescription" id="description-{{.UniqueID}}">{{.Description}}<br><a href="{{.RelPermalink}}">Read more</a></div>
+    </div>
+{{- end -}}
+{{- end }}
+</div>

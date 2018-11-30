@@ -1,6 +1,7 @@
 ---
 title: "Hackathon"
 date: "2018-10-05"
+description: "The hackathon session was held on September 21st at the Sidewalk Toronto office at 307 Lakeshore Boulevard East, Toronto. 12 engineers from Sidewalk labs as well as 27 people from the community joined this event. The members of the community included engineers, designers, and people with lived experience of a disability."
 ---
 
 The hackathon session was held on September 21st at the Sidewalk Toronto office at 307 Lakeshore Boulevard East, Toronto. The event started at 9:30 am and finished around 7:00 pm. 12 engineers from Sidewalk labs as well as 27 people from the community joined this event. The members of the community included engineers, designers, and people with lived experience of a disability.

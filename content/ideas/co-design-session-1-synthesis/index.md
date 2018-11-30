@@ -1,6 +1,7 @@
 ---
 title: "Co-design Session #1 Synthesis Report"
 date: "2018-10-03"
+description: "The first of three co-design sessions focused on the topic of Inclusive Feedback and Engagement. At this session participants were tasked with mapping out the journey of giving or receiving feedback from their personal experience as a group. Later in the afternoon, groups were tasked with building a prototype that could address some problems identified in the morning through their journey maps."
 ---
 
 The first of three co-design sessions focused on the topic of Inclusive Feedback and Engagement. At this session participants were tasked with mapping out the journey of giving or receiving feedback from their personal experience as a group. Later in the afternoon, groups were tasked with building a prototype that could address some problems identified in the morning through their journey maps. For further details regarding this activity please visit the [Co-Design Session #1: Inclusive Feedback and Engagement]({{< relref "/ideas/co-design-session-1.html" >}}) post.

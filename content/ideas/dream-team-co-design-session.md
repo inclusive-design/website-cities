@@ -1,6 +1,7 @@
 ---
 title: "Dream Team Co-design Session: Summary and Results"
 date: "2018-10-11"
+description: "IDRC partnered with Dream Team and organized an embedded co-design session at their Bloor Street location. The session included eleven participants with lived experience of a mental illness or drug abuse/addiction who engaged in various activities over two separate sessions."
 ---
 
 As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with [Dream Team](http://thedreamteam.ca/) and organized an embedded co-design session at their Bloor Street location. The session included eleven participants with lived experience of a mental illness or drug abuse/addiction who engaged in various activities over two separate sessions. Both sessions were facilitated by the Dream Team coordinator who received prior instruction and a facilitation guide from the IDRC team.

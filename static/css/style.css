@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700');
 
 
 /* Global */
@@ -161,7 +161,7 @@ a:hover {
 
 #ideasContainer {
     background-color: #fff;
-    padding: 4em 6.6em;
+    padding: 2em 6.5em;
 }
 
 .ideas h2 {
@@ -254,6 +254,7 @@ a:hover {
 
 /* Footer */
 #footer {
+    background: #f2f2f2;
     margin: 0 auto;
     padding: 2em 2em;
     text-align: center;
@@ -278,11 +279,6 @@ a:hover {
     margin: 0 auto;
 }
 
-.logoContainer .logo-idrc {
-    font-size: 0;
-    width: 100%;
-}
-
 
 /* Ideas in Progress */
 #ideasHeader {
@@ -293,7 +289,7 @@ a:hover {
 }
 
 .ideasHeaderContainer {
-    padding: 2em 5em;
+    padding: 2em 0 2em 6.5em;
     display: flex;
     justify-content: space-between;
 }
@@ -310,13 +306,12 @@ a:hover {
 }
 
 #ideasContent {
-    background-color: #F2F2F2;
     width: 100%;
 }
 
 .ideasContentContainer {
     width: 80%;
-    padding: 2em 5em;
+    padding: 3em 5em 4em 6.5em;
 }
 
 .ideasContentBlock {
@@ -368,7 +363,311 @@ a:hover {
     font-weight: 400;
 }
 
+/* Navbar */
 
+nav {
+    background: #333333;
+    padding: 1.2em 0 1em 6.5em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+li.navbarEntry {
+    display: inline-block;
+    padding: 0 0 0.2em 0;
+    margin: 0 1.4em 0 0;
+}
+
+li.navbarEntryCurrent {
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #f2f2f2;
+}
+
+li.navbarEntry a {
+    font-size: 1.4em;
+    background-image: none;
+    color: #f2f2f2;
+}
+
+li.navbarEntry a:hover {
+    background-image: none;
+    color: #f2f2f2;
+}
+
+/* Resources list page */
+
+.resourcesListContainer {
+    padding: 1em 6.5em 3em 6.5em;
+}
+
+.resourcesListContainer h2 {
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+.resourcesIntroSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.resourcesIntroText {
+    flex: 1 0 350px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 2em 3em 0 0;
+}
+
+.resourcesIntroText h2 {
+    margin-top: 0;
+}
+
+.resourcesCoDesignTemplateImgCol {
+    flex: 0 0 auto;
+    margin-top: 2em;
+}
+
+.resourcesCoDesignTemplateImg a {
+    background-image: none;
+}
+
+.resourcesCoDesignTemplateImg a:hover {
+    text-decoration: none;
+}
+
+.resourcesCoDesignTemplateDownloadLinks {
+    max-width: 550px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.resourcesCardListIntro {
+    margin-top: 2em;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    max-width: 50em;
+}
+
+.resourcesLegend {
+    display: inline-block;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0.5em 0.7em 0.7em 0.7em;
+}
+
+.resourcesLegend li {
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0 0 0.2em 0;
+    border-width: 0 0 3px 0;
+    border-style: solid;
+}
+
+.resourcesLegend li svg {
+    width: 18px;
+    height: 18px;
+}
+
+.resourcesCardRow {
+    background: #f2f2f2;
+    padding: 0.5em;
+}
+
+.resourcesCard {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5em;
+    border: 1px solid #bbb;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.resourcesCardHeader {
+    padding: 0.2em 0.5em;
+}
+
+.resourcesCardHeader svg {
+    width: 22px;
+    height: 22px;
+    fill: #FFF;
+}
+
+.resourcesCardTitle {
+    padding: 1.7em 2em;
+    width: 9em;
+    line-height: 1.4em;
+    min-height: 4.2em; /* line-height * 3 */
+    font-weight: 600;
+}
+
+.resourcesCardTitle a {
+    background-image: none;
+}
+
+.resourcesCardTitle a:hover {
+    text-decoration: underline;
+}
+
+.resourcesCardDescriptionToggleContainer {
+    text-align: center;
+}
+
+.resourcesCardDescriptionToggle {
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("../images/arrow_up.svg");
+    width: 80px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.resourcesCard.descriptionCollapsed .resourcesCardDescriptionToggle {
+    background-image: url("../images/arrow_down.svg");
+}
+
+.resourcesCard.descriptionCollapsed .resourcesCardDescription {
+    display: none;
+}
+
+.resourcesCardDescription {
+    padding: 1em 2em;
+    width: 9em;
+    line-height: 1.4em;
+    min-height: 12.6em; /* line-height * 9 */
+    font-weight: 300;
+    color: #000;
+    background: #E6E6E6;
+}
+
+.resourcesCardDescription a {
+    background-image: none;
+    text-decoration: underline;
+}
+
+.resourcesCardDescription a:hover {
+    text-decoration: underline;
+}
+
+/* Resource format colours */
+
+.resourcesCard.perspective .resourcesCardHeader,
+.resourcePageTitleSection.perspective {
+    background: #303d47;
+}
+
+.resourcesCard.reflection .resourcesCardHeader,
+.resourcePageTitleSection.reflection {
+    background: #A5660A;
+}
+
+.resourcesCard.tool .resourcesCardHeader,
+.resourcePageTitleSection.tool {
+    background: #D14637;
+}
+
+.resourcesLegend li.perspective {
+    border-color: #303d47;
+}
+
+.resourcesLegend li.reflection {
+    border-color: #A5660A;
+}
+
+.resourcesLegend li.tool {
+    border-color: #D14637;
+}
+
+.resourcesLegend li.perspective svg {
+    fill: #303d47;
+}
+
+.resourcesLegend li.reflection svg {
+    fill: #A5660A;
+}
+
+.resourcesLegend li.tool svg {
+    fill: #D14637;
+}
+
+/* Resource detail pages */
+
+.resourcePageTitleSection {
+    padding: 3.5em 6.5em 2em 6.5em;
+    color: #fff;
+}
+
+.resourcePageTitleSection > * {
+    vertical-align: top;
+}
+
+.resourcePageFormatIcon {
+    display: inline-block;
+}
+
+.resourcePageFormatIcon svg {
+    width: 60px;
+    height: 60px;
+    fill: #FFF;
+}
+
+.resourcePageTitleAndDescription {
+    display: inline-block;
+    padding: 0 0 0 2em;
+}
+
+.resourcePageTitleAndDescription h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0 0 0.25em 0;
+}
+
+.resourcePageDescription {
+    font-size: 1.1em;
+    font-weight: 300;
+    max-width: 38em;
+    line-height: 1.4em;
+}
+
+.resourcePageContentContainer {
+    padding: 2em 6.5em 2em 6.5em;
+}
+
+.resourcePageContent {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    max-width: 45em;
+}
+
+.resourcePageContent ul {
+    padding-left: 1em;
+}
+
+.resourcePageContent ul ul {
+    padding-left: 3em;
+}
+
+.resourcePageContent h3 {
+    margin-top: 2.5em;
+}
+
+.resourcePageRelatedResources {
+    padding: 0.5em;
+    margin: 0 6.5em 3em 6.5em;
+    background: #f2f2f2;
+}
+
+.resourcePageRelatedResources h3 {
+    margin: 0.5em;
+    padding: 0;
+}
 
 /* Turn off parallax on smaller screens */
 @media only screen and (max-device-width: 1366px) {
@@ -452,10 +751,34 @@ a:hover {
         padding: 2em;
     }
 
+    nav {
+        padding-left: 2em;
+    }
+
+    .resourcesListContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageTitleSection {
+        padding: 2em;
+    }
+
+    .resourcePageContentContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageRelatedResources {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
 }
 
 /* Small devices */
 @media only screen and (min-width: 40em) {
+
     #header {
         background-image: none;
         padding: 1.4em 0.5em;
@@ -498,8 +821,8 @@ a:hover {
     }
 
     .row {
-        padding-left: 6.6em;
-        padding-right: 6.6em;
+        padding-left: 6.5em;
+        padding-right: 6.5em;
     }
 
     .contentBlock:first-child {
@@ -521,10 +844,34 @@ a:hover {
         padding: 2em;
     }
 
+    nav {
+        padding-left: 2em;
+    }
+
+    .resourcesListContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageTitleSection {
+        padding: 2em;
+    }
+
+    .resourcePageContentContainer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .resourcePageRelatedResources {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
 }
 
 /* Medium devices */
 @media only screen and (min-width: 48em) {
+
     #header {
         background-image: url("../images/header-city.png");
         background-repeat: no-repeat;
@@ -554,7 +901,7 @@ a:hover {
     }
 
     #ideasContainer {
-        padding: 2em 6.6em;
+        padding: 2em 6.5em;
     }
 
     .ideas {
@@ -579,15 +926,40 @@ a:hover {
 
     .ideasContentContainer {
         width: 70%;
-        padding: 2em 5em;
+        padding: 3em 5em 4em 6.5em;
     }
 
     .ideasHeaderContainer {
-        padding: 2em 5em;
+        padding: 2em 0 2em 6.5em;
     }
+
+    nav {
+        padding-left: 6.5em;
+    }
+
+    .resourcesListContainer {
+        padding-left: 6.5em;
+        padding-right: 6.5em;
+    }
+
+    .resourcePageTitleSection {
+        padding: 3.5em 6.5em 2em 6.5em;
+    }
+
+    .resourcePageContentContainer {
+        padding-left: 6.5em;
+        padding-right: 6.5em;
+    }
+
+    .resourcePageRelatedResources {
+        margin-left: 6.5em;
+        margin-right: 6.5em;
+    }
+
 }
 
 @media screen and (min-width: 64em) {
+
     #header {
         background-image: url("../images/header-city.png");
         background-repeat: no-repeat;
@@ -615,9 +987,11 @@ a:hover {
     .introduction {
         font-size: 2em;
     }
+
     #ideasContainer {
-        padding: 4em 6.6em;
+        padding: 2em 6.5em;
     }
+
     .img {
         visibility: visible;
     }
@@ -636,16 +1010,14 @@ a:hover {
 
     .ideasContentContainer {
         width: 70%;
-        padding: 2em 5em;
+        padding: 3em 5em 4em 6.5em;
     }
 
     .ideasHeaderContainer {
-        padding: 2em 5em;
+        padding: 2em 0 2em 6.5em;
     }
+
 }
-
-
-
 
 /* UIO Customization */
 .flc-toc-tocContainer {
@@ -724,6 +1096,33 @@ a:hover {
 
 .fl-theme-lgdg .logoContainer {
     background-image: url("../images/idrc-logo-grey.svg");
+}
+
+.fl-theme-bw .resourcesLegend li svg,
+.fl-theme-bw .resourcesCardHeader svg,
+.fl-theme-bw .resourcePageFormatIcon svg,
+.fl-theme-by .resourcesLegend li svg,
+.fl-theme-by .resourcesCardHeader svg,
+.fl-theme-by .resourcePageFormatIcon svg {
+    fill: #000;
+}
+
+.fl-theme-wb .resourcesLegend li svg,
+.fl-theme-wb .resourcesCardHeader svg,
+.fl-theme-wb .resourcePageFormatIcon svg {
+    fill: #FFF;
+}
+
+.fl-theme-yb .resourcesLegend li svg,
+.fl-theme-yb .resourcesCardHeader svg,
+.fl-theme-yb .resourcePageFormatIcon svg {
+    fill: #FF0;
+}
+
+.fl-theme-lgdg .resourcesLegend li svg,
+.fl-theme-lgdg .resourcesCardHeader svg,
+.fl-theme-lgdg .resourcePageFormatIcon svg {
+    fill: #BDBDBB;
 }
 
 /* Transition setting for all elements to avoid the "flash" effect when switching contrast themes via alanharnum.ca */

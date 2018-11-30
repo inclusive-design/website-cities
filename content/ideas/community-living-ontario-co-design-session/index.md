@@ -1,6 +1,7 @@
 ---
 title: "Community Living Ontario Co-design Session: Summary and Results"
 date: "2018-10-02"
+description: "The Community Living Ontario co-design session was held on September 26th at OCAD University at 49 McCaul Street. The event was attended by 23 participants, including members of Community Living Ontario, and participants who represented lived experience of developmental disabilities."
 ---
 
 The [Community Living Ontario](https://communitylivingontario.ca/) co-design session was held on September 26th at OCAD University at 49 McCaul Street. The event started at 10:00 am and ended at noon. The event was attended by 23 participants, with 14 participants who attended in person (from the Toronto area), and 9 who participated remotely  (from Hamilton, North Bay, Essex County, Simcoe, and London). The participants included members of Community Living Ontario, and participants who represented lived experience of developmental disabilities.

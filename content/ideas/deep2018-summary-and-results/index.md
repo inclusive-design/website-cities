@@ -1,6 +1,7 @@
 ---
 title : "DEEP Conference - Summary and Results"
 date: "2018-11-06"
+description: "At this year's DEEP conference (October 12-13, 2018), the Inclusive Cities team presented an overview of their co-design process and shared their challenges and learnings from doing multiple different embedded or led co-design sessions in different contexts. Following the presentation, there was a co-design session with about 35 people including individuals from the Greater Toronto Area, Colombia, Mexico, and Nigeria."
 ---
 
 At this year's [DEEP conference](https://deep.idrc.ocadu.ca/) (October 12-13, 2018), the Inclusive Cities team presented an overview of their co-design process and shared their challenges and learnings from doing multiple different embedded or led co-design sessions in different contexts. This presentation aimed to open up the discussion about doing co-design at the city level and also to provide an introduction for the following co-design activity.

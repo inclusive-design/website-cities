@@ -1,6 +1,7 @@
 ---
 title: "Hackathon Project Descriptions"
 date: "2018-09-14"
+description: "We've gone through all of the great ideas from the co-design sessions and selected 8 of them to prototype at the September 21 Hackathon. For each one, we've prepared a design challenge, which lists the required features and intended use cases for the project."
 ---
 
 We've gone through all of the great ideas from the co-design sessions and selected 8 of them to prototype at the September 21 Hackathon. For each one, we've prepared a design challenge, which lists the required features and intended use cases for the project.

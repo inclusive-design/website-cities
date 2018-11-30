@@ -1,6 +1,7 @@
 ---
 title: "Co-design Session #2 Synthesis Report"
 date: "2018-10-18"
+description: "The second of three co-design sessions focused on the topic of Dynamic Streets. At this session participants were tasked with discussing their current experiences navigating streets, brainstorming solutions, and prototyping their ideas. For the discussions, groups were assigned one of three topics related to dynamic streetscapes: managing conflicting needs in shared spaces, wayfinding and orientation in dynamic spaces, and shared spaces that are perceivable, operable, and understandable for all."
 ---
 
 The second of three co-design sessions focused on the topic of Dynamic Streets. At this session participants were tasked with discussing their current experiences navigating streets, brainstorming solutions, and prototyping their ideas. For the discussions, groups were assigned one of three topics related to dynamic streetscapes: managing conflicting needs in shared spaces, wayfinding and orientation in dynamic spaces, and shared spaces that are perceivable, operable, and understandable for all. For more information about this session please visit the [Co-design Session #2: Dynamic Streets]({{< relref "/ideas/co-design-session-2/index.md" >}}) post.

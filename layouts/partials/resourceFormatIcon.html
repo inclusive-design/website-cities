@@ -1,7 +1,7 @@
 {{ if eq .Params.resources_format "perspective" }}
-    <span role="img" aria-label="Perspective">{{ partial "Bird_Icon.svg" . }}</span>
+    <span role="img" aria-label="Perspective">{{ partial "perspective.svg" . }}</span>
 {{ else if eq .Params.resources_format "reflection" }}
-    <span role="img" aria-label="Reflection">{{ partial "Fish_Icon.svg" . }}</span>
+    <span role="img" aria-label="Reflection">{{ partial "reflection.svg" . }}</span>
 {{ else if eq .Params.resources_format "tool" }}
-    <span role="img" aria-label="Tool">{{ partial "Cat_Icon.svg" . }}</span>
+    <span role="img" aria-label="Tool">{{ partial "tool.svg" . }}</span>
 {{ end }}

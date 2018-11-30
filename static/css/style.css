@@ -428,7 +428,7 @@ li.navbarEntry a:hover {
     margin-top: 0;
 }
 
-.resourcesCoDesignTemplateImg {
+.resourcesCoDesignTemplateImgCol {
     flex: 0 0 auto;
     margin-top: 2em;
 }
@@ -439,6 +439,12 @@ li.navbarEntry a:hover {
 
 .resourcesCoDesignTemplateImg a:hover {
     text-decoration: none;
+}
+
+.resourcesCoDesignTemplateDownloadLinks {
+    max-width: 550px;
+    font-size: 1.1em;
+    line-height: 1.6em;
 }
 
 .resourcesCardListIntro {

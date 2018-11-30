@@ -4,9 +4,9 @@ resources_format: perspective
 title: "Intangible measures of success"
 description: "Co-design leads to unmeasurable experiences that can deeply impact the community."
 related_resources:
-  - build-lasting-relationships
   - work-with-diverse-creators
-  - ensuring-inclusion-of-all-ideas
+  - build-lasting-relationships
+  - ensuring-opportunities-for-all-ideas
 ---
 
 When publishing information from a co-design event, the public may wonder how the success of such a collaborative effort can be measured. In common practice, measuring success means ignoring small numbers, edge cases, immeasurables, and instead looking for large numbers that can statistically prove higher rates of success. However, these information sets are flawed, incomplete, and missing the uncountable and unique perspectives. 

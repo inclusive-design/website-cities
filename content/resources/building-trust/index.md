@@ -4,12 +4,12 @@ resources_format: perspective
 title: "Building trust"
 description: "It takes humility, respect, and transparency to earn your collaborators and participants trust."
 related_resources:
-  - define-objectives
   - work-with-diverse-creators
+  - protect-collective-contributions
   - the-essential-role-of-openness
 ---
 
-Engaging marginalized communities and people who have often been excluded from the design process requires building a trusting relationship. Vulnerable communities often feel that their involvement is not valued (e.g. giving feedback and never knowing what happens with it, giving intellectual labour freely, etc.) due to the issue of reinforced dynamics of power, decision making, and even colonialism. Many individuals experience consultation fatigue as a result of being the token invitee in design projects in which important design decisions have already been made. Often these individuals are only approached to achieve a check on equity and diversity policy checklists. And individuals often become ‘the’ one that is always asked to represent. 
+Engaging marginalized communities and people who have often been excluded from the design process requires building a trusting relationship. Vulnerable communities often feel that their involvement is not valued due to the issue of reinforced dynamics of power, decision making, and even colonialism (e.g. giving feedback and never knowing what happens with it, giving intellectual labour without compensation or recognition, etc.). Many individuals experience consultation fatigue as a result of being the token invitee in design projects in which important design decisions have already been made. Often these individuals are only approached to achieve a check on equity and diversity policy checklists. And individuals often become ‘the’ one that is always asked to represent. 
 
 
 Those involved in the design process should approach people with humility and respect. Acknowledging through words and actions that participants are the real experts in the field, carefully listening to their concerns and ideas, and being willing to learn from their experiences are all important first steps to build trust. Building trust early helps participants take an active role in re-defining the process in a way that works best for them and their community. 

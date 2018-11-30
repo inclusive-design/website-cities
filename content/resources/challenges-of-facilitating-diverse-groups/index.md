@@ -4,8 +4,8 @@ resources_format: reflection
 title: "Challenges of facilitating diverse groups"
 description: "Facilitating a group with different perspectives and needs requires open mindedness and flexibility."
 related_resources:
-  - co-design-facilitation-checklist
   - things-that-can-t-be-controlled
+  - co-design-facilitation-techniques 
 ---
 
 As facilitators, we tried to be observant of individual needs and group dynamics during each co-design session to re-calibrate our facilitation approach accordingly. For example, in one of our embedded sessions, participants who had lived experience of homelessness were asked to pair up and discuss their city experiences. Facilitators noticed that participants were hesitant to work closely with each other. Thus, they immediately changed the format of the activity to a large group discussion to provide a more comfortable space for sharing ideas. 

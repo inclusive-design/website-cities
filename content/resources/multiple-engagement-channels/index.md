@@ -6,7 +6,7 @@ description: "People with diverse needs require different communication channels
 related_resources:
   - our-outreach-process
   - missing-perspectives
-  - co-design-invitation-checklist
+  - co-design-invitation-considerations
 ---
 
 The public should be involved in a co-design process through various communication means to generate a greater pool of participants. Communicating with each person through their prefered channel (e.g. phone conversations, emails, direct messages, social media, referrals from personal networks, etc.) provides an opportunity for open communication and collaboration with different groups in the community and leads to ongoing conversation on topics of interest. 

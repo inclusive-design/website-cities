@@ -4,7 +4,7 @@ resources_format: reflection
 title: "Challenges of diverse participation"
 description: "It is challenging to create an environment where participants with diverse needs can collaborate."
 related_resources:
-  - build-to-include
+  - plan-for-inclusion
   - multiple-engagement-channels
   - challenges-of-facilitating-diverse-groups
   - story-puzzle-warm-up
@@ -20,8 +20,10 @@ As facilitators, we had to be aware of these natural and unnatural group dynamic
 
 ### TRY
 
-- Be observant of group dynamics and how members interact with each other. Encourage group members to notice their interactions and the needs of their group members.
-- Provide assistance when needed (e.g. taking notes, building prototypes, etc.) and integrate translators, ASL interpreters, audio describers, personal assistants to enable your participants to equally participate.
+- Be observant of group dynamics and how members interact with each other. 
+- Encourage group members to notice their interactions and the needs of their group members.
+- Provide assistance when needed (e.g. taking notes, building prototypes, etc.).
+- Integrate translators, ASL interpreters, audio describers, personal assistants to enable your participants to equally participate.
 - Provide simple and clear instruction about the process and how participants’ contribution can impact the community.
 - Have supportive examples and more detailed instructions ready for anyone who needs extra guidance.
 - Offer co-design materials (e.g. worksheets, forms, agenda, etc.) in alternative formats and make them available prior to the event upon attendees’ request.

@@ -16,7 +16,7 @@ This model can be used as an effective tool to reflect on our current relationsh
 ### TRY
 
 - With your team discuss each rung of the ladder.
-- Try to map any previous public engagement efforts to where they belong on the ladder.
+- Try to map any of your previous public engagement efforts to where they belong on the ladder.
 - If nothing is mapped to the top of the ladder, discuss how you can improve your process to give participants more power and engage them more directly into your process. 
 
 

@@ -4,7 +4,7 @@ resources_format: reflection
 title: "Our search for the right topic"
 description: "The clarity and openness of a topic can impact how participants discuss and develop ideas."
 related_resources:
-  - co-design-project-directions
+  - co-design-the-project-s-focus
   - define-objectives
 ---
 

@@ -1,17 +1,18 @@
 ---
 resources_section: topics
 resources_format: perspective
-title: "Co-design project directions"
-description: "Identifying project directions in collaboration with the community helps to incorporate specific needs and contexts."
+title: "Co-design the project’s focus"
+description: "Identifying project scope in collaboration with the community helps to incorporate specific needs and contexts."
 related_resources:
-  - our-search-for-the-right-topic
   - define-objectives
+  - our-search-for-the-right-topic
+
 ---
 
 Planning a collaborative activity usually starts with identifying the questions or broader topics that need to be further explored. This can be an overwhelming phase, as these topics may initially be too abstract, entangled with other issues, or too specific, structured, and biased. Other challenges may emerge as you explore topics in contexts or cultures that are different from your own. Ensuring the selected topics are relevant, understandable and not triggering for the participating communities are some important aspects to consider. 
 
 
-Once you have a broad topic/theme for a co-design event, you can invite participants/ collaborators to discuss different perspectives and share issues that are important to them and their communities and help guide the direction of that project. Through this collaborative approach, you gain a better understanding of the participants’ context, culture, and accessibility requirements. This mutual understanding leads to planning co-design sessions in a direction that is more relevant to the community and is not exclusive of any group. 
+Once you have a broad topic/theme for a co-design event, you can invite participants/ collaborators to discuss different perspectives and share issues that are important to them and their communities and help define the focus of that project. Through this collaborative approach, you gain a better understanding of the participants’ context, culture, and accessibility requirements. This mutual understanding leads to planning co-design sessions in a direction that is more relevant to the community and is not exclusive of any group. 
 
 ### TRY
 
@@ -25,6 +26,6 @@ Once you have a broad topic/theme for a co-design event, you can invite particip
     - Who are the people involved?
     - What kinds of activities are happening related to this theme?
     - What challenges/gaps are being experienced?
-  - Use the responses to further refine the theme and further break it down to sub-themes.
-  - Work with your collaborators to select one area. 
+- Use the responses to further refine the theme and further break it down to sub-themes.
+- Work with your collaborators to select one area. 
 - Ensure your final theme is clear, easy to understand, and supported by additional materials for further guidance and clarification.

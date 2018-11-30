@@ -1,17 +1,17 @@
 ---
 resources_section: logistics
 resources_format: tool
-title: "Access guide checklist"
+title: "Access guide"
 description: "Access guides help to reduce the anxiety of being in a new place and among a group of strangers."
 related_resources:
-  - activity-planning-checklist
+  - activity-planning-considerations
   - accessibility-of-the-space
   - things-that-can-t-be-controlled
 ---
 
-An access guide is an effective way to introduce people to an event they are invited to participate in. It contains information about the event, the space, the agenda, the location and any accommodations that have been arranged. An access guide can also include images and maps for those who are curious about the location, and about the people who will be present.  Although creation of an access guide requires some time and resources, it is a worthwhile effort as it can be used for various events held at that space and reduce the anxiety and stress levels related to attending an event in an unfamiliar environment.  The following checklist provides a list of items that should be included in an access guide. Here is also an example of an access guide that IDRC team has put together for one of their co-design events: {{< resource src="Access Guide Example.docx" text="Access guide example (Word document)" >}}
+An access guide is an effective way to introduce people to an event they are invited to participate in. It contains information about the event, the space, the agenda, the location and any accommodations that have been arranged. An access guide can also include images and maps for those who are curious about the location, and about the people who will be present.  Although creation of an access guide requires some time and resources, it is a worthwhile effort as it can be used for various events held at that space and reduce the anxiety and stress levels related to attending an event in an unfamiliar environment. The following outline provides a list of items that should be considered when creating an access guide. Here is also an example of an access guide that IDRC team has put together for one of their co-design events: {{< resource src="Access Guide Example.docx" text="Access guide example (Word document)" >}}
 
-### CHECKLIST
+### OUTLINE
 
 - Project introduction
    - A brief project summary
@@ -30,7 +30,7 @@ An access guide is an effective way to introduce people to an event they are inv
    - Availability of shelter at the bus stops
    - Accessibility of the pathway from the stop to the venue
    - Availability of shuttle services to the event
-   - Any other note to consider, such as road construction, transportation service disruptions, , special schedules, etc.
+   - Any other note to consider, such as road construction, transportation service disruptions, special schedules, etc.
 - Getting to the event by walking/wheeling
    - Presence of stairs or any sudden changes in the ground level on the way to the event
    - Any other barriers that affects using the sidewalks, such as snow, ice, standing water, trees, construction work, temporary closures, garbage bins, etc.

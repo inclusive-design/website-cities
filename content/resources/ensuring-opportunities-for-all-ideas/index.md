@@ -1,17 +1,16 @@
 ---
 resources_section: output
 resources_format: reflection
-title: "Ensuring inclusion of all ideas"
+title: "Ensuring opportunities for all ideas"
 description: "Inclusion of all ideas was difficult sometimes due to lack of context, limited or non-legible notes."
 related_resources:
-  - challenges-of-facilitating-diverse-groups
-  - individual-group-all
+  - sharing-our-findings
 ---
 
 Synthesizing the documented notes was sometimes very challenging as we lacked the context behind the ideas generated. This was particularly difficult when organizing information from the embedded co-design sessions that were conducted by our partner organizations and without our team’s presence. In either case, we were not fully aware of the participants attitude towards the topics and their group discussions. In addition, many groups did not properly document their discussions, which led to sporadic notes that were difficult to interpret and connect to more concrete ideas.
 
 
-To organize information and ensure outlier data is included in our final reports, our team developed a consistent process of digitizing and interpreting participant information. The information was organized into tables based on similar themes that emerged when reading through the content. In addition, separate categories were created to capture outliers and any other information that didn’t conform to any of the emerging themes. Each member of the team reviewed the information, discussed how the information was synthesized, achieved consensus regarding the outcomes, and made sure all ideas were captured in the final reports. The final reports were published on our website and shared with participants directly to solicit their feedback about the results.
+To organize information and ensure outlier data is included in our final reports, our team developed a consistent process of digitizing and interpreting participant information. The information was organized into tables based on similar themes that emerged when reading through the content. In addition, new categories were created to capture outliers and any other information that didn’t conform to any of the emerging themes. Each member of the team reviewed the information, discussed how the information was synthesized, achieved consensus regarding the outcomes, and made sure all ideas were captured in the final reports. The final reports were published on our website and shared with participants directly to solicit their feedback about the results.
 
 ### TRY
 

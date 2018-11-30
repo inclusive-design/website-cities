@@ -4,9 +4,9 @@ resources_format: reflection
 title: "Accessibility of the space"
 description: "Accessibility of the venue has a direct impact on full participation of those attending."
 related_resources:
-  - access-guide-checklist
   - things-that-can-t-be-controlled
-  - challenges-of-diverse-participation
+  - access-guide
+  - co-design-invitation-considerations
 ---
 
 Prior to our co-design sessions, we provided all our participants with an Access Guide to familiarize them with the location, accessible entrances, washrooms, elevators, and any other accessibility features at the venue. We also informed participants of the accessibility services they could request, such as captions, sign language, audio description, large print, braille, etc. 

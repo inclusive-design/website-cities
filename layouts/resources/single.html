@@ -5,38 +5,42 @@
     {{ partial "resourcesHeader.html" . }}
     {{ partial "navbar.html" . }}
 
-    <div class="resourcePageTitleSection {{ .Params.resources_format }}">
-        <div class="resourcePageFormatIcon">{{ partial "resourceFormatIcon" . }}</div><div
-        class="resourcePageTitleAndDescription">
-            <h2>{{ .Title }}</h2>
-            <div class="resourcePageDescription">{{ .Description }}</div>
-        </div>
-    </div>
+    <main id="maincontent">
 
-    <div class="flc-toc-tocContainer toc"></div>
-
-    <div class="resourcePageContentContainer">
-        <div class="resourcePageContent">
-            {{ .Content }}
+        <div class="resourcePageTitleSection {{ .Params.resources_format }}">
+            <div class="resourcePageFormatIcon">{{ partial "resourceFormatIcon" . }}</div><div
+            class="resourcePageTitleAndDescription">
+                <h2>{{ .Title }}</h2>
+                <div class="resourcePageDescription">{{ .Description }}</div>
+            </div>
         </div>
-    </div>
 
-    {{ if isset .Params "related_resources" }}
-        <div class="resourcePageRelatedResources">
-            <h3>Related Resources</h3>
-            {{ range .Params.related_resources -}}
-                {{- $relatedResource :=  ($.GetPage .) -}}
-                {{- if $relatedResource -}}
-                    <div class="resourcesCard {{$relatedResource.Params.resources_format}}">
-                        <div class="resourcesCardHeader">{{partial "resourceFormatIcon" $relatedResource}}</div>
-                        <div class="resourcesCardTitle"><a href="{{$relatedResource.RelPermalink}}">{{$relatedResource.Title}}</a></div>
-                    </div>
-                {{- else -}}
-                    {{ errorf "Related Resource %q not found, referenced from %q" . $.Title }}
-                {{- end -}}
-            {{- end }}
+        <div class="flc-toc-tocContainer toc"></div>
+
+        <div class="resourcePageContentContainer">
+            <div class="resourcePageContent">
+                {{ .Content }}
+            </div>
         </div>
-    {{ end }}
+
+        {{ if isset .Params "related_resources" }}
+            <div class="resourcePageRelatedResources">
+                <h3>Related Resources</h3>
+                {{ range .Params.related_resources -}}
+                    {{- $relatedResource :=  ($.GetPage .) -}}
+                    {{- if $relatedResource -}}
+                        <div class="resourcesCard {{$relatedResource.Params.resources_format}}">
+                            <div class="resourcesCardHeader">{{partial "resourceFormatIcon" $relatedResource}}</div>
+                            <div class="resourcesCardTitle"><a href="{{$relatedResource.RelPermalink}}">{{$relatedResource.Title}}</a></div>
+                        </div>
+                    {{- else -}}
+                        {{ errorf "Related Resource %q not found, referenced from %q" . $.Title }}
+                    {{- end -}}
+                {{- end }}
+            </div>
+        {{ end }}
+
+    </main>
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}
 </div>

@@ -5,9 +5,13 @@
     {{ partial "blogHeader.html" . }}
     {{ partial "navbar.html" . }}
 
-    <div class="flc-toc-tocContainer toc"></div>
+    <main id="maincontent">
 
-    {{ .Content }}
+        <div class="flc-toc-tocContainer toc"></div>
+
+        {{ .Content }}
+
+    </main>
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}
 </div>

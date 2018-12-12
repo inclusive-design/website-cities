@@ -1,13 +1,18 @@
 <div id="body">
-    <div style="padding: 2em 5em;">
-        <h1>{{ .Title }}</h1>
-    </div>
-    <div style="background-color: #F2F2F2;">
-        <div class="flc-toc-tocContainer toc"></div>
-        <div style="max-width: 50em; padding: 2em 5em; line-height: 1.5em; font-size: 1.1em;">
-            {{ .Content }}
+
+    <main id="maincontent">
+
+        <div style="padding: 2em 5em;">
+            <h1>{{ .Title }}</h1>
         </div>
-    </div>
+        <div style="background-color: #F2F2F2;">
+            <div class="flc-toc-tocContainer toc"></div>
+            <div style="max-width: 50em; padding: 2em 5em; line-height: 1.5em; font-size: 1.1em;">
+                {{ .Content }}
+            </div>
+        </div>
+
+    </main>
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}
 </div>

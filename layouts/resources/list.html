@@ -5,47 +5,51 @@
     {{ partial "resourcesHeader.html" . }}
     {{ partial "navbar.html" . }}
 
-    <div class="flc-toc-tocContainer toc"></div>
+    <main id="maincontent">
 
-    <div class="resourcesListContainer">
+        <div class="flc-toc-tocContainer toc"></div>
 
-        {{ $coDesignTemplateImgOrig := .Resources.GetMatch "Co-design template-01.png" }}
-        {{ .Scratch.Set "coDesignTemplateImg" ($coDesignTemplateImgOrig.Resize "550x") }}
-        {{ $coDesignTemplateImg := .Scratch.Get "coDesignTemplateImg" }}
+        <div class="resourcesListContainer">
 
-        <div class="resourcesIntroSection">
-            <div class="resourcesIntroText">
-                <h2>PLANNING YOUR CO-DESIGN ACTIVITY</h2>
+            {{ $coDesignTemplateImgOrig := .Resources.GetMatch "Co-design template-01.png" }}
+            {{ .Scratch.Set "coDesignTemplateImg" ($coDesignTemplateImgOrig.Resize "550x") }}
+            {{ $coDesignTemplateImg := .Scratch.Get "coDesignTemplateImg" }}
 
-                Including unique and diverse needs in the co-design process is an effective way to ensure our design adapts to a broader range of needs. However, involving citizens in a co-design process may seem expensive, time consuming, and overwhelming. This template provides a list of items to consider when planning, executing, facilitating, and reporting a co-design process based on your goals, context, and resources. It can be used in any format or order, and adapted for your own processes by adding, removing, and modifying its content. If you have any comments regarding this template or the following resources, please send us an email via <a href="mailto:cities@idrc.ocadu.ca">cities@idrc.ocadu.ca</a>.
-            </div>
-            <div class="resourcesCoDesignTemplateImgCol">
-                <span class="resourcesCoDesignTemplateImg"><a href="{{ (.Resources.GetMatch "Co-design template.pdf").RelPermalink }}"><img src="{{ $coDesignTemplateImg.RelPermalink }}" alt="Co-design template"></a></span>
+            <div class="resourcesIntroSection">
+                <div class="resourcesIntroText">
+                    <h2>PLANNING YOUR CO-DESIGN ACTIVITY</h2>
 
-                <div class="resourcesCoDesignTemplateDownloadLinks">
-                    <p><strong>Download the Co-design template:</strong>
-                    <a href="{{ (.Resources.GetMatch "Co-design template.pdf").RelPermalink }}">PDF</a>,
-                    <a href="https://docs.google.com/document/d/15PBY1O8iSJjNhua_quWQQBowpm1c-TC6SxJkSwgFSTk/edit?usp=sharing">Google Doc</a>,
-                    <a href="{{ (.Resources.GetMatch "Co-design template - Word Document.docx").RelPermalink }}">Word</a>,
-                    <a href="{{ (.Resources.GetMatch "Planning Co-Design Activity Page 1.mp3").RelPermalink }}">Audio page 1</a>,
-                    <a href="{{ (.Resources.GetMatch "Planning Co-Design Activity Page 2.mp3").RelPermalink }}">Audio page 2</a>,
-                    <a href="{{ (.Resources.GetMatch "Braille 3D print files.zip").RelPermalink }}">Braille 3D print files (ZIP)</a></p>
+                    Including unique and diverse needs in the co-design process is an effective way to ensure our design adapts to a broader range of needs. However, involving citizens in a co-design process may seem expensive, time consuming, and overwhelming. This template provides a list of items to consider when planning, executing, facilitating, and reporting a co-design process based on your goals, context, and resources. It can be used in any format or order, and adapted for your own processes by adding, removing, and modifying its content. If you have any comments regarding this template or the following resources, please send us an email via <a href="mailto:cities@idrc.ocadu.ca">cities@idrc.ocadu.ca</a>.
+                </div>
+                <div class="resourcesCoDesignTemplateImgCol">
+                    <span class="resourcesCoDesignTemplateImg"><a href="{{ (.Resources.GetMatch "Co-design template.pdf").RelPermalink }}"><img src="{{ $coDesignTemplateImg.RelPermalink }}" alt="Co-design template"></a></span>
+
+                    <div class="resourcesCoDesignTemplateDownloadLinks">
+                        <p><strong>Download the Co-design template:</strong>
+                        <a href="{{ (.Resources.GetMatch "Co-design template.pdf").RelPermalink }}">PDF</a>,
+                        <a href="https://docs.google.com/document/d/15PBY1O8iSJjNhua_quWQQBowpm1c-TC6SxJkSwgFSTk/edit?usp=sharing">Google Doc</a>,
+                        <a href="{{ (.Resources.GetMatch "Co-design template - Word Document.docx").RelPermalink }}">Word</a>,
+                        <a href="{{ (.Resources.GetMatch "Planning Co-Design Activity Page 1.mp3").RelPermalink }}">Audio page 1</a>,
+                        <a href="{{ (.Resources.GetMatch "Planning Co-Design Activity Page 2.mp3").RelPermalink }}">Audio page 2</a>,
+                        <a href="{{ (.Resources.GetMatch "Braille 3D print files.zip").RelPermalink }}">Braille 3D print files (ZIP)</a></p>
+                    </div>
                 </div>
             </div>
+
+            <hr>
+
+            <div class="resourcesCardListIntro">A list of resources is provided to elaborate on each section of the template. These resources include best practices, reflections of our own co-design experiences, and practical tools to plan a co-design process. We encourage all those involved in co-design to share their perspectives, methods, challenges, and learnings by completing this <a href="https://goo.gl/forms/0yhY1Zt1lKMnfUex1">form</a> and contributing to this public resource.</div>
+
+            <h2>RESOURCE TYPES</h2>
+
+            <ul class="resourcesLegend">
+                <li class="perspective"><span role="img" aria-label="">{{ partial "perspective.svg" . }}</span> Perspectives</li><li class="reflection"><span role="img" aria-label="">{{ partial "reflection.svg" . }}</span> Reflections</li><li class="tool"><span role="img" aria-label="">{{ partial "tool.svg" . }}</span> Tools</li>
+            </ul>
+
+            {{ .Content }}
         </div>
 
-        <hr>
-
-        <div class="resourcesCardListIntro">A list of resources is provided to elaborate on each section of the template. These resources include best practices, reflections of our own co-design experiences, and practical tools to plan a co-design process. We encourage all those involved in co-design to share their perspectives, methods, challenges, and learnings by completing this <a href="https://goo.gl/forms/0yhY1Zt1lKMnfUex1">form</a> and contributing to this public resource.</div>
-
-        <h2>RESOURCE TYPES</h2>
-
-        <ul class="resourcesLegend">
-            <li class="perspective"><span role="img" aria-label="">{{ partial "perspective.svg" . }}</span> Perspectives</li><li class="reflection"><span role="img" aria-label="">{{ partial "reflection.svg" . }}</span> Reflections</li><li class="tool"><span role="img" aria-label="">{{ partial "tool.svg" . }}</span> Tools</li>
-        </ul>
-
-        {{ .Content }}
-    </div>
+    </main>
 
     {{ partial "footer.html" (dict "footerAdditional" "") }}
 </div>

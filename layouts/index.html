@@ -9,7 +9,7 @@
         </div>
     </div>
     {{ partial "navbar.html" . }}
-    <main id="maincontent">
+    <main id="maincontent" tabindex="-1">
         {{ .Content }}
     </main>
     {{ partial "footer.html" (dict "footerAdditional" "<br />\nBackground image of city of Toronto credited to <a href=\"https://chuckmantorontonostalgia.wordpress.com/\">John Chuckman</a>.") }}

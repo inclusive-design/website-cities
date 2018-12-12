@@ -363,6 +363,36 @@ a:hover {
     font-weight: 400;
 }
 
+/* Skip to content link */
+
+#skipToContent {
+    float: left;
+    height: 0rem;
+}
+
+#skipToContent a,
+#skipToContent a:hover,
+#skipToContent a:visited {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: #fff;
+    background: #000;
+    font-size: 1.2em;
+}
+
+#skipToContent a:active,
+#skipToContent a:focus {
+    left: auto;
+    width: auto;
+    height: auto;
+    padding: 0.9em;
+    z-index: 1;
+}
+
 /* Navbar */
 
 nav {

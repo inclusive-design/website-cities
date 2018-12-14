@@ -161,7 +161,7 @@ a:hover {
 
 #ideasContainer {
     background-color: #fff;
-    padding: 2em 6.5em;
+    padding: 0 6.5em 2em 6.5em;
 }
 
 .ideas h2 {
@@ -294,15 +294,16 @@ a:hover {
     justify-content: space-between;
 }
 
-.ideasHeaders h1 > a {
+.ideasHeaders {
+    margin: 1em 0;
+}
+
+.ideasHeaders a {
     font-family: 'Work Sans', sans-serif;
     color: #000;
     font-size: 2rem;
+    font-weight: 700;
     text-decoration: none;
-}
-
-.ideasHeaders h2 {
-    font-weight: 500;
 }
 
 #ideasContent {
@@ -428,10 +429,23 @@ li.navbarEntry a:hover {
     color: #f2f2f2;
 }
 
+/* H1 */
+
+.h1Container {
+    margin: 0;
+    padding: 0 0 0 6.5em;
+}
+
+.h1Container h1 {
+    margin: 1.25em 0 0 0;
+    padding: 0;
+    font-size: 2.2em;
+}
+
 /* Resources list page */
 
 .resourcesListContainer {
-    padding: 1em 6.5em 3em 6.5em;
+    padding: 0 6.5em 3em 6.5em;
 }
 
 .resourcesListContainer h2 {
@@ -451,7 +465,7 @@ li.navbarEntry a:hover {
     flex: 1 0 350px;
     font-size: 1.1em;
     line-height: 1.6em;
-    margin: 2em 3em 0 0;
+    margin: 1.5em 3em 0 0;
 }
 
 .resourcesIntroText h2 {
@@ -460,7 +474,7 @@ li.navbarEntry a:hover {
 
 .resourcesCoDesignTemplateImgCol {
     flex: 0 0 auto;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .resourcesCoDesignTemplateImg a {
@@ -746,7 +760,8 @@ li.navbarEntry a:hover {
     }
 
     #ideasContainer {
-        padding: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     .ideas {
@@ -782,6 +797,10 @@ li.navbarEntry a:hover {
     }
 
     nav {
+        padding-left: 2em;
+    }
+
+    .h1Container {
         padding-left: 2em;
     }
 
@@ -838,7 +857,8 @@ li.navbarEntry a:hover {
 
     #ideasContainer {
         width: 80%;
-        padding: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     .ideas {
@@ -875,6 +895,10 @@ li.navbarEntry a:hover {
     }
 
     nav {
+        padding-left: 2em;
+    }
+
+    .h1Container {
         padding-left: 2em;
     }
 
@@ -931,7 +955,8 @@ li.navbarEntry a:hover {
     }
 
     #ideasContainer {
-        padding: 2em 6.5em;
+        padding-left: 6.5em;
+        padding-right: 6.5em;
     }
 
     .ideas {
@@ -964,6 +989,10 @@ li.navbarEntry a:hover {
     }
 
     nav {
+        padding-left: 6.5em;
+    }
+
+    .h1Container {
         padding-left: 6.5em;
     }
 
@@ -1019,7 +1048,8 @@ li.navbarEntry a:hover {
     }
 
     #ideasContainer {
-        padding: 2em 6.5em;
+        padding-left: 6.5em;
+        padding-right: 6.5em;
     }
 
     .img {

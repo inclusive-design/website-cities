@@ -458,14 +458,14 @@ li.navbarEntry a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .resourcesIntroText {
     flex: 1 0 350px;
     font-size: 1.1em;
     line-height: 1.6em;
-    margin: 1.5em 3em 0 0;
+    margin: 1.5em 3em 1.5em 0;
 }
 
 .resourcesIntroText h2 {
@@ -474,7 +474,7 @@ li.navbarEntry a:hover {
 
 .resourcesCoDesignTemplateImgCol {
     flex: 0 0 auto;
-    margin-top: 1em;
+    margin: 1.5em 0;
 }
 
 .resourcesCoDesignTemplateImg a {
@@ -486,6 +486,7 @@ li.navbarEntry a:hover {
 }
 
 .resourcesCoDesignTemplateDownloadLinks {
+    margin-top: 1em;
     max-width: 550px;
     font-size: 1.1em;
     line-height: 1.6em;

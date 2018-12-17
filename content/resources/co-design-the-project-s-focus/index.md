@@ -14,7 +14,7 @@ Planning a collaborative activity usually starts with identifying the questions 
 
 Once you have a broad topic/theme for a co-design event, you can invite participants/ collaborators to discuss different perspectives and share issues that are important to them and their communities and help define the focus of that project. Through this collaborative approach, you gain a better understanding of the participants’ context, culture, and accessibility requirements. This mutual understanding leads to planning co-design sessions in a direction that is more relevant to the community and is not exclusive of any group. 
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Select a broad topic that you would like to explore through a co-design activity.
 - Invite participants to an open process of exploring and refining the directions you want to take with this topic.

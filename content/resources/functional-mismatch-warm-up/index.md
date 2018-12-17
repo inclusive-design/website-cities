@@ -9,7 +9,7 @@ related_resources:
 
 The functional mismatch warm-up activity is designed to be completed in groups to encourage participants to work together and come up with creative ideas that don’t necessarily represent something useful, practical, or feasible. The aim of this warm-up activity is to help participants get to know each other and think more creatively. This activity also primes participants for the activities that follow, showing them that there is no right or wrong answer to a scenario and that they are encouraged to take risks, think beyond what is possible, and be more imaginative. Facilitators should remind groups to have fun with this activity and not to worry about developing polished ideas.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Come up with an imaginary scenario that is relevant to the topic of your workshop. For instance, the topic of one of our workshops was about understanding the moment an individual crosses a threshold, thus, we chose this scenario: “Imagine all doors disappeared from the world”. 
 - Prepare a list of random materials (you need 2 items per person), having each item presented on a slip of paper.

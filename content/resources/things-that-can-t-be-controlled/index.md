@@ -16,7 +16,7 @@ These challenges were further amplified during our embedded co-design sessions w
 
 All of these barriers took away from the participants’ experience, however, they highlighted areas that should be considered when planning a co-design session.  
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Work with your partner organizations to ensure accessibility of spaces in co-design events that are facilitated by them independently and in their own work spaces. 
 - Identify accessibility issues of chosen locations/venues and advocate on behalf of the participants to ensure accessibility and inclusion. 

@@ -16,7 +16,7 @@ Bringing together a diverse group of people can also mean having conflicting per
 
 Facilitators’ role was most important when groups experienced conflicting learning and cognitive needs. Enabling collaboration between members who needed detailed instructions with ones who preferred to work independently, and members who needed more time to process information with ones who could process information faster posed a big challenge to facilitation. In those situations, facilitators tried to adjust the length/duration/flow of tasks to address different needs.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Be flexible and ready to change the workflow, timing or the format of the activities if needed.
 - Observe group and individual performance during the activity, and adopt the most appropriate facilitation style to meet the needs of the participants. 
@@ -25,7 +25,7 @@ Facilitators’ role was most important when groups experienced conflicting lear
 - Provide ongoing and step-by-step assistance to groups that may be lagging behind and need more guidance. 
 
 
-### ALSO SEE 
+{{< resourcesCardSubheading "ALSO SEE" >}}
 
 
 - [Facilitate inclusively](https://guide.inclusivedesign.ca/practices/FacilitateInclusively.html)

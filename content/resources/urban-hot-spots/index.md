@@ -18,7 +18,7 @@ We have used this research as inspiration to help us develop activities that cou
 - {{< resource src="Individual exercise to reflect on urban hot spots.pdf" text="Individual exercise to reflect on urban hot spots (PDF)" >}}
 - {{< resource src="Individual exercise to reflect on personal urban experiences.pdf" text="Individual exercise to reflect on personal urban experiences (PDF)" >}}
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Each individual maps  out areas they visit or try to avoid over the span of a week.
 - They spend 10-20 minutes commenting on how these areas make them feel and elaborate on the meanings and memories they associate with each of those places.

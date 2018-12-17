@@ -15,7 +15,7 @@ Our outreach process involved reflecting on our goals to understand who was impa
 
 Direct communication with potential participants allowed us to inquire about their needs and encourage them to join us by offering their requested accessibility services. However, for the embedded co-design events, our partner organizations were responsible for engaging their members, thus, we had a limited knowledge of the participants and their accessibility needs. Having several planning meetings with our embedded partners helped us to build a mutual understanding of the project and their members’ needs. With this knowledge, they could better encourage their members to participate in this process, and we could offer more appropriate and contextual services to enable their participation, such as sign language interpretation, tools for remote participation, and flexible facilitation guides.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Identify vulnerable and marginalized groups who will be affected by your topic. 
 - Search for advocacy groups, communities, institutions, and organizations that are involved with or organized by these groups.

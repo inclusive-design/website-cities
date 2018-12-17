@@ -17,7 +17,7 @@ It is also beneficial to incorporate low tech and more in-person techniques to e
 
 Lastly, more research should be done to find different channels of communication used by racial minorities (e.g. Indigenous, Blacks, Asians, etc.)  that are often missing from conversations regarding major social issues. These different channels should be used to recruit more culturally and socioeconomically diverse groups of people. 
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Build a public and open platform to describe the project, its goals and how the community can participate and contribute to the project. Depending on your team’s skills and resources this platform can take any level of complexity, such as websites, blogs, social networks (twitter, facebook, instagram, etc.), and mailing lists.
 - Depending on the size of your organization and available resources create various communication channels to engage the community and share your progress.

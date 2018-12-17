@@ -10,7 +10,7 @@ related_resources:
 
 Planning an activity requires a clear set of objectives and a discussion around the type of information that should be collected from this activity. It is also necessary to develop a clear understanding of the participants, their areas of expertise and accessibility needs. This information will help to define parameters for the activity and identify the most appropriate format for the participants. The next step is to incorporate elements of change that allow participants to remain mentally and physically engaged in the activity. Lengthy activities may cause fatigue and loss of interest. Therefore, having a combination of different tasks and changing the pace/flow of the activity from individual reflection, to group work, and to active large group discussions helps to increase energy levels and re-engage the participants. Participants are also best engaged if they know the end goal of an activity and how their contributions will help to achieve that goal. Lastly, conducting a trial run of the planned activities helps to refine its tasks and identify issues that may arise with timing, facilitation, and format.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - List the objectives/goals of the workshop.
 - List what information you are trying to extract with this activity.
@@ -22,7 +22,7 @@ Planning an activity requires a clear set of objectives and a discussion around 
 - Trial activities as a team to ensure they are realistic and producing intended outcomes.
 
 
-### SUGGESTED TIMINGS 
+{{< resourcesCardSubheading "SUGGESTED TIMINGS" >}}
 
 
 - Warm-up activities can take up to 15 minutes. If you are running a short workshop, you can consider skipping a warm-up activity and do a simple round of introductions (Introductions may also take a long time if there is a large group of people).

@@ -668,7 +668,7 @@ li.navbarEntry a:hover {
     padding: 0 0 0 2em;
 }
 
-.resourcePageTitleAndDescription h2 {
+.resourcePageTitleAndDescription h1 {
     font-size: 2em;
     font-weight: 500;
     margin: 0 0 0.25em 0;
@@ -699,7 +699,8 @@ li.navbarEntry a:hover {
     padding-left: 3em;
 }
 
-.resourcePageContent h3 {
+.resourcePageContent h2 {
+    font-size: 1.2em;
     margin-top: 2.5em;
 }
 
@@ -709,7 +710,8 @@ li.navbarEntry a:hover {
     background: #f2f2f2;
 }
 
-.resourcePageRelatedResources h3 {
+.resourcePageRelatedResources h2 {
+    font-size: 1.2em;
     margin: 0.5em;
     padding: 0;
 }

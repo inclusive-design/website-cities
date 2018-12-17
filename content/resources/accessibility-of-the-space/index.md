@@ -17,7 +17,7 @@ At the beginning of each session, one of the facilitators provided a description
 
 Our facilitation team provided ongoing assistance to participants upon their request (e.g walking to the facilities, helping with service animals, serving food, etc.). We also tried to remove unanticipated barriers as they emerged (e.g. moving a group to a new workstation due to glare, turning off loud ceiling fans to improve audibility).
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Contact participants to identify their accessibility needs. 
 - Develop a system to record their needs accurately and use that to guide your plan for the event. 

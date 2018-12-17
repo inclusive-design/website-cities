@@ -11,7 +11,7 @@ related_resources:
 
 Inviting people to a co-design event is the first point of contact with potential participants. Thus, the organizing team should carefully plan different aspects of an invitation process to be mindful of diverse needs and preferences. The following list highlights some of the important factors that should be considered during the invitation process.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - When picking a time for your event:
    - Consider many adults won’t be able to take time off work, thus evening and weekend meetings may work better for their schedule. If you are holding multiple events, consider scheduling them in a way that provides a range of options, e.g. one morning session, one evening session, one weekend session. 

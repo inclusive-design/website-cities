@@ -17,7 +17,7 @@ When the analog version is in a portable form, or the digital version is remotel
 
 To build an inclusive city imaginary, we can combine data from the past, data from unique exemplars, with simulations or modelling that injects imagined or extrapolated data. This way the past does not dictate or bias the future and we can create wholly new experiences.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - With your team create a pool of options that make cities more inclusive and accessible. This pool should include both existing and imaginary options. 
 - Depending on your team’s skills, resources, and limitations choose a medium for building an analog or digital city imaginary environment. 

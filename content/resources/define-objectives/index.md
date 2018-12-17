@@ -13,7 +13,7 @@ Once you have a topic, it is very important to work with your collaborators to c
 
 There are situations where collaborators have different objectives in mind. These differences can impact the entire process, make it harder to develop activities, and lead to inconsistencies when communicating the project with your participants. If it is impossible to agree upon a shared set of objectives, try to plan multiple co-design events to address different goals with separate activities.   
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Determine the significance of this topic to you and others in the community.
 - Create a list of goals for this project from different perspectives.

@@ -16,7 +16,7 @@ The type of interaction required by an activity whether it is a group discussion
 
 Activities that require groups to rely on each other can also be a barrier as each group may have a different pace and workflow. Facilitators should pay close attention to every participant’s needs, group dynamics and interactions between different groups to accommodate groups with different workflows and pace. They should try to assist anyone experiencing difficulty and have supportive material and examples of completed activities available for anyone who requires more support.
 
-### ALSO SEE
+{{< resourcesCardSubheading "ALSO SEE" >}}
 
 - [Communicate multimodally](https://guide.inclusivedesign.ca/practices/CommunicateMultimodally.html)
 - [Facilitate inclusively](https://guide.inclusivedesign.ca/practices/FacilitateInclusively.html)

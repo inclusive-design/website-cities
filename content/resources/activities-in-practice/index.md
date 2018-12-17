@@ -17,7 +17,7 @@ Conflicting needs of participants was a challenge for some groups. For example, 
 
 Collaborating with partner organizations helped us to better incorporate participant needs in the activities. Our partners at the Deaf Culture Centre reminded us that some of their members primarily communicate using American Sign Language, and suggested checklists to minimize writing. During this activity, we grouped hearing and deaf participants together to enable note taking and provided ASL interpretation to facilitate communication. We tried to minimize barriers to participation, by sharing the written/visual materials with participants in advance, and providing activities in multiple modalities.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - When developing activities, reach out to different groups, communities, individuals or any other resources to acquire knowledge about the needs and capabilities of your participants to help you tailor the activity. 
 - Provide multi-modal representations of the activity so they are accessible for all participants. 

@@ -18,14 +18,14 @@ Our presumptions, assumptions and conventions often lead to hierarchies, reducin
 
 We should also consider that most of our communication, design and development tools are designed for able bodies and do not support alternative forms of interaction that are necessary for many other groups. Although finding tools and strategies that support multiple modes of interaction may take more time and resources, in the long term they facilitate a more diverse participation and generation of ideas that were otherwise impossible. For instance, offering written documents in digital format enables participants to interact with them through their prefered technologies, such as screen reader, scanners, magnifiers, etc. in order to read the content and enter their notes and ideas. 
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 
 - Regularly reflect on the limitations and exclusions of your approach and ask who is missing and why.
 - When planning a co-design activity, ask participants to bring a friend whom they think should be engaged in this process.
 - After each collaborative activity, ask participants to critique the process and discuss who was missing, and how the space, tools, and the process could be made more accessible and inclusive.
 
-### ALSO SEE
+{{< resourcesCardSubheading "ALSO SEE" >}}
 
 
 - [Communicate multimodally](https://guide.inclusivedesign.ca/practices/CommunicateMultimodally.html) 

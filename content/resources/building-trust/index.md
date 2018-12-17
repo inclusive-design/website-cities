@@ -17,7 +17,7 @@ Those involved in the design process should approach people with humility and re
 
 Transparent communication about the project’s opportunities, risks, shortcomings, and limitations helps the prospective collaborators/participants recognize that the process is not biased and there is a hope, expectation, and chance to influence it. A clear discussion about the terms of participation, roles, responsibilities, and incentives as well as aiming to establish a long term relationship with the collaborators/participants helps to build deeper relationships with the collaborators/participants.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Be honest and clearly explain different aspects of the projects, its risks, opportunities, problems, and your concerns about it.
 - Ask collaborators to discuss concerns about the project and what they want to see changed.

@@ -10,7 +10,7 @@ related_resources:
 
 To ensure a collaborative event is inclusive and accessible there are some fundamental costs that should be considered by the organizers. To treat participants respectfully, organizers should provide them with fair honoraria. Although this can be very expensive, it helps to build longer and more trusting relationships with participants. The other most expensive aspect of running collaborative events relates to providing accessibility services, such as sign language, audio description, translation, captions, braille, child care, etc. These services are provided upon request by attendees. Organizers should inform participants of the availability of such services in advance, so they have an opportunity to request them. Renting a space can also be expensive if your organization doesn’t already have an environment that could be used for such events. Working with organizations that offer free or low cost spaces for these events, such as community centres, libraries, local think tanks, churches, etc. can help with this cost. The cost of providing food and refreshments also depends on the duration and timing of your event. For shorter events (less than 3 hours) you can provide beverages and snacks. However for longer events, proper meals are needed in addition to snacks. 
 
-### CHECKLIST
+{{< resourcesCardSubheading "CHECKLIST" >}}
 
 - Participant honoraria
    - If we consider attendees as true co-designers, they should be treated similar to any other designer or staff from your organization. 

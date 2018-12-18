@@ -6,11 +6,11 @@ description: "IDRC partnered with Helen Keller Centre and organized an embedded 
 
 As part of our continued efforts to include diverse perspectives in creation of inclusive cities, IDRC partnered with [Helen Keller Centre](https://chkc.org/) and organized an embedded co-design session at their North York Centre. The session was held on September 28th, 2018. Two individuals from the deaf blind community participated in a 2.5 hour long co-design session from 9:00 am to 11:30 am with assistance of their interveners. Three IDRC members were also available to facilitate this session.
 
-### Activity Overview
+## Activity Overview
 
 The co-design activity was developed in collaboration with the Helen Keller Centre members and also based on the learnings from the Deaf Culture Centre co-design session in order to tailor the activity to the interests and needs of the deaf blind community. The activity had three parts: individual reflection, sharing individual notes, and small group discussion.
 
-#### Individual Reflection
+### Individual Reflection
 
 **Objective: Reflect on personal experiences living in today’s neighbourhood<br>
 Duration: 30 minutes**
@@ -19,7 +19,7 @@ Participants were given a worksheet to complete based on their personal experien
 
 At the end of this activity, participants were given 15 minutes to share their responses with each other. Interveners read out the responses. Some responses inspired the participants and they asked their interveners to add a few more notes to their worksheets.
 
-#### Small Group Discussion
+### Small Group Discussion
 
 **Objective: Discuss and brainstorm ways to improve the city for their community<br>
 Duration: 1.5 hour**
@@ -33,9 +33,9 @@ Participants were given the following 4 questions to discuss and answer.
 
 Interveners were also encouraged to participate in the discussion as their responses were providing a different point of view.
 
-### Results
+## Results
 
-#### Individual Reflection
+### Individual Reflection
 
 Describe the first thing that comes to mind when you think of the following places/ activities/ scenarios (Emotions, challenges, etc.)
 
@@ -57,7 +57,7 @@ The participants reported experiencing anxiety and fear when navigating the stre
 
 After the individual reflection, the participants commented on the following topics in a small group discussion.
 
-#### Needs Not Considered (Group Activity)
+### Needs Not Considered (Group Activity)
 
 The participants expressed that public buildings are often not accessible for the deaf/ deaf-blind community as they are often dark or poorly lit. For example, public washrooms are dark and don’t have enough contrast. In schools, classrooms are also poorly lit, which makes it very difficult for deaf blind individuals to follow the lecture and be able to participate. The participants also mentioned that the technology used in classrooms is not accessible. For example, powerpoint presentations are commonly used with lights turned off which makes it difficult for them to lipread or see when another student raises their hand to make a comment. Other accessibility challenges in indoor spaces included revolving doors or doors that open in different directions that cause confusion, and automatic doors with small buttons that are hard to press or often don’t function.
 
@@ -65,14 +65,14 @@ In outdoor spaces, the participants reported experiencing difficulty navigating 
 
 The participants also reported that “able bodied” individuals often don’t know how to behave around them, and often stare or doubt their visual impairment if they seem to be navigating well with a cane. They also expressed that those who attempt to help often do not know how to because they lack knowledge about the accessibility needs of the deaf/deaf blind community.
 
-#### Positive Experience Receiving Support From Others (Group Activity)
+### Positive Experience Receiving Support From Others (Group Activity)
 
 Some of the positive experiences shared by the group included people on public transit offering them a seat or opening doors for them to walk through easily. The participants agreed that most people are accommodating when asked. For instance, one of the participants requested a well-lit area to dine in at a local restaurant and they provided special seating with extra lighting for them.
 
-#### Ways to Educate the City (Group Activity)
+### Ways to Educate the City (Group Activity)
 
 The group felt that cities are often built by and for people with sight and hearing, and for the aesthetics rather than the function and accessibility of the structures. They expressed the importance of including the deaf/deaf blind community in the design process and doing extensive research prior to the building process. They also commented that public education and enforcement of legislation is necessary to ensure that people don’t block sidewalks for people using a mobility device or park in accessibility parking spots. They also suggested encouraging neighbours to shovel snow for those who have difficulty.
 
-#### Design and Technology of Neighbourhood (Group Activity)
+### Design and Technology of Neighbourhood (Group Activity)
 
 The group discussed building interior spaces that more welcoming, brightly lit, and incorporate high contrast and tactile surfaces. Participants also suggested developing safer navigation systems for blind individuals, such as tactile surfaces or braille dots at intersections and subway platforms. They also discussed better incorporation of lighting to ease navigation, which could include a rope lighting system above the sidewalk that would allow the individual to follow the path/track illuminated by the light above. Another suggestion was to incorporate high contrast colors and textures in street signage and at crosswalks to ensure safety and independence of pedestrians with visual or hearing loss and to maintain consistency in the design of infrastructure.

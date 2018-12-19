@@ -8,7 +8,7 @@ description: "The second of three co-design sessions was held on August 24th at 
 
 The second of three co-design sessions was held on August 24th at the Sidewalk Labs office at 307 Lakeshore Boulevard East, Toronto. The session began at 9:20 am and ended around 5:00 pm. Five IDRC members and one accessibility consultant from Sidewalk facilitated a group of 20 people from the Greater Toronto Area participating in this collaborative event. The focus of the second session was dynamic streets. Thus, the planned activities for the day encouraged participants to reflect on their personal experiences on the streets of Toronto in relation to three main themes and think about how their experiences can be used to inform the streets of the future. The three themes focused on issues of wayfinding and orientation, co-existing within a dynamic space with competing needs, and envisioning a city that meets the needs of all its users.
 
-### Warm-Up Activity: Share one word that you associate with "street"
+## Warm-Up Activity: Share one word that you associate with "street"
 
 **Objective: encourage reflection on personal experiences<br>
 Duration: 15-20 minutes**
@@ -17,11 +17,11 @@ The day began with a warm up activity. In this activity, the participants sat in
 
 {{< imgblock src="images/IMG_1766.jpg" resize="wide" alt="Participants at the Sidewalk Labs office sitting in a large circle on foam blocks on top of some dynamic streets prototype flooring" >}}
 
-### Introducing the Dynamic Street Prototype: Sidewalk Labs
+## Introducing the Dynamic Street Prototype: Sidewalk Labs
 
 Following the warm up activity, Jesse Shapins from Sidewalk Toronto provided an overview of the dynamic street prototype at the session’s venue, and talked about the broader implications for the city of Toronto. He described the four key components of the street design: modular, dynamic, heated, and permeable. Jesse and other representatives from Sidewalk Toronto also answered questions from the participants regarding the material used for the street, the technology, and the goals of this approach to street design.
 
-### Introducing the themes for the session:
+## Introducing the themes for the session:
 
 After experiencing the dynamic street prototype, the following themes were introduced to the audience. Each participant was assigned to a group to work on one of these themes for the rest of the session.
 
@@ -39,7 +39,7 @@ After experiencing the dynamic street prototype, the following themes were intro
     <blockquote>"Perceivability, operability and understandability are core principles when it comes to making web content more accessible and inclusive, but we can also apply these to create more inclusive spaces and streets. What aspects of our streets would benefit most from being perceivable, operable and understandable to a broader range of citizens?"</blockquote></li>
 </ol>
 
-### Design Activity: Part 1 - Group Discussion
+## Design Activity: Part 1 - Group Discussion
 
 **Objective: Discussing each theme based on personal experiences<br>
 Duration: 30 minutes**
@@ -63,7 +63,7 @@ A city working for everyone:
 - Step One: As a group discuss and list what aspects of the street work for you, and why: (Think about your personal experiences)
 - Step Two: As a group discuss and list what aspects of the street do not work for you, and why not.
 
-### Design Activity: Part 2 - Prototype Challenge
+## Design Activity: Part 2 - Prototype Challenge
 
 **Objective: Brainstorming ideas and prototyping a solution.<br>
 Duration: 2 hours**
@@ -96,7 +96,7 @@ Following the brainstorming session, each group had 1.5 hrs to select one idea a
 
 {{< imgblock src="images/IMG_7911.JPG" resize="wide" alt="A close up of group \"Side Thought\" prototype. They built a small neighbourhood outlining traffic flow and building placement strategies for pedestrian safety. They used texture and colour coded pipe cleaners along the streets and buildings to indicate cardinal directions." >}}
 
-### Design Activity: Part 3 - Swap and Critique prototype
+## Design Activity: Part 3 - Swap and Critique prototype
 
 **Objective: Considering unrepresented needs<br>
 Duration: 30 minutes**
@@ -112,7 +112,7 @@ Once groups completed their critique, they returned the worksheets to the origin
 
 {{< imgblock src="images/IMG_7725.JPG" resize="wide" alt="The \"Harmony\" and \"Side Thought\" groups engaging in conversation and providing each other feedback during the \"swap and critique\" session" >}}
 
-### Final Group Discussion
+## Final Group Discussion
 
 For the last hour, each group shared their work with the rest of the teams in an open discussion. Teams were engaged in active discussion and questions when presenting each idea.
 

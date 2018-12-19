@@ -14,7 +14,7 @@ During our outreach process, we found it very difficult to engage certain margin
 
 As we progressed, we also recognized that we often overlook the fact that marginalized groups, similar to any other community, have diverse needs and experience discrimination, exclusion, and hierarchies. Thus, within marginalized communities, there were people experiencing exclusion. Identifying and engaging with those outliers within marginalized communities was a fundamental challenge. We were only able to address this issue with the assistance of people and organizations who had a deep understanding of those communities and were aware of their complex interrelationships. This process takes time to build trust and reciprocity with communities.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - During your invitation process, be honest and transparent about the project objectives, process, and outcomes, and limitations or constraints of your project.
 - Clearly communicate how the collected information from the participants will be handled and shared with the community, and the role they will play in the process.

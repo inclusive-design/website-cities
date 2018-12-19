@@ -14,7 +14,7 @@ Each day began at 5:15 pm and ended around 9 pm. Five IDRC members and one acces
 * Up & down: moving between different levels of a space
 * Getting around: transitioning between different modes of transportation
 
-### Warm-Up Activity: Build a Door
+## Warm-Up Activity: Build a Door
 
 **Objective: encourage collaboration and creative thinking, familiarize participants with each other<br>
 Duration: 15-20 minutes**
@@ -23,7 +23,7 @@ The first day began with a warm up activity. In this activity, participants were
 
 {{< imgblock src="images/IMG_1862.jpg" resize="wide" alt="Examples of items used for the warm up activity printed on braille cards. The cards pictured have names of items such as \"bag of beans\", \"cupcakes\", \"pressured air\", \"marshmallows\", \"water\" and \"keyboards\"" >}}
 
-### Introducing the themes for the session:
+## Introducing the themes for the session:
 
 After the warm-up activity, the following themes were introduced to the audience. Each participant was assigned to a group to work on one of these themes for the rest of the session.
 
@@ -44,7 +44,7 @@ After the warm-up activity, the following themes were introduced to the audience
 </blockquote></li>
 </ol>
 
-### Design Activity: Part 1 - Group Discussion
+## Design Activity: Part 1 - Group Discussion
 
 **Objective: Discussing each theme based on personal experiences<br>
 Duration: 45 minutes**
@@ -76,13 +76,13 @@ Getting Around:
 
 {{< imgblock src="images/IMG_1861-1.jpg" resize="wide" alt="Participants at the event sitting in small groups" >}}
 
-### Design Activity: Overview of Sidewalk Accessibility Principles
+## Design Activity: Overview of Sidewalk Accessibility Principles
 **Objective: Introduce the accessibility principles developed by Sidewalk Labs, and provide an opportunity for the group to review the principles and provide their input.<br>
 Duration: 20 minutes**
 
 A Sidewalk representative provided an overview of the accessibility principles developed by Sidewalk Labs. The principles were grouped into three main areas; digital, physical and general accessibility. Printed copies of the principles and examples were provided to each group for review.
 
-### Design Activity: Part 2 - Brainstorming
+## Design Activity: Part 2 - Brainstorming
 **Objective: Brainstorming ideas<br>
 Duration: 30 minutes**
 

@@ -13,7 +13,7 @@ To share our findings with the public, the team created summaries of the events 
 
 Artifacts and rough notes created by participants from our led co-design sessions were also incorporated in the online documents along with the reports and made available to the public. However, the artifacts and rough notes from our embedded co-design activities were not shared publicly as part of our agreement to protect the identity of participants in the community. For these co-design sessions, only the synthesized ideas were shared with the public. In addition to the public platform, the final reports were shared directly with our participants and their feedback was encouraged.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Integrate the participant contributions into a written document that can be shared with the public.
 - Determine the terms and conditions discussed with partner organizations to decide how much of the collected information can be made public. 

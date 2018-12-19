@@ -14,7 +14,7 @@ Openness and transparency are core values of inclusive design and should be refl
 
 However, an open and transparent process should not jeopardize the privacy of co-designers and other contributors. Before publishing any information on the web, a meticulous de-identifying process should be carried out. People who are most vulnerable to data-abuse, are the ones that could be easily re-identified as they have very unique characteristics that make them easily distinguishable in small or large data sets. For example, if a participant is the only indigenous person in a particular neighborhood of people from European origin, it will be very easy to trace their data back to them. Thus, before sharing any information publicly, remove any characteristics that make your participants re-identifiable.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Right from the start build an open platform to document and share your process with the community. (e.g. website, blog, social media, newsletter, office hours, etc.)
 - Protect your participants by encouraging them to sign contributor license agreements when they contribute to any sort of information/idea generation processes.
@@ -22,7 +22,7 @@ However, an open and transparent process should not jeopardize the privacy of co
 - Inform the community of your new plans, events, and collected insights and encourage them to provide feedback and get involved.  
 
 
-### ALSO SEE
+{{< resourcesCardSubheading "ALSO SEE" >}}
 
 
 - [Work openly](https://guide.inclusivedesign.ca/practices/WorkOpenly.html)

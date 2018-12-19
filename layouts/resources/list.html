@@ -9,6 +9,10 @@
 
         <div class="flc-toc-tocContainer toc"></div>
 
+        <div class="h1Container">
+            <h1>Resources</h1>
+        </div>
+
         <div class="resourcesListContainer">
 
             {{ $coDesignTemplateImgOrig := .Resources.GetMatch "Co-design template-01.png" }}
@@ -25,13 +29,13 @@
                     <span class="resourcesCoDesignTemplateImg"><a href="{{ (.Resources.GetMatch "Co-design template.pdf").RelPermalink }}"><img src="{{ $coDesignTemplateImg.RelPermalink }}" alt="Co-design template"></a></span>
 
                     <div class="resourcesCoDesignTemplateDownloadLinks">
-                        <p><strong>Download the Co-design template:</strong>
+                        <strong>Download the Co-design template:</strong>
                         <a href="{{ (.Resources.GetMatch "Co-design template.pdf").RelPermalink }}">PDF</a>,
                         <a href="https://docs.google.com/document/d/15PBY1O8iSJjNhua_quWQQBowpm1c-TC6SxJkSwgFSTk/edit?usp=sharing">Google Doc</a>,
                         <a href="{{ (.Resources.GetMatch "Co-design template - Word Document.docx").RelPermalink }}">Word</a>,
                         <a href="{{ (.Resources.GetMatch "Planning Co-Design Activity Page 1.mp3").RelPermalink }}">Audio page 1</a>,
                         <a href="{{ (.Resources.GetMatch "Planning Co-Design Activity Page 2.mp3").RelPermalink }}">Audio page 2</a>,
-                        <a href="{{ (.Resources.GetMatch "Braille 3D print files.zip").RelPermalink }}">Braille 3D print files (ZIP)</a></p>
+                        <a href="{{ (.Resources.GetMatch "Braille 3D print files.zip").RelPermalink }}">Braille 3D print files (ZIP)</a>
                     </div>
                 </div>
             </div>

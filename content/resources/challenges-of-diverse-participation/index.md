@@ -18,7 +18,7 @@ These differences became apparent when people were brought together and asked to
 
 As facilitators, we had to be aware of these natural and unnatural group dynamics and come up with strategies to address them. For example, providing groups with an agenda for the day and an outline of their tasks significantly helped their workflow and mitigated frictions between team members. Providing participants with an opportunity to get to know each other prior to engaging in an activity (e.g. introductions, warm-up activities) and giving the option to freely change groups improved group dynamics. Integrating interpreters and personal assistants into each session, offering material in alternative formats, and making further examples and instructions available also helped create collaborative group dynamics when there were conflicting needs.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Be observant of group dynamics and how members interact with each other. 
 - Encourage group members to notice their interactions and the needs of their group members.

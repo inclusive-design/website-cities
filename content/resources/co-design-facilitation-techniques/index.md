@@ -10,7 +10,7 @@ related_resources:
 
 Facilitation of collaborative activities, particularly ones that include diverse groups of people requires careful observation of individual needs and group dynamics and the ability to re-calibrate the process based on those observations. Facilitators need to build a trusting relationship with their participants and provide them with the necessary means/support to enable them to communicate their ideas, collaborate, and contribute to the required tasks. This checklist points out different aspects that facilitators should consider when conducting a co-design event. 
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Take 5-10 minutes in the beginning of a session to describe the project as a whole, its goals, and how participants’ contribution relates to the entire project.
 - Take another few minutes to communicate with the participants what the session entails and what is expected from them. Projecting a step by step schedule of the session and making a hard copy available for each group helps some participants to know where they are in the process and what they should expect next.  

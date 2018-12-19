@@ -6,9 +6,9 @@ description: "The second of three co-design sessions focused on the topic of Dyn
 
 The second of three co-design sessions focused on the topic of Dynamic Streets. At this session participants were tasked with discussing their current experiences navigating streets, brainstorming solutions, and prototyping their ideas. For the discussions, groups were assigned one of three topics related to dynamic streetscapes: managing conflicting needs in shared spaces, wayfinding and orientation in dynamic spaces, and shared spaces that are perceivable, operable, and understandable for all. For more information about this session please visit the [Co-design Session #2: Dynamic Streets]({{< relref "/ideas/co-design-session-2/index.md" >}}) post.
 
-### Overarching Themes
+## Overarching Themes
 
-#### Co-Existing: Managing conflicting needs in shared spaces
+### Co-Existing: Managing conflicting needs in shared spaces
 
 The participants reported conflicts between pedestrians, drivers and cyclists who all share intersections and often find themselves in conflict with each other. Participants also discussed inter-pedestrian conflict for example when the needs of slow walkers and fast walkers conflict when sharing the sidewalk. Further, participants discussed the multi-uses of sidewalks that often conflict with each other, for example street furniture (trees, benches, garbage bins, bike racks, signs, bus shelters), street sports, street festivals and construction interrupts the flow of foot traffic and acts as a barrier for pedestrians (e.g noise, debris etc).
 
@@ -16,7 +16,7 @@ The groups discussed that these conflicts occur because sidewalks are meant to s
 
 The groups suggested different ways to enable multiple uses of streets that will be accessible for all. These included enforcing strict rules to manage the uses of sidewalks, for example allocating spaces for different uses (e.g. garbage bins, ramps, pedestrians, etc.) to reduce conflict. Also, to improve the usability of sidewalks for pedestrians with different needs, the groups suggested having a mandatory training program for all pedestrians (e.g. walking license), create separate lanes for people with different walking speeds, and pedestrian overpass and underpass. Other means to regulate shared street use included opening and closing streets to manage drop offs, coordinating and planning construction, more adequate management of traffic lights and public shaming to discourage inappropriate parking (e.g. honk if person double parks).
 
-#### Lost & Found - Wayfinding and orientation in dynamic spaces
+### Lost & Found - Wayfinding and orientation in dynamic spaces
 
 During groups discussions, participants shared different strategies they use to navigate the streets: travelling by foot or via public transit (subway, buses, streetcars), relying on Google Maps/Earth, street signage, curbs cuts, curbs, landmarks, pictures, sounds and smells, tactile strips, street beacons with BlindSquare app, asking directions from other pedestrians and familiar neighbourhoods as markers to help them find their way around the city.
 
@@ -24,7 +24,7 @@ Participants reported instances of getting lost in the city often due to poor si
 
 After discussing their challenges, participants brainstormed strategies to navigate a space that is constantly changing. Some of the strategies included using visual, haptic, and auditory indicators, live maps, observation, dynamic signage and consistent furniture placements (e.g. benches at north side of street and food on south side) to help them navigate the streets successfully. Groups also discussed receiving information directly from the street through sensors and notifications that would connect to their personal technological devices. Other groups also discussed using landmarks that can be moved in times of construction and road blocks, and replanted in other locations to help with navigation. These landmarks will have consistent and predictable features (e.g. color, texture, shape, size, sound) that can be learned to easily locate these markers throughout the city. Other ideas included incorporating fixed, unchanging “safe/rest spaces” or fixed light poles for people to use to orient themselves in the city.
 
-#### A city working for everyone: Shared spaces that are perceivable, operable and understandable for all
+### A city working for everyone: Shared spaces that are perceivable, operable and understandable for all
 
 For this theme, participants shared that they enjoy uncrowded streets with wide sidewalks, green spaces, and multi crossings. They suggested having easy and quick access to benches and rest areas for people and animals, accessible public washrooms, and garbage cans that are functioning properly makes the streets more accessible for them. Some participants pointed out that a historic or art element, such as statues, public art projects, graffiti, etc enhances their street experience. Groups also talked about how changes in texture/color on the streets (e.g. different texture at the curb cuts) and receiving audio notifications (e.g. beeps at the traffic lights) can support their safe navigation of the streets.
 
@@ -32,11 +32,11 @@ On the other hand, groups discussed that areas that are commerce based, car domi
 
 Participants suggested using multi-sensory indicators, such as air bursts, vibrations, tactile markers, contrast strips, and audio feedback to indicate different street zones and inform people when they are transitioning from one zone to another. They also discussed utilizing technology across the city to make the streets more accessible. Some of their ideas include providing more accurate GPS locations, embedding beacons technology in store fronts/ intersections/ different parts of streets, providing adaptive traffic lights and interactive information kiosks across the city, and making Wi-Fi widely available across the city. Several participants also indicated that providing means to easily notify others of construction, or any other obstructions on the street and informing them of alternative routes could significantly help their navigation across the city.
 
-### Prototypes
+## Prototypes
 
 During the afternoon, participants continued to build on their ideas and developed a prototype. Here is a brief description of each group’s prototype:
 
-#### Kiosk
+### Kiosk
 
 Description:
 
@@ -46,7 +46,7 @@ During the peer critique, other groups suggested that this solution may not be a
 
 {{< imgblock src="images/Relink_Prototype.jpg" resize="wide" alt="A preliminary drawing for the Kiosk prototype designed by group Relink" >}}
 
-#### Tactile Strip on Sidewalks
+### Tactile Strip on Sidewalks
 
 Description:
 
@@ -58,13 +58,13 @@ Some of the feedback this group received related to implementation challenges an
 
 {{< imgblock src="images/Boulevard_Prototype.png" resize="wide" alt="The preliminary drawings of the tactile strip prototype developed by group Boulevard" >}}
 
-#### Hexagons with “Braille Trail”
+### Hexagons with “Braille Trail”
 
 Description: This group’s idea was integrated with the Sidewalk dynamic street hexagon tiles. They proposed that each hexagon could have a hole in the middle and retractable braille trail. The hole in the middle can be filled with trees, lights, poles, or moveable landmarks. IoT (Internet of Things) or other related technology can be integrated in the tiles in the walking areas. The moveable landmarks would have an embedded beacon technology that can be triggered via a button to provide location details for pedestrians. The beacons can be reprogrammed to provide different kinds of information. One of the main feedback this group received was related to the removable landmarks and could be confusing or disorienting for some people.
 
 {{< imgblock src="images/Sweet_Street_Prototype.JPG" resize="wide" alt="A participant from the group Sweet Streets building a prototype of a hexagonal paver that is embedded with a retractable braille trail for tactile feedback" >}}
 
-#### Optimized intersection
+### Optimized intersection
 
 Description: This group proposed an intersection that is optimized for pedestrians and cyclists and designed to reduce vehicle volume, congestion, and blockage. To achieve this goal, the group suggested dynamic pricing for cars to drive through the intersection. They also integrated signage to indicate to vehicles cost of blocking intersections in order to encourage good behavior. To promote safety, they staggered bicycle (yellow stop line) and car stops (blue stop line), and added tactile crosswalk boundaries (yellow and green lines). This intersection would be equipped with adaptive signals that change based on real time demand and contextual data (e.g. extend a walking sign so pedestrians can catch an incoming train) and audible signals will be integrated for the visually impaired pedestrians.
 
@@ -74,7 +74,7 @@ In response to the feedback they received, and to further ensure understandabili
 
 {{< imgblock src="images/Harmony_Prototype.jpg" resize="wide" alt="Participants from group Harmony building a prototype of an optimized intersection for cyclists and pedestrians using different colored cleaning pipes and construction paper" >}}
 
-#### Pedestrian/Community Focused Neighbourhood
+### Pedestrian/Community Focused Neighbourhood
 
 Description: This group focused on designing streets that allow for easy navigation by pedestrians. They tried to encourage wayfinding as an activity, experience and social connection. They focused on city blocks and tried to create micro communities. They incorporated a coded navigation system with texture, color, vibration and smell within each of these city blocks. They also capitalized on landmarks in each block to amplify navigation. They also suggested integrating technology in buildings that are facing pedestrians in order to facilitate wayfinding.
 
@@ -82,7 +82,7 @@ One of the main feedbacks this group received was related to all the different w
 
 {{< imgblock src="images/Sidethought_Prototype.JPG" resize="wide" alt="The prototype of a pedestrian focused neighborhood built by group Side Thoughts using foam blocks and construction paper" >}}
 
-### Themes that emerged from the Prototypes
+## Themes that emerged from the Prototypes
 
 The prototyping activity enabled us to draw out specific qualities that the participants thought were important and should be included in the design of inclusive cities.
 
@@ -90,11 +90,11 @@ The group prototypes suggested that participants valued incorporating artificial
 
 The IDRC team went through all the notes and the artifacts from this session and extracted as many ideas as possible for the hackathon session. The IDRC team and Sidewalk team went through these ideas once again and picked about 3-4 ideas to be built during the hackathon.
 
-### Raw Data
+## Raw Data
 
 - {{< resource src="Scanned_Worksheets.pdf" text="Scanned images of the group worksheets and peer feedback from the entire session (PDF)" >}}
 - {{< resource src="Co-design_2_tables.docx" text="Tables generated based on the collected information in co-design session#2 (Word document)" >}}
 
-### Generated Ideas
+## Generated Ideas
 
 - {{< resource src="Prototype_Ideas_from_Co-Design_2.docx" text="List of ideas from the second session for the hackathon (Word document)" >}}

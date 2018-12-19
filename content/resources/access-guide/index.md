@@ -11,7 +11,7 @@ related_resources:
 
 An access guide is an effective way to introduce people to an event they are invited to participate in. It contains information about the event, the space, the agenda, the location and any accommodations that have been arranged. An access guide can also include images and maps for those who are curious about the location, and about the people who will be present.  Although creation of an access guide requires some time and resources, it is a worthwhile effort as it can be used for various events held at that space and reduce the anxiety and stress levels related to attending an event in an unfamiliar environment. The following outline provides a list of items that should be considered when creating an access guide. Here is also an example of an access guide that IDRC team has put together for one of their co-design events: {{< resource src="Access Guide Example.docx" text="Access guide example (Word document)" >}}
 
-### OUTLINE
+{{< resourcesCardSubheading "OUTLINE" >}}
 
 - Project introduction
    - A brief project summary

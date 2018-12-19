@@ -10,7 +10,7 @@
         <div class="resourcePageTitleSection {{ .Params.resources_format }}">
             <div class="resourcePageFormatIcon">{{ partial "resourceFormatIcon" . }}</div><div
             class="resourcePageTitleAndDescription">
-                <h2>{{ .Title }}</h2>
+                <h1>{{ .Title }}</h1>
                 <div class="resourcePageDescription">{{ .Description }}</div>
             </div>
         </div>
@@ -25,7 +25,7 @@
 
         {{ if isset .Params "related_resources" }}
             <div class="resourcePageRelatedResources">
-                <h3>Related Resources</h3>
+                <h2>Related Resources</h2>
                 {{ range .Params.related_resources -}}
                     {{- $relatedResource :=  ($.GetPage .) -}}
                     {{- if $relatedResource -}}

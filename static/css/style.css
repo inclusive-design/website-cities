@@ -161,7 +161,7 @@ a:hover {
 
 #ideasContainer {
     background-color: #fff;
-    padding: 2em 6.5em;
+    padding: 0 6.5em 2em 6.5em;
 }
 
 .ideas h2 {
@@ -193,11 +193,12 @@ a:hover {
     margin-bottom: 0;
 }
 
-.ideasLink h3 {
+.ideasLink h2 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 1.6em;
     margin-top: 0.2em;
+    margin-bottom: 1em;
 }
 
 .ideasDesc p {
@@ -294,15 +295,16 @@ a:hover {
     justify-content: space-between;
 }
 
-.ideasHeaders h1 > a {
+.ideasHeaders {
+    margin: 1em 0;
+}
+
+.ideasHeaders a {
     font-family: 'Work Sans', sans-serif;
     color: #000;
     font-size: 2rem;
+    font-weight: 700;
     text-decoration: none;
-}
-
-.ideasHeaders h2 {
-    font-weight: 500;
 }
 
 #ideasContent {
@@ -319,20 +321,20 @@ a:hover {
     margin: 0;
 }
 
-.ideasContentBlock h2 {
+.ideasContentBlock h1 {
     font-family: 'Work Sans', sans-serif;
     color: #212121;
     font-size: 2.2em;
     font-weight: 400;
 }
 
-.ideasContentBlock h3 {
+.ideasContentBlock h2 {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.6em;
     font-weight: 500;
 }
 
-.ideasContentBlock h4 {
+.ideasContentBlock h3 {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.3em;
     font-weight: 500;
@@ -428,10 +430,23 @@ li.navbarEntry a:hover {
     color: #f2f2f2;
 }
 
+/* H1 */
+
+.h1Container {
+    margin: 0;
+    padding: 0 0 0 6.5em;
+}
+
+.h1Container h1 {
+    margin: 1.25em 0 0 0;
+    padding: 0;
+    font-size: 2.2em;
+}
+
 /* Resources list page */
 
 .resourcesListContainer {
-    padding: 1em 6.5em 3em 6.5em;
+    padding: 0 6.5em 3em 6.5em;
 }
 
 .resourcesListContainer h2 {
@@ -444,14 +459,14 @@ li.navbarEntry a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .resourcesIntroText {
     flex: 1 0 350px;
     font-size: 1.1em;
     line-height: 1.6em;
-    margin: 2em 3em 0 0;
+    margin: 1.5em 3em 1.5em 0;
 }
 
 .resourcesIntroText h2 {
@@ -460,7 +475,7 @@ li.navbarEntry a:hover {
 
 .resourcesCoDesignTemplateImgCol {
     flex: 0 0 auto;
-    margin-top: 2em;
+    margin: 1.5em 0;
 }
 
 .resourcesCoDesignTemplateImg a {
@@ -472,6 +487,7 @@ li.navbarEntry a:hover {
 }
 
 .resourcesCoDesignTemplateDownloadLinks {
+    margin-top: 1em;
     max-width: 550px;
     font-size: 1.1em;
     line-height: 1.6em;
@@ -653,7 +669,7 @@ li.navbarEntry a:hover {
     padding: 0 0 0 2em;
 }
 
-.resourcePageTitleAndDescription h2 {
+.resourcePageTitleAndDescription h1 {
     font-size: 2em;
     font-weight: 500;
     margin: 0 0 0.25em 0;
@@ -684,7 +700,8 @@ li.navbarEntry a:hover {
     padding-left: 3em;
 }
 
-.resourcePageContent h3 {
+.resourcePageContent h2 {
+    font-size: 1.2em;
     margin-top: 2.5em;
 }
 
@@ -694,7 +711,8 @@ li.navbarEntry a:hover {
     background: #f2f2f2;
 }
 
-.resourcePageRelatedResources h3 {
+.resourcePageRelatedResources h2 {
+    font-size: 1.2em;
     margin: 0.5em;
     padding: 0;
 }
@@ -746,7 +764,8 @@ li.navbarEntry a:hover {
     }
 
     #ideasContainer {
-        padding: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     .ideas {
@@ -782,6 +801,10 @@ li.navbarEntry a:hover {
     }
 
     nav {
+        padding-left: 2em;
+    }
+
+    .h1Container {
         padding-left: 2em;
     }
 
@@ -838,7 +861,8 @@ li.navbarEntry a:hover {
 
     #ideasContainer {
         width: 80%;
-        padding: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     .ideas {
@@ -875,6 +899,10 @@ li.navbarEntry a:hover {
     }
 
     nav {
+        padding-left: 2em;
+    }
+
+    .h1Container {
         padding-left: 2em;
     }
 
@@ -931,7 +959,8 @@ li.navbarEntry a:hover {
     }
 
     #ideasContainer {
-        padding: 2em 6.5em;
+        padding-left: 6.5em;
+        padding-right: 6.5em;
     }
 
     .ideas {
@@ -964,6 +993,10 @@ li.navbarEntry a:hover {
     }
 
     nav {
+        padding-left: 6.5em;
+    }
+
+    .h1Container {
         padding-left: 6.5em;
     }
 
@@ -1019,7 +1052,8 @@ li.navbarEntry a:hover {
     }
 
     #ideasContainer {
-        padding: 2em 6.5em;
+        padding-left: 6.5em;
+        padding-right: 6.5em;
     }
 
     .img {

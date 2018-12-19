@@ -13,14 +13,14 @@ The Arnstein Ladder of citizen participation defines different levels of partici
 
 This model can be used as an effective tool to reflect on our current relationships with our end users and participants/collaborators. It can help to develop strategies to move closer to the top of the ladder where participants/collaborators are included in our teams and can equally contribute ideas.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - With your team discuss each rung of the ladder.
 - Try to map any of your previous public engagement efforts to where they belong on the ladder.
 - If nothing is mapped to the top of the ladder, discuss how you can improve your process to give participants more power and engage them more directly into your process. 
 
 
-### OTHER RESOURCES
+{{< resourcesCardSubheading "OTHER RESOURCES" >}}
 
 
 - [Sherry Arnstein ladder of citizen participation](https://lithgow-schmidt.dk/sherry-arnstein/ladder-of-citizen-participation.html#d0e24)

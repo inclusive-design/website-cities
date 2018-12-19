@@ -12,7 +12,7 @@ Synthesizing the documented notes was sometimes very challenging as we lacked th
 
 To organize information and ensure outlier data is included in our final reports, our team developed a consistent process of digitizing and interpreting participant information. The information was organized into tables based on similar themes that emerged when reading through the content. In addition, new categories were created to capture outliers and any other information that didn’t conform to any of the emerging themes. Each member of the team reviewed the information, discussed how the information was synthesized, achieved consensus regarding the outcomes, and made sure all ideas were captured in the final reports. The final reports were published on our website and shared with participants directly to solicit their feedback about the results.
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Develop a consistent process of organizing information in collaboration with the team.
 - Use a documenting system that provides open access to all members of the team for their review and iterations, such as shared Google documents and Google sheets.

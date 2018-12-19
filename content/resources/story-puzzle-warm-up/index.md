@@ -9,7 +9,7 @@ related_resources:
 
 The story puzzle warm-up activity is designed to be completed in groups, and includes components that require members to rely on each other and take responsibility for different aspects of the task. This activity aims to foster teamwork, patience and acceptance of each other’s strengths and weaknesses as participants collectively develop strategies to put different pieces of a story together. This activity is particularly useful in contexts where people from various different contexts and abilities are brought together to collaborate on a common goal and can set the groundwork for how they will later work within their teams. It provides opportunities to learn from one another and offer support to those with different needs and capabilities. You can find a link to an example of story puzzle that was used in one of the IDRC co-design sessions here: {{< resource src="Story Puzzle Warmup Activity.pdf" text="Story Puzzle example (PDF)" >}}
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Find a an interesting short story, poem, or script or create one yourself. 
 - Split the story into individual sentences/phrases.

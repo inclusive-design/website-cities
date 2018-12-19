@@ -17,7 +17,7 @@ In an ongoing co-design process, however, people from the community are involved
 When organizing the documented discussions from co-design events, it is very important to highlight these elements and qualities that enable people to continue to change and expand the end products. These elements should be clearly communicated in the final reports and incorporated in the final designs to support people in becoming their own designers and enabling them to iterate on those products according to their capabilities and preferences.
 
 
-### TRY
+{{< resourcesCardSubheading "TRY" >}}
 
 - Invite diverse members of the community to co-design sessions.
 - Develop a system to enable continued feedback from the community on ideas generated in co-design sessions. 
@@ -25,5 +25,6 @@ When organizing the documented discussions from co-design events, it is very imp
 
 
 
-### ALSO SEE 
+{{< resourcesCardSubheading "ALSO SEE" >}}
+
 - [User continued design](https://guide.inclusivedesign.ca/insights/UserContinuedDesign.html)

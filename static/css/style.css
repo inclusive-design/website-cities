@@ -646,7 +646,7 @@ li.navbarEntry a:hover {
 /* Resource detail pages */
 
 .resourcePageTitleSection {
-    padding: 3.5em 6.5em 2em 6.5em;
+    padding: 2.5em 6.5em 2em 6.5em;
     color: #fff;
 }
 
@@ -672,14 +672,19 @@ li.navbarEntry a:hover {
 .resourcePageTitleAndDescription h1 {
     font-size: 2em;
     font-weight: 500;
-    margin: 0 0 0.25em 0;
+    margin: 0;
 }
 
+.resourcePageFormatName,
 .resourcePageDescription {
     font-size: 1.1em;
     font-weight: 300;
     max-width: 38em;
     line-height: 1.4em;
+}
+
+.resourcePageDescription {
+    margin: 1.1em 0 0 0;
 }
 
 .resourcePageContentContainer {
@@ -1006,7 +1011,7 @@ li.navbarEntry a:hover {
     }
 
     .resourcePageTitleSection {
-        padding: 3.5em 6.5em 2em 6.5em;
+        padding: 2.5em 6.5em 2em 6.5em;
     }
 
     .resourcePageContentContainer {

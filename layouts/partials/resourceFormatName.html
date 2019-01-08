@@ -1,0 +1,7 @@
+{{- if eq .Params.resources_format "perspective" -}}
+    Perspective
+{{- else if eq .Params.resources_format "reflection" -}}
+    Reflection
+{{- else if eq .Params.resources_format "tool" -}}
+    Tool
+{{- end -}}

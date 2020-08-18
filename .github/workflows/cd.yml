@@ -8,6 +8,7 @@ on:
 env:
   PROJECT_ID: ca669571
   PROJECT_SMOKETEST_URL: https://cities.inclusivedesign.ca
+  IMAGE_NAME: inclusivedesign/website-cities
 
 jobs:
   release:

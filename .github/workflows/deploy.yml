@@ -1,0 +1,40 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  PROJECT_ID: ca669571
+  PROJECT_SMOKETEST_URL: https://cities.inclusivedesign.ca
+
+jobs:
+  deploy:
+    if: github.repository == 'inclusive-design/website-cities'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy website
+        uses: inclusive-design/actions/ssh@master
+        with:
+          host:     ${{ secrets.SSH_HOSTNAME }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key:      ${{ secrets.SSH_PRIVATE_KEY }}
+          port:     ${{ secrets.SSH_PORT }}
+          envs:     PROJECT_ID
+          script: |
+            cd /srv/$PROJECT_ID/src                                       && \
+            git checkout master                                           && \
+            git pull                                                      && \
+            source ../deploy.env                                          && \
+            /usr/local/bin/docker-compose -p $PROJECT_ID                     \
+                                          -f docker-compose.yml              \
+                                          up --force-recreate --build -d
+
+      - name: Wait
+        run: sleep 15
+
+      - name: Smoke test
+        run: curl --location --no-buffer --retry 120 --retry-delay 1 $PROJECT_SMOKETEST_URL

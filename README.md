@@ -1,3 +1,4 @@
+Wensite Co-designing
 # Co-designing Inclusive Cities
 
 This repository contains the website for the [Co-Designing Inclusive Cities project](https://cities.inclusivedesign.ca).

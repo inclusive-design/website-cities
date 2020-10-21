@@ -42,7 +42,7 @@ jobs:
 
     steps:
       - name: Deploy website
-        uses: inclusive-design/actions/ssh@master
+        uses: inclusive-design/actions/ssh@main
         with:
           host:     ${{ secrets.SSH_HOSTNAME }}
           username: ${{ secrets.SSH_USERNAME }}

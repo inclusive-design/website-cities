@@ -3,7 +3,7 @@ name: CD
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   PROJECT_ID: ca669571
@@ -51,7 +51,7 @@ jobs:
           envs:     PROJECT_ID
           script: |
             cd /srv/$PROJECT_ID/src                                       && \
-            git checkout master                                           && \
+            git checkout main                                             && \
             git pull                                                      && \
             source ../deploy.env                                          && \
             /usr/local/bin/docker-compose -p $PROJECT_ID                     \

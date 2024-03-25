@@ -1,7 +1,5 @@
 # Co-designing Inclusive Cities
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b176bf16-81da-4a2a-82c6-38eef91a00c9/deploy-status)](https://app.netlify.com/sites/idrc-cities/deploys)
-
 This repository contains the website for the [Co-Designing Inclusive Cities project](https://cities.inclusivedesign.ca).
 
 ## Building the site
